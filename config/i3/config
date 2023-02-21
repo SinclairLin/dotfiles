@@ -1,7 +1,7 @@
 # font for window titles and bar
 # font pango:Source Sans Pro 10
 
-font pango:Noto Sans 10
+font pango:LXG  Neo XiHei Screen 10
 # use win key
 set $mod Mod4
 # define names for workspaces
