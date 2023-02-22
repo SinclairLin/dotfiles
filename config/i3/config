@@ -242,7 +242,7 @@ client.urgent           #2E3440 #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #2E3440 #2E3440 #F8F8F2 #2E3440   #2E3440
 client.background       #F8F8F2
 
-for_window [class="^.*"] border pixel 2 # 把所有的窗口边框设为 2 像素
+for_window [class="^.*"] border pixel 0 
 for_window [class="xdman-Main"] floating enable
 for_window [class="java-lang-Thread"] floating enable
 for_window [class="VirtualBox Manager"] floating enable
