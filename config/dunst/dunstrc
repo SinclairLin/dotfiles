@@ -26,7 +26,8 @@
     sort = yes
     idle_threshold = 120
     # font = PingFang SC 12
-    font = monospace Bold 12
+    # font = monospace Bold 12
+    font = LXGW Neo XiHei Screen 8
     line_height = 0
     markup = full
     format = "<span><b>%s %p</b></span>\n%b"
