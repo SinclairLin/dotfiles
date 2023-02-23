@@ -1,5 +1,13 @@
 # FORK FROM OH MY ZSH
 
+alias vim=nvim
+alias vi=nvim
+alias c=clear
+lcd() { cd "$1"; ls;}
+mcd() { mkdir -p "$1"; cd "$1";}
+md5check() { md5sum "$1" | grep "$2";}
+# alias ps?='ps aux | grep'
+backup() { cp "$1"{,.bak};}
 ZSH_CACHE_DIR="$OMZ/cache"
 SHORT_HOST=${HOST/.*/}
 autoload -Uz add-zsh-hook
