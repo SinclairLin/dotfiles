@@ -1,5 +1,5 @@
 # FORK FROM OH MY ZSH
-
+alias tree='tree --dirsfirst -F'
 alias vim=nvim
 alias vi=nvim
 alias c=clear
