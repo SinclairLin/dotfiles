@@ -27,6 +27,7 @@ set $ws8    "8"
 set $ws9    "9"
 set $ws10   "10"
 
+
 workspace 1 output HDMI-1-0 
 workspace 2 output eDP-1 
 workspace 3 output eDP-1
@@ -290,5 +291,6 @@ exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper/78167001_p0.jpg
 exec_always --no-startup-id sh ~/.config/i3/start.sh
 exec_always --no-startup-id picom --config ~/.config/picom/sinclair.conf
 exec_always --no-startup-id fcitx5
-exec_always --no-startup-id bash ~/.config/polybar/launch.sh
+exec_always --no-startup-id bash ~/.config/polybar/launch.sh --forest
+# exec_always --no-startup-id mpd
 #exec_always --no-startup-id copyq
