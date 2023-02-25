@@ -243,6 +243,7 @@ client.urgent           #2E3440 #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #2E3440 #2E3440 #F8F8F2 #2E3440   #2E3440
 client.background       #F8F8F2
 
+for_window [class="kmix"] floating enable
 for_window [class="^.*"] border pixel 0 
 for_window [class="xdman-Main"] floating enable
 for_window [class="java-lang-Thread"] floating enable
@@ -291,6 +292,6 @@ exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper/78167001_p0.jpg
 exec_always --no-startup-id sh ~/.config/i3/start.sh
 exec_always --no-startup-id picom --config ~/.config/picom/sinclair.conf
 exec_always --no-startup-id fcitx5
-exec_always --no-startup-id bash ~/.config/polybar/launch.sh --forest
+exec_always --no-startup-id bash ~/.config/polybar/forest/launch.sh
 # exec_always --no-startup-id mpd
 #exec_always --no-startup-id copyq
