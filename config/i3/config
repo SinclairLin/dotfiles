@@ -63,7 +63,7 @@ popup_during_fullscreen smart
 bindsym $mod+Return workspace $ws1; exec --no-startup-id alacritty
 
 # start a Firefox in workspace 2
-bindsym $mod+f workspace $ws2; exec firefox
+bindsym $mod+f workspace $ws2; exec prime-run firefox
 
 bindsym $mod+w exec --no-startup-id rofi -show drun
 
@@ -252,7 +252,7 @@ for_window [class="Qq"] floating enable
 for_window [class="Lxappearance"] floating enable
 for_window [class="Qalculate-gtk"] floating enable
 for_window [class="Nitrogen"] floating enable
-# for_window [class="Steam"] floating enable
+for_window [class="Steam"] floating enable
 for_window [class="words-picker"] floating enable
 for_window [class="qq"] floating enable
 for_window [class="stacer"] floating enable
