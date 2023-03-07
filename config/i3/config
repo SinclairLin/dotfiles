@@ -287,7 +287,7 @@ exec --no-startup-id xautolock -time 5 -locker '~/.config/i3/lock.sh'
 exec --no-startup-id dunst
 exec --no-startup-id sh ~/.config/i3/gummy.sh
 #exec --no-startup-id sh ~/.config/i3/mon.sh
-exec_always --no-startup-id bash ~/.screenlayout/default.sh
+exec_always --no-startup-id bash ~/.screenlayout/default1.sh
 exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpaper/78167001_p0.jpg
 exec_always --no-startup-id sh ~/.config/i3/start.sh
 exec_always --no-startup-id picom --config ~/.config/picom/sinclair.conf
