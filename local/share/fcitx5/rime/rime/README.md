@@ -1,1 +1,0 @@
-/home/sinclair/dotfiles/local/share/fcitx5/rime/README.md
