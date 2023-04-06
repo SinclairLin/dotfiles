@@ -1,0 +1,44 @@
+__build_info:
+  rime_version: 1.8.5
+  timestamps:
+    default: 1680751195
+    default.custom: 0
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Caps_Lock: clear
+    Control_L: noop
+    Control_R: noop
+    Shift_L: noop
+    Shift_R: noop
+config_version: "2023-03-03"
+key_binder:
+  bindings:
+    - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
+    - {accept: Tab, send: "Shift+Right", when: composing}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: "Control+Shift+3", toggle: ascii_punct, when: always}
+    - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
+  select_last_character: grave
+menu:
+  page_size: 5
+punctuator:
+  {}
+recognizer:
+  {}
+schema_list:
+  - schema: rime_ice
+  - schema: double_pinyin
+  - schema: double_pinyin_flypy
+switcher:
+  abbreviate_options: true
+  caption: "「方案选单」"
+  fold_options: true
+  hotkeys:
+    - "Control+Shift+grave"
+  option_list_separator: " / "
+  save_options:
+    - ascii_punct
+    - traditionalization
+    - emoji

@@ -1,0 +1,67 @@
+__build_info:
+  rime_version: 1.8.5
+  timestamps:
+    default: 1680751195
+    default.custom: 0
+    melt_eng.custom: 0
+    melt_eng.schema: 1680751195
+engine:
+  filters:
+    - uniquifier
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - matcher
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+    - punct_translator
+key_binder:
+  bindings:
+    - {accept: "Shift+Tab", send: "Shift+Left", when: composing}
+    - {accept: Tab, send: "Shift+Right", when: composing}
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: "Control+Shift+3", toggle: ascii_punct, when: always}
+    - {accept: "Control+Shift+4", toggle: traditionalization, when: always}
+  import_preset: default
+  select_last_character: grave
+menu:
+  page_size: 5
+punctuator:
+  import_preset: default
+recognizer:
+  import_preset: default
+schema:
+  author:
+    - "Patrick <ipatrickmac@gmail.com>"
+    - "tumuyan <tumuyan@21cn.com>"
+  description: "Easy English Nano，只包含少量常用词汇，方便中英文混合输入度方案调用。"
+  name: "Easy English Nano"
+  schema_id: melt_eng
+  version: 0.2.2
+speller:
+  algebra:
+    - "derive/['\\-_+,.]+//"
+    - "derive/^(.+)$/\\L$1/"
+    - "derive/^([a-z].+)$/\\U$1/"
+    - "derive/^([a-zA-Z])/\\U$1/"
+    - "derive/^([a-z][a-z])/\\U$1/"
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_"
+  delimiter: " '"
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["ASCII-OFF", "ASCII-ON"]
+translator:
+  dictionary: melt_eng
+  spelling_hints: 9
