@@ -1,212 +1,165 @@
-# RIME 配置
+# 雾凇拼音
 
-基于rime实现的 以小鹤双拼作为双拼方案 以超强音形(二笔)作为辅助码 实现的输入方案
+![demo](./others/demo.webp)
 
-## Features
+功能齐全，词库体验良好，长期更新修订。
 
-- [小鹤双拼](#小鹤双拼)
-- [emoji混输](#emoji混输)
-- [中英混输](#中英混输)
-- [基于二笔输入法的形码辅助码](#基于二笔输入法的形码辅助码)
-- [辅助码查询](#辅助码查询)
-- [用户自定义短语](#用户自定义短语)
-- [添加第三方词库](#添加第三方词库)
-- [基于LUA的扩展](#基于LUA的扩展)
-  - [以词定字](#基于LUA的扩展)
-  - [特殊输入转换](#基于LUA的扩展)
-- [丰富的词库文件](#NULL)
+## 基本套路
 
-## 配置文件结构
+- 简体 | 全拼 | 双拼
+- 主要功能
+    -   [melt_eng](https://github.com/tumuyan/rime-melt) 英文输入
+    -   [优化英文输入体验](https://dvel.me/posts/make-rime-en-better/)
+    -   [两分输入法](http://cheonhyeong.com/Simplified/download.html) 拼字
+    -   简繁切换
+    -   日期、时间、星期
+    -   自整理的 Emoji
+    -   [以词定字](https://github.com/BlindingDark/rime-lua-select-character)
+    -   [长词优先](https://github.com/tumuyan/rime-melt/blob/master/lua/melt.lua)
+    -   [Unicode](https://github.com/shewer/librime-lua-script/blob/main/lua/component/unicode.lua)
+    -   所有标点符号直接上屏，「/」模式改为「v」模式，「/」直接上屏
+    -   增加了许多拼音纠错
+- 简体字表、词库
+    -   [《通用规范汉字表》的 8105 字字表](https://github.com/iDvel/The-Table-of-General-Standard-Chinese-Characters)
+    -   [华宇野风系统词库](http://bbs.pinyin.thunisoft.com/forum.php?mod=viewthread&tid=30049)
+    -   [清华大学开源词库](https://github.com/thunlp/THUOCL)
+    -   [《现代汉语常用词表》](https://gist.github.com/indiejoseph/eae09c673460aa0b56db)
+    -   [《现代汉语词典》](https://forum.freemdict.com/t/topic/12102)
+    -   [《同义词词林》](https://forum.freemdict.com/t/topic/1211)
+    -   [《新华成语大词典》](https://forum.freemdict.com/t/topic/11407)
+    -   [搜狗网络流行新词](https://pinyin.sogou.com/dict/detail/index/4)
+    -   [腾讯词向量](https://ai.tencent.com/ailab/nlp/en/download.html)
+- 词库修订
+    - 校对大量异形词、错别字、错误注音
 
-```plaintext
-.
-├── dicts/                                -- 词库目录
-│   ├── extend/                           -- 分类扩展词库
-│   ├── thirdpart/                        -- 第三方词库
-│   ├── top/                              -- 固顶词库 主要包含单字、用户自定义短语、辅助码词库
-│   │   ├── custom_phrase.txt             -- 自定义固顶短语
-│   │   ├── erbi_filter.txt               -- 二笔辅助码词库
-│   │   ├── erbi_filter_lookup.txt        -- 二笔辅助码反查词库
-│   │   ├── top_single_char.txt           -- 固顶单字
-│   │   └── top_words.txt                 -- 固顶词组
-│   └── pinyin.dict.yaml                  -- 拼音基础词库
-├── opencc/                               -- emoji相关opencc配置
-├── lua                                   -- lua扩展
-│   ├── date_translator.lua               -- date、time转日期、时间实现
-│   └── select_character_processor.lua    -- 以词定字实现
-├── default.custom.yaml                   -- 配置索引
-├── mine.schema.yaml                      -- rime具体配置文件
-├── english.dict.yaml                     -- english词库
-├── english.schema.yaml                   -- english方案
-├── pinyin.extended.dict.yaml             -- 词库配置索引
-├── rime.lua                              -- lua扩展索引
-└── README.md                             -- README文件
+详细介绍：[Rime 配置：雾凇拼音](https://dvel.me/posts/rime-ice/)
+
+<br>
+
+## 长期维护词库
+
+因为没有找到一份比较好的词库，干脆自己维护一个。综合了几个不错的词库，精心调教了很多。
+
+主要维护的词库：
+
+- `8105` 字表。
+- `base` 基础词库。
+- `sogou` 搜狗流行词。
+- `ext` 扩展词库，小词库。
+- `tencent` 扩展词库，大词库。
+- Emoji
+
+维护内容主要是异形词、错别字的校对，错误注音的修正，缺失的常用词汇的增添，词频的调整。
+
+欢迎在词库方面提 issue，我会及时更新修正。
+
+<br>
+
+## 使用说明
+
+建议备份原先配置，清空配置目录。
+
+### 手动安装
+
+将仓库所有文件复制粘贴进去就好了。
+
+### 东风破 [plum](https://github.com/rime/plum)
+
+所有配方（`others/recipes/*.recipe.yaml`）只是简单地更新覆盖文件，适合更新词库时使用。
+
+后四个配方只是更新词库文件，并不更新 `rime_ice.dict.yaml` 和 `melt_eng.dict.yaml`，因为用户可能会挂载其他词库。
+
+如果更新后部署时报错，可能是增、删、改了文件名，需要检查上面两个文件和词库的对应关系。
+
+安装或更新：全部文件
+
+```
+bash rime-install iDvel/rime-ice:others/recipes/full
 ```
 
-## 如何使用
+安装或更新：所有词库文件（包含下面三个）
 
-```shell
-# 确保你已经正确安装fictx5和rime, 以archlinux举例
-sudo pacman -S fcitx5 fcitx5-qt fcitx5-gtk fcitx5-config-qt fcitx5-material-color fcitx5-im fcitx5-rime
-sudo echo '
-GTK_IM_MODULE=fcitx
-QT_IM_MODULE=fcitx
-XMODIFIERS=@im=fcitx
-SDL_IM_MODULE=fcitx
-GLFW_IM_MODULE=ibus' >> /etc/environment
-
-# clone本仓库
-mkdir -p ~/.local/share/fcitx5
-git clone https://github.com/SinclairLin/rime ~/.local/share/fcitx5/rime
+```
+bash rime-install iDvel/rime-ice:others/recipes/all_dicts
 ```
 
-## 按键说明
+安装或更新：拼音词库文件
 
-```plaintext
-  [        以词定字 选中选中词的第一个字
-  ]        以词定字 选中选中词的第二个字
-  回车     上屏编码
-  左ctrl   清空编码
+```
+bash rime-install iDvel/rime-ice:others/recipes/cn_dicts
 ```
 
-## 小鹤双拼
+安装或更新：英文词库文件
 
-具体键位不在此处额外说明 主要由 ./mine.schema.yaml/speller 处实现
-
-## emoji混输
-
-通过opencc实现 若不想使用该功能 请注释掉 ./mine.schema.yaml 中的
-
-```plaintext
-engine:
-  filters:
-    - simplifier@emoji_suggestion
-
----
-
-emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
-  tips: all
+```
+bash rime-install iDvel/rime-ice:others/recipes/en_dicts
 ```
 
-## 中英混输
+安装或更新：opencc(emoji)
 
-通过english方案实现 若不想使用该功能 请注释掉 ./mine.schema.yaml 中的
-
-```plaintext
-engine:
-  translators:
-    - table_translator@english         # 英文输入
-
----
-
-english:
-  dictionary: english
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: 0
+```
+bash rime-install iDvel/rime-ice:others/recipes/opencc
 ```
 
-## 基于二笔输入法的形码辅助码
+<br>
 
-主要通过 ./dicts/top/erbi_filter.txt 实现
+## 常见问题
 
-```plaintext
-  主: 小鹤双拼
-  辅: 单字第三码 由 超强音形 的 形码提供筛选 (正常2码或者多码打单字或词组不受影响)
-  例:
-    if = chen, m = 乚丨 即 ifm = 陈
-    la = la,   l = 口   即 lal = 啦
-    jq = jiu,  x = 丨   即 jqx = 旧
-    dajx 依旧是 大家，xl 依旧是想，不会受辅助码影响
-```
+##### 配置出错
 
-![erbi](./erbi.png)
+有时候 Rime 不会报错，而是自动加载默认配置。
 
-[^_^]: 超强音形键位图:
-         ┌───────────────瞥区───────────────┬───────────────点区───────────────┐
-         │                                  │                                  │
-         ┌──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┬──────┐
-         │ Q    │ W    │ E    │ R    │ T    │ Y    │ U 扌 │ I    │ O    │ P    │
-         │      │      │      │      │      │      │      │      │      │      │
-         │ 丿一 │ 丿丨 │ 丿丿 │ 丿丶 │ 丿乚 │ 丶一 │ 丶丨 │ 丶丶 │ 丶丶 │ 丶乚 │
-         └────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┘
-           ┌──│ A    │ S 日 │ D 月 │ F 亻 │ G    │ H    │ J    │ K    │ L 口 │──┐
-           竖 │      │      │      │      │      │      │      │      │      │  │
-           区 │ 丨一 │ 丨丨 │ 丨丿 │ 丨丶 │ 丨乚 │ 一一 │ 一丨 │ 一丿 │ 一丶 │  横
-           └──└────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴────┬─┴──────┘  区
-                   │ Z 钅 │ X 木 │ C 氵 │ V 土 │ B 艹 │ N    │ M    │           │
-                   │ 一   │ 丨   │ 丿   │ 丶   │ 乚   │      │ 一乚 │           │
-                   │      │      │ 乚丿 │ 乚丶 │ 乚乚 │ 乚一 │ 乚丨 │           │
-                   └──────┴──────┴──────┴──────┴──────┴──────┴──────┘───────────┘
-                   │             │                    │             │
-                   └─────────────┼─单笔画区───────────┘             │
-                                 │                                  │
-                                 └───────────────折区───────────────┘
-         熟记五个笔画区 瞥点竖横折, 每个区都是 横竖瞥点折
-         另需要记忆极少字根 U手、SD 日月、F人、L口、ZXCVB 金木水土草
+如果发现方案选单里是「朙月拼音、仓颉」之类的，那可能是配置有问题，Rime 自动加载了默认配置。
 
----
+检查一下修改过的地方，比如拼写、缩进是否正确，是否用了 Tab 缩进，或被编辑器自动转为了 Tab ……
 
-通过table_translator实现 若不想使用该功能 请注释掉 ./mine.schema.yaml 中的
+##### 快捷键
 
-```plaintext
-engine:
-  translators:
-    - table_translator@erbi_filter     # 二笔辅助码
+呼出方案选单默认为 Control+Shift+grave（grave 是 `` ` `` 反引号，Tab 上面那个）。
 
----
+小狼毫似乎不支持 Control+Shift 开头的快捷键，可在 `default.yaml` 中修改。
 
-erbi_filter:
-  dictionary: ""
-  user_dict: ./dicts/top/erbi_filter
-  db_class: stabledb
-  enable_completion: false
-  enable_sentence: false
-  initial_quality: 1
-```
+##### Lua 脚本
 
-## 辅助码查询
+Lua 中可配置的选项都提取出来了，不需要修改 Lua 文件。
 
-因辅助码经常想不起来 故添加了该功能 由 ./dicts/top/erbi_filter_lookup.txt 实现  
+以词定字的快捷键在 `default.yaml` 中设定，限制码长、长词优先、日期时间这些选项在方案文件中设定。
 
-使用: 输入单字拼音再输入jj可见该拼音的所有字的辅助码  
-e.g. 输入 `erjj` 可展示所有 拼音为 `er` 的所有字的辅助码  
+##### Shift 切换中英
 
-为什么是jj, 因为小鹤双拼中没有对应候选的连续组合有 tt 和 jj，jj相对更容易使用
+`default.custom.yaml` 中修改 Shift 对应的选项，将 `noop` 修改为 `commit_code` 、`commit_text` 或 `clear`。
 
-## 用户自定义短语
+##### 逗号句号翻页
 
-```plaintext
-  若有需要自定义的短语 写入 ./dicts/top/custom_phrase.txt 即可
-  如果想某些词百分百固定在顶部 写入 ./dicts/top/top_words.txt 即可
-  如果想更改单字顺序 修改 ./dicts/top/top_single_char.txt 即可
-```
-## 添加第三方词库
+1. 在 `default.yaml` 中解开句号逗号翻页的注释。
+2. 在 `rime_ice.schema.yaml` 中注释掉 `url_2`。（因为这个选项会覆盖掉句号的行为）
 
-若想添加`yaml`格式的第三方词库，只需将`*.dict.yaml`文件放在`./dicts/thirdpart/`,
-之后修改`./pinyin.extended.dict.yaml`文件内容，新增一行
-```
-- ./dicts/thirdpart/example
-```
-**注意：不带扩展名(.dict.yaml)**
+##### 自定义短语
 
-即可使用。
+在 `custom_phrase.txt` 中添加，建议清空，换成自己的习惯。
 
-## 基于LUA的扩展
+双拼需要额外手动创建 `custom_phrase_double.txt`。
 
-于 `./lua` 目录中实现了两个扩展
+<br>
 
-1. 输入date、time可扩展为日期和时间
-2. 使用 `[` `]` 进行 `以词定字`
+## 感谢 ❤️
 
-如需扩展 可自行修改相关的文件
+上述用到的词库，及 [@Huandeep](https://github.com/Huandeep) 整理的多个词库。
 
-## Q & A
+上述提到的方案及功能参考。
 
-Q: 如何自定义短语?  
-A: 修改 custom_phrase.txt 注意不要修改上面的内容  
+搜狗转 Rime：[lewangdev/scel2txt](https://github.com/lewangdev/scel2txt)
 
-Q: 是否支持切换双拼方案?  
-A: 不支持 不仅mine.schema.yaml中是根据小鹤双拼定制的，固定词库中也是以此定制  
+大量参考[校对网](http://www.jiaodui.com/bbs/)。
+
+Thanks to JetBrains for the OSS development license.
+
+[![JetBrains](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://jb.gg/OpenSourceSupport)
+
+<br>
+
+## 赞助 ☕
+
+如果觉得项目不错，可以请 Dvel 吃个煎饼馃子。
+
+<img src="./others/sponsor.webp" alt="请 Dvel 吃个煎饼馃子" width=600 />
