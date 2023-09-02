@@ -1,0 +1,1 @@
+/home/sinclair/.dotfiles/config/rofi/lock_i3.sh

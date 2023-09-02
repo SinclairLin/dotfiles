@@ -1,0 +1,1 @@
+/home/sinclair/.dotfiles/config/nvim/lua/pack/nvim-tree.lua

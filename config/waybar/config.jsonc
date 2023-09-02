@@ -1,0 +1,178 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "tray",
+        "pulseaudio",
+        "cpu",
+        "memory",
+        // "custom/notifications",
+        "custom/powermenu"
+    ],
+    "sway/mode": {
+        "format": " {}"
+    },
+    "hyprland/workspaces": {
+        "on-click": "activate",
+        "all-outputs": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1 ",
+            "2": "2 ",
+            "3": "3 ",
+            "4": "4 ",
+            "5": "5 ",
+            "6": "6 ",
+            "7": "7 ",
+            "8": "8 ",
+            "9": "9 ",
+            "10": "0 "
+        },
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            // "6": [],
+            // "7": [],
+            // "8": [],
+            // "9": [],
+            // "10": []
+        }
+    },
+    "hyprland/window": {
+        "max-length": 60,
+        "tooltip": false,
+        "format": "( {} )",
+        "rewrite": {
+            "(.*) — Mozilla Firefox": "🌎 $1",
+            "(.*) - zsh": "> [$2]"
+        }
+    },
+    "clock": {
+        "format": "{:%A %b %d - %H:%M}",
+        "tooltip": false
+    },
+    "tray": {
+        "icon-size": 20,
+        "spacing": 8
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "︁ {}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 15,
+        "format": "︁ {used:0.1f}G/{total:0.1f}G",
+        "tooltip": false
+    },
+    "custom/notifications": {
+        "format": "<span font='16' rise='-500'> 󰂚 </span>",
+        "on-click": "bash ~/.config/eww/scripts/launcher toggle_menu quicksettings"
+    },
+    "custom/powermenu": {
+        "return-type": "json",
+        "exec": "~/.script/user-info-json.sh",
+        "format": "{icon}{}",
+        "format-icons": [
+            ""
+        ],
+        "interval": 3600,
+        "escape": true,
+        "on-click": "rofi -show power-menu -modi power-menu:~/.script/rofi-power-menu -theme-str 'window {width: 8em;} listview {lines: 6;}' "
+    },
+    "battery": {
+        "format": "<span font='Font Awesome 5 Free 11'>{icon}</span> {capacity}%{time}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "format-time": " ({H}h{M}m)",
+        "format-charging": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
+        "format-full": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  Charged",
+        "interval": 15,
+        "states": {
+            "warning": 25,
+            "critical": 10
+        },
+        "tooltip": false
+    },
+    "network": {
+        "format": "{icon}",
+        "format-alt": "<span font='Font Awesome 5 Free 10'>︁</span> ︁{ipaddr}/{cidr} {icon}",
+        "format-alt-click": "click-left",
+        "format-wifi": "<span font='Font Awesome 5 Free 10'></span> {essid} ({signalStrength}%)",
+        "format-ethernet": "<span font='Font Awesome 5 Free 10'>︁</span> {ifname}",
+        "format-disconnected": "⚠ Disconnected",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        /* 
+         *  "format": "<span font='Font Awesome 5 Free 15'>{icon:2}</span>{volume}%",
+         *  "format-alt": "<span font='Font Awesome 5 Free 15'>{icon:2}</span>{volume}%",
+         */
+        "format": "{icon:2}{volume}%",
+        "format-alt": "{icon:2}{volume}%",
+        "format-alt-click": "click-right",
+        "format-muted": "",
+        "format-icons": {
+            "phone": [
+                " ",
+                " ",
+                " ",
+                " "
+            ],
+            "default": [
+                "",
+                "",
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 5,
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%",
+        "on-click": "pavucontrol",
+        "tooltip": false
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-alt": "{icon}",
+        "format-alt-click": "click-left",
+        "format-icons": [
+            "",
+            ""
+        ],
+        "on-scroll-up": "light -A 1",
+        "on-scroll-down": "light -U 1"
+    },
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 75,
+        "interval": 5,
+        "format": "{icon} {temperatureC}°",
+        "tooltip": false,
+        "format-icons": [
+            "", // Icon: temperature-empty
+            "", // Icon: temperature-quarter
+            "", // Icon: temperature-half
+            "", // Icon: temperature-three-quarters
+            "" // Icon: temperature-full
+        ]
+    }
+}
