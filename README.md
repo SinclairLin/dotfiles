@@ -54,15 +54,21 @@ clone 我的配置，复制到你的`~/.config`文件夹中：
 git clone https://github.com/SinclairLin/dotfiles
 cp -r ./dotfiles/config/zsh ~/.config/zsh/
 echo "source ~/.config/zsh/omz.zsh" >> ~/.zshrc
+
+
 ```
 ### Plugins
-- 1. [zsh-extract](https://github.com/SinclairLin/zsh-extract)
+- [zsh-extract](https://github.com/SinclairLin/zsh-extract)
+
 定义一个`extract`函数，只需执行`extract <filename>`或`x <filename>`即可解压一个压缩文件。
 这样就可以不必知道解压文件的具体命令，该函数会建立一个新的文件夹，然后将文件提取到新的文件夹中。
 具体可以解压那些文件：[SinclairLin/zsh-extract](https://github.com/SinclairLin/zsh-extract/blob/master/README.md#supported-file-extensions)。
 
-- 2. [z.lua](https://github.com/skywind3000/z.lua)
+
+- [z.lua](https://github.com/skywind3000/z.lua)
+
 使用`z <dir>`会帮你跳转到所有的路径里 Frecent 值最高的那条路径去。
+
 **EXAMPLES:**
 ```
 z foo       # 跳转到包含 foo 并且权重（Frecent）最高的路径
@@ -77,14 +83,17 @@ z -I foo    # 进入交互式选择模式，但是使用 fzf 来选择
 z -b foo    # 跳转到父目录中名称以 foo 开头的那一级
 ```
 
-- 3. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+
 根据历史记录和完成情况在输入时建议命令。
 使用快捷键`<right>`接受当前建议，`<^ right>`只接受一个word。
 
-- 4. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+
 让`Zsh`可以实现类似`Fish shell`的语法高亮。
 
-- 5. [fzf-tab](https://github.com/Aloxaf/fzf-tab)
+- [fzf-tab](https://github.com/Aloxaf/fzf-tab)
+
 将`Zsh`的默认补全选择菜单替换为[fzf](https://github.com/junegunn/fzf)。
 
 ## waybar
