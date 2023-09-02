@@ -28,13 +28,10 @@
 # vim: ft=zsh sw=2 ts=2 et
 # -------------------------------------------------------------------------------------------------
 
-setopt shwordsplit
-local EDITOR='ed -s'
+alias cat='cat | cat'
 
-ed() { command ed "$@" }
-
-BUFFER=$'$EDITOR'
+BUFFER='cat'
 
 expected_region_highlight=(
-  '1 7 function' # $EDITOR
+  '1 3 alias' # cat
 )

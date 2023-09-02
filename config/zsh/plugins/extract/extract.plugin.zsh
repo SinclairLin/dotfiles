@@ -1,18 +1,16 @@
-alias x=extract
-
 extract() {
     local remove_archive
     local success
     local extract_dir
 
-    if (( $# == 0 )); then
-        cat <<-'EOF' >&2
-            Usage: extract [-option] [file ...]
+    # if (( $# == 0 )); then
+    #     cat <<-EOF >&2
+    #         Usage: extract [-option] [file ...]
 
-            Options:
-                -r, --remove    Remove archive after unpacking.
-        EOF
-    fi
+    #         Options:
+    #             -r, --remove    Remove archive after unpacking.
+    #     EOF
+    # fi
 
     remove_archive=1
     if [[ "$1" == "-r" ]] || [[ "$1" == "--remove" ]]; then
@@ -28,18 +26,15 @@ extract() {
         fi
 
         success=0
+        extract_dir="${1:r}"
+
         case "${1:l}" in
             # ... （其他解压格式的处理，略）
 
             (*)
-                # 获取文件名（不包括扩展名）
-                extract_dir="${1:r}"
-                # 创建目录
                 mkdir -p "$extract_dir"
-                # 进入目录
                 cd "$extract_dir" || exit 1
 
-                # 根据文件类型执行适当的解压命令
                 case "${1:l}" in
                     (*.gz) (( $+commands[pigz] )) && pigz -dk "../$1" || gunzip -k "../$1" ;;
                     (*.bz2) bunzip2 "../$1" ;;
@@ -51,7 +46,6 @@ extract() {
                     ;;
                 esac
 
-                # 返回上一级目录
                 cd ..
 
                 (( success = $success > 0 ? $success : $? ))

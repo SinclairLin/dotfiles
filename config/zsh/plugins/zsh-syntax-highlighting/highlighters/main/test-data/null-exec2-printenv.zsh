@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 # -------------------------------------------------------------------------------------------------
-# Copyright (c) 2020 zsh-syntax-highlighting contributors
+# Copyright (c) 2021 zsh-syntax-highlighting contributors
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification, are permitted
@@ -28,13 +28,11 @@
 # vim: ft=zsh sw=2 ts=2 et
 # -------------------------------------------------------------------------------------------------
 
-setopt shwordsplit
-local EDITOR='ed -s'
-
-ed() { command ed "$@" }
-
-BUFFER=$'$EDITOR'
+BUFFER=$'env | grep $needle'
 
 expected_region_highlight=(
-  '1 7 function' # $EDITOR
+  '1 3 precommand' # env
+  '5 5 commandseparator' # |
+  '7 10 command' # grep
+  '12 18 default' # $needle
 )

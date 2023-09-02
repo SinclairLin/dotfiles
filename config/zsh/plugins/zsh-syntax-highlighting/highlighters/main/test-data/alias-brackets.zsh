@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 # -------------------------------------------------------------------------------------------------
-# Copyright (c) 2020 zsh-syntax-highlighting contributors
+# Copyright (c) 2021 zsh-syntax-highlighting contributors
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without modification, are permitted
@@ -28,13 +28,14 @@
 # vim: ft=zsh sw=2 ts=2 et
 # -------------------------------------------------------------------------------------------------
 
-setopt shwordsplit
-local EDITOR='ed -s'
+# Have to use cat here as it must be a command that exists.
+# Otherwise, the test would fail with the first token being recognized
+# as an "unknown-token".
+alias ]=cat
 
-ed() { command ed "$@" }
-
-BUFFER=$'$EDITOR'
+BUFFER='] /'
 
 expected_region_highlight=(
-  '1 7 function' # $EDITOR
+  '1 1 alias' # ]
+  '3 3 path' # /
 )
