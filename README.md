@@ -7,8 +7,17 @@
 - **Launcher** • [rofi](https://github.com/davatorium/rofi) 
 - **File Manager** • [ranger](https://github.com/ranger/ranger) 
 
+## Preview
+
+![hyprland](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230903004332189.png)
+
+![term](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230903004450542.png)
+
+![neovim](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230903005130296.png)
+
 
 ## hyprland 
+
 ```
 ./
 ├── scripts/          
@@ -18,9 +27,12 @@
 ├── hyprpaper.conf    
 ├── keybinds.conf     
 ├── startup.conf
-└── windowrule.conf   
+└── windowrule.conf  
 ```
+
+
 ## zsh
+
 ***!!waring!!*** **我使用的终端是[kitty](https://sw.kovidgoyal.net/kitty/)，如果你用的不是kitty，请注释掉`config/env`中`export TERM="xterm-kitty"`，和`config/aliases`中`alias ssh="kitty +kitten ssh"`**
 ```
 ./
@@ -54,10 +66,11 @@ clone 我的配置，复制到你的`~/.config`文件夹中：
 git clone https://github.com/SinclairLin/dotfiles
 cp -r ./dotfiles/config/zsh ~/.config/zsh/
 echo "source ~/.config/zsh/omz.zsh" >> ~/.zshrc
-
-
 ```
+
+
 ### Plugins
+
 - [zsh-extract](https://github.com/SinclairLin/zsh-extract)
 
 > 定义一个`extract`函数，只需执行`extract <filename>`或`x <filename>`即可解压一个压缩文件。
@@ -98,3 +111,4 @@ z -b foo    # 跳转到父目录中名称以 foo 开头的那一级
 
 ## waybar
 ![image-20230824234941666](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230824234941666.png)
+
