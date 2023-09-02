@@ -5305,3 +5305,9 @@ nvim
 : 1693658119:0;gs
 : 1693658123:0;git status
 : 1693658125:0;lg
+: 1693658192:0;git remote -v
+: 1693658212:0;git remote set-url origin git@github.com:SinclairLin/dotfiles.git
+: 1693658214:0;lg
+: 1693658271:0;ll
+: 1693658274:0;vim README.md
+: 1693658308:0;lg

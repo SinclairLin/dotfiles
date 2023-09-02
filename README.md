@@ -11,11 +11,11 @@
 
 - xwayland:
 
-![xwayland applications](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230825000437443.png)
+<!-- ![xwayland applications](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230825000437443.png) -->
 
 - qt: 
 
-![image-20230825000747153](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230825000747153.png)
+<!-- ![image-20230825000747153](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230825000747153.png) -->
 
 - gtk:
 
