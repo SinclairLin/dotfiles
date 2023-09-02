@@ -1,0 +1,5307 @@
+: 1691843925:0;c
+: 1691843926:0;ll
+: 1691843927:0;clear
+: 1691843981:0;vim ~/.zshrc
+: 1691844030:0;source ~/.zshrc
+: 1691844030:0;c
+: 1691844031:0;ll
+: 1691844032:0;c
+: 1691844122:0;clear
+: 1691844189:0;sudo pacman -S telegram
+: 1691844285:0;sudo pacman -S telegram-desktop
+: 1691844413:0;yay -S joplin
+: 1691844422:0;c
+: 1691844445:0;yay -S joplin-desktop
+: 1691844458:0;yay -Rns joplin
+: 1691844650:0;yay -S typora
+: 1691844781:0;yay -Rns typora
+: 1691844789:0;yay -S typora-free
+: 1691844926:0;c
+: 1691845021:0;sudo pacman -S nodejs
+: 1691845025:0;sudo pacman -S npm
+: 1691845027:0;c
+: 1691845048:0;cd cd ~/.config
+: 1691845053:0;cd ~/.config
+: 1691845057:0;git clone https://github.com/yaocccc/nvim
+: 1691845072:0;sudo pacman -S neovim
+: 1691845075:0;c
+: 1691845079:0;nvim
+: 1691845151:0;neofetch
+: 1691845156:0;sudo pacman -S neofetch
+: 1691845160:0;c
+: 1691845162:0;neofetch
+: 1691845175:0;c
+: 1691845187:0;nvim
+: 1691845362:0;c
+: 1691845363:0;nvim
+: 1691845426:0;python
+: 1691845429:0;c
+: 1691845494:0;python -m pip install --user --upgrade pynvim
+: 1691845504:0;sudo pacman -S pip
+: 1691845609:0;sudo pacman -S python-pip
+: 1691845620:0;c
+: 1691845636:0;python -m pip install --user --upgrade pynvim
+: 1691845668:0;sudo pacman -S python-pynvim
+: 1691845687:0;c
+: 1691845731:0;sudo npm install -g neovim
+: 1691845751:0;c
+: 1691845890:0;yay ttf-monaco
+: 1691846108:0;sudo pacman -Syyu
+: 1691846184:0;c
+: 1691846198:0;vim ~/.zshrc
+: 1691846222:0;source ~/.zshrc
+: 1691846226:0;vim ~/.zshrc
+: 1691846232:0;c
+: 1691846253:0;vim 0
+: 1691846255:0;c
+: 1691846487:0;neofetch
+: 1691846519:0;c
+: 1691846548:0;neofetch
+: 1691846553:0;vim
+: 1691846932:0;c
+: 1691846933:0;ll
+: 1691846934:0;c
+: 1691846937:0;cd .config
+: 1691846938:0;c
+: 1691846938:0;ll
+: 1691846944:0;cd nvim
+: 1691846946:0;c
+: 1691846947:0;ll
+: 1691847078:0;yay -S ttf-meslo
+: 1691847096:0;c
+: 1691847098:0;~
+: 1691847099:0;c
+: 1691847106:0;neofetch
+: 1691847170:0;vim 
+: 1691847185:0;yay -S ttf-meslo-nerd-font-powerlevel10k
+: 1691847205:0;c
+: 1691847227:0;vim
+: 1691847259:0;neofetch
+: 1691847287:0;c
+: 1691847299:0;cd ~/.config/hyprland
+: 1691847303:0;vim hyprland.conf
+: 1691847644:0;echo $XDG_SESSION_TYPE
+: 1691847645:0;c
+: 1691847652:0;sudo pacman -S plasma-wayland-session
+: 1691847656:0;c
+: 1691848895:0;sudo pacman -S flameshot
+: 1691848900:0;c
+: 1691849451:0;sudo pacman -Rns flameshot
+: 1691849464:0;sudo pacman -S spectacle
+: 1691849466:0;c
+: 1691849786:0;yay -S linuxqq-nt-bwrap
+: 1691850037:0;c
+: 1691850039:0;yay -S com.qq.weixin.spark
+: 1691850551:0;vim ~/.deepinwine/Spark-weixin winecfg
+: 1691850574:0;vim ~/.deepinwine/Spark-weixin/scale.txt
+: 1691850681:0;vim ~/.deepinwine/Spark-weixin/system.reg
+: 1691850694:0;cd ~/.deepinwine/Spark-weixin
+: 1691850696:0;ll
+: 1691850696:0;c
+: 1691850697:0;ll
+: 1691850735:0;yay -Rns com.qq.weixin.spark
+: 1691850893:0;yay wine-wechat-setup
+: 1691851053:0;c
+: 1691851554:0;~
+: 1691851554:0;c
+: 1691851561:0;yay -Rns wine-wechat-setup
+: 1691851566:0;c
+: 1691851612:0;yay wine-for-wechat
+: 1691851630:0;c
+: 1691851648:0;yay wine-for-wechat
+: 1691851748:0;c
+: 1691851763:0;wine-for-wechat
+: 1691851789:0;yay -Rns wine-for-wechat
+: 1691852010:0;cd Downloads
+: 1691852012:0;md5sum -c *.md5
+: 1691852023:0;sudo pacman -U deepin-wine-wechat-3.5.0.46-3-x86_64.pkg.tar.zst
+: 1691852097:0;yay -S deepin-wine-wechat
+: 1691852374:0;cp WeChatSetup-3.9.0.28.exe ~/.cache/yay/deepin-wine-wechat
+: 1691852389:0;yay -S deepin-wine-wechat
+: 1691852570:0;/opt/apps/com.qq.weixin.deepin/files/run.sh winecfg
+: 1691852627:0;sudo vim /etc/environment
+: 1691852758:0;cd /opt/apps/com.qq.weixin.deepin/files/
+: 1691852759:0;ll
+: 1691852762:0;vim run.sh
+: 1691852795:0;sudo vim run.sh
+: 1691852813:0;c
+: 1691852841:0;yay deepin-wine5
+: 1691852944:0;c
+: 1691853087:0;sudo vim /boot/grub/grub.cfg
+: 1691853115:0;sudo grub-probe --target=hints_string /boot/efi/EFI/Microsoft/Boot/bootmgfw.efi\
+
+: 1691853144:0;sudo ls /boot/EFI
+: 1691853152:0;sudo grub-probe --target=hints_string /boot//EFI/Microsoft/Boot/bootmgfw.efi\
+
+: 1691853156:0;sudo grub-probe --target=hints_string /boot/EFI/Microsoft/Boot/bootmgfw.efi\
+
+: 1691853212:0;sudo grub-probe --target=fs_uuid /boot/EFI/Microsoft/Boot/bootmgfw.efi
+: 1691853229:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1691853235:0;c
+: 1691900147:0;ll
+: 1691900152:0;mkdir workspace
+: 1691900153:0;cd workspace
+: 1691900155:0;git clone https://github.com/tonyfettes/fcitx5-nord.git
+: 1691900158:0;c
+: 1691900170:0;mkdir -p ~/.local/share/fcitx5/themes
+: 1691900171:0;c
+: 1691900173:0;cd fcitx5-nord
+: 1691900187:0;cp -r Nord-Dark/ Nord-Light/ ~/.local/share/fcitx5/themes/
+: 1691900187:0;c
+: 1691900296:0;sudo cp . /usr/share/grub/themes/Distro -rf
+: 1691900311:0;sudo vim /etc/default/grub
+: 1691900347:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1691900352:0;c
+: 1691900379:0;yay -Ss nerd-font
+: 1691900398:0;c
+: 1691900400:0;z work
+: 1691900401:0;c
+: 1691900401:0;ll
+: 1691900403:0;c
+: 1691900413:0;sudo pacman -Syyu
+: 1691900475:0;c
+: 1691900481:0;yay -Syu
+: 1691900485:0;c
+: 1691900578:0;yay -Ss nerd-font
+: 1691900591:0;yay -Ss nerd-font | grep momo
+: 1691900600:0;yay -Ss nerd-font | grep "momo"
+: 1691900632:0;yay -Ss nerd-font | grep monaco
+: 1691900636:0;c
+: 1691900637:0;yay -Ss nerd-font | grep monaco
+: 1691900660:0;yay -S ttf-monaco-nerd-font-git
+: 1691900674:0;c
+: 1691900705:0;neofetch
+: 1691900741:0;sudo pacman -S ttf-jetbrains-mono-nerd
+: 1691900747:0;c
+: 1691900754:0;neofetch
+: 1691900758:0;vim
+: 1691900867:0;c
+: 1691900906:0;sudo systemctl enable --now cronie.service
+: 1691900910:0;c
+: 1691905131:0;~
+: 1691905133:0;z work
+: 1691905133:0;c
+: 1691905144:0;yay -Ss picgo
+: 1691905351:0;vim /home/sinclair/.picgo/config.json
+: 1691905448:0;sudo pacman -Ss kate
+: 1691905530:0;sudo pacman -S kate
+: 1691905534:0;c\\
+c
+: 1691905536:0;c
+: 1691931262:0;fc-list | grep -i lxgw
+: 1691931464:0;c
+: 1691931467:0;z rime
+: 1691931486:0;cd ~/.local/share/fcitx5/rime
+: 1691931487:0;ll
+: 1691931494:0;vim default.custom.yaml
+: 1691932398:0;vim ~/.config/fcitx5/conf/classicui.conf
+: 1691932554:0;fcitx5 -r
+: 1691932577:0;c
+: 1691932691:0;sudo pacman -S fcitx5-material-color
+: 1691932697:0;c
+: 1691932704:0;vim ~/.config/fcitx5/conf/classicui.conf
+: 1691932744:0;c
+: 1691932759:0;vim ~/.config/fcitx5/conf/classicui.conf
+: 1691932790:0;fc-list | grep -i lxgw
+: 1691932878:0;c
+: 1691932883:0;vim installation.yaml
+: 1691932917:0;pwd
+: 1691933019:0;mkdir Rime
+: 1691933020:0;c
+: 1691933020:0;ll
+: 1691933096:0;~
+: 1691933096:0;c
+: 1691933101:0;sudo pacman -Syu
+: 1691933425:0;c
+: 1691933437:0;vim ~/.config/hyprland/hyprland.conf
+: 1691934608:0;c
+: 1691934610:0;z work
+: 1691934611:0;c
+: 1691934612:0;git clone https://github.com/Aylur/dotfiles.git
+: 1691934629:0;cd dotfiles
+: 1691934630:0;cp -r .config/ags $HOME/.config/ags
+: 1691934634:0;cp -r .config/hypr $HOME/.config/hypr
+: 1691946761:0;sudo pacman -Ss kitty
+: 1691946772:0;firefox
+: 1691946858:0;cd dotfiles
+: 1691946861:0;z /home/sinclair/workspace/dotfiles
+: 1691946862:0;c
+: 1691946863:0;ll
+: 1691946864:0;ags
+: 1691946871:0;sudo pacman -S ags
+: 1691946880:0;yay -S ags
+: 1691947231:0;sudo pacman -S kitty
+: 1691947237:0;c
+: 1691947251:0;vim ~/.config/hyprland/hyprland.conf
+: 1691947367:0;cd ~/.config/hyprland
+: 1691947368:0;c
+: 1691947368:0;ll
+: 1691947372:0;cd ..
+: 1691947373:0;ll
+: 1691947400:0;ags
+: 1691947401:0;c
+: 1691947405:0;yay -S ags
+: 1691947416:0;ags
+: 1691947434:0;c
+: 1691947435:0;ags
+: 1691947451:0;c
+: 1691947452:0;ags
+: 1691947495:0;timeshift
+: 1691947518:0;timeshift --create
+: 1691947523:0;sudo timeshift --create
+: 1691947528:0;c
+: 1691947536:0;# Arch\
+sudo pacman -S typescript npm meson gjs gtk3 gtk-layer-shell socat gnome-bluetooth-3.0 upower networkmanager gobject-introspection
+: 1691947547:0;c
+: 1691947561:0;cd workspace
+: 1691947562:0;git clone --recursive https://github.com/Aylur/ags.git
+: 1691947574:0;c
+: 1691947604:0;echo $XDG_SESSION_Tfcitx5
+: 1691947628:0;vim ~/.config/hyprland/hyprland.conf
+: 1691947717:0;vim ~/.config/hypr/hyprland.conf
+: 1691947874:0;yay wofi
+: 1691947887:0;yay -S wofi
+: 1691947893:0;c
+: 1691947954:0;z work
+: 1691947954:0;c
+: 1691947955:0;ll
+: 1691947957:0;cd dotfiles
+: 1691947957:0;ll
+: 1691947964:0;cd ..
+: 1691947965:0;c
+: 1691947966:0;ll
+: 1691947968:0;rm -r dotfiles
+: 1691947973:0;c
+: 1691947974:0;ll
+: 1691947977:0;rm -rf dotfiles
+: 1691947978:0;c
+: 1691947978:0;ll
+: 1691947984:0;git clone https://github.com/Aylur/dotfiles.git
+: 1691947992:0;cd dotfiles
+: 1691947998:0;cp -r .config/ags $HOME/.config/ags
+: 1691948005:0;ags
+: 1691948061:0;c
+: 1691948068:0;mkdir -p ~/.config/ags
+: 1691948070:0;ll
+: 1691948085:0;ll -a
+: 1691948089:0;la
+: 1691948090:0;c
+: 1691948094:0;cp -r .config/hypr $HOME/.config/hypr
+: 1691948098:0;c
+: 1691948099:0;ll
+: 1691948101:0;la
+: 1691948104:0;cd .config
+: 1691948105:0;ll
+: 1691948107:0;la
+: 1691948114:0;ags
+: 1691948117:0;c
+: 1691948118:0;ll
+: 1691948122:0;cd hypr
+: 1691948123:0;ll
+: 1691948124:0;la
+: 1691948134:0;vim _hyprland.conf
+: 1691948141:0;c
+: 1691948152:0;z hypr
+: 1691948153:0;ll
+: 1691948158:0;cd ..
+: 1691948159:0;ll
+: 1691948183:0;cp hypr/_hyprland.conf hyprland/hyprland.conf
+: 1691948185:0;c
+: 1691948186:0;ll
+: 1691948188:0;clear
+: 1691948189:0;ll
+: 1691948190:0;c
+: 1691948195:0;vim hyprland/hyprland.conf
+: 1691948225:0;ll
+: 1691948274:0;c
+: 1691948276:0;z hypr
+: 1691948277:0;ll
+: 1691948280:0;cat hyprland.conf
+: 1691948291:0;c
+: 1691948292:0;ll
+: 1691948294:0;cd ..
+: 1691948295:0;ll
+: 1691948296:0;c
+: 1691948301:0;rm -rf hyprland
+: 1691948311:0;mv hypr/hyprland
+: 1691948318:0;mv hypr hyprland
+: 1691948321:0;cd hyprland
+: 1691948322:0;c
+: 1691948323:0;ll
+: 1691948329:0;vim hyprland.conf
+: 1691948348:0;mv hyprland.conf hyprland.conf.bak
+: 1691948357:0;mv _hyprland.conf hyprland.conf
+: 1691948357:0;c
+: 1691948358:0;ll
+: 1691948376:0;rm -rf hypr
+: 1691948377:0;c
+: 1691948377:0;ll
+: 1691948381:0;vim settings.conf
+: 1691948390:0;vim startup.conf
+: 1691948426:0;vim monitors.conf
+: 1691948477:0;z /home/sinclair/.config/hyprland
+: 1691948478:0;ll
+: 1691948499:0;z work
+: 1691948500:0;c
+: 1691948500:0;ll
+: 1691948502:0;cd dot
+: 1691948504:0;cd dotfiles
+: 1691948517:0;cp -r .config/hypr $HOME/.config/hypr
+: 1691948522:0;c
+: 1691948528:0;z hypr
+: 1691948530:0;ll
+: 1691948537:0;rm -r *.conf
+: 1691948538:0;c
+: 1691948539:0;ll
+: 1691948542:0;rm hyprland.conf.bak
+: 1691948559:0;cp ../hypr/hypr/_hyprland.conf ./
+: 1691948560:0;ll
+: 1691948564:0;c
+: 1691948564:0;ll
+: 1691948571:0;z hypr
+: 1691948575:0;cd ../hypr
+: 1691948576:0;ll
+: 1691948585:0;rm -r hyprland.conf
+: 1691948591:0;vim _hyprland.conf
+: 1691948606:0;mv hypr/binds.conf hypr/_hyprland.conf hypr/monitors.conf hypr/rules.conf hypr/settings.conf hypr/startup.conf hypr/theme.conf ./
+: 1691948607:0;ll
+: 1691948611:0;rm -r hypr
+: 1691948611:0;c
+: 1691948612:0;ll
+: 1691948638:0;z hypr
+: 1691948639:0;ll
+: 1691948676:0;mv ../hypr/hyprland.conf ./
+: 1691948694:0;mv ../hypr/_hyprland.conf ../hypr/hyprland.conf
+: 1691948695:0;c
+: 1691948705:0;ll
+: 1691948706:0;cd ..
+: 1691948707:0;c
+: 1691948707:0;ll
+: 1691948727:0;rm -r hyprland
+: 1691948728:0;c
+: 1691948730:0;ll
+: 1691948736:0;cd hypr
+: 1691948736:0;c
+: 1691948737:0;ll
+: 1691948742:0;vim binds.conf
+: 1691949182:0;yay -S dunst
+: 1691949187:0;c
+: 1691949193:0;yay -S waybar-hyprland-git
+: 1691949207:0;yay -S brightnessctl
+: 1691949211:0;pavucontrol
+: 1691949218:0;yay -S pavucontrol
+: 1691949227:0;yay -S pamixer
+: 1691949234:0;yay -S pulseaudio
+: 1691949245:0;yay -S pulseaudio-bluetooth
+: 1691949251:0;yay -S hyprpaper
+: 1691949256:0;yay -S swaylock
+: 1691949263:0;yay -S grim
+: 1691949272:0;yay -S slurp 
+: 1691949278:0;yay -S rofi-lbonn-wayland-git
+: 1691949341:0;yay -S cliphist\ 
+: 1691949343:0;yay -S cliphist
+: 1691949348:0;yay -S thunar
+: 1691949352:0;yay -S gvfs
+: 1691949357:0;yay -S gtk4
+: 1691949363:0;yay -S gnome-keyring
+: 1691949368:0;yay -S polkit-kde-agent
+: 1691949374:0;yay -S qt6-wayland
+: 1691949379:0;yay -S qt5-wayland
+: 1691949386:0;yay -S qt5ct
+: 1691949392:0;yay -S xdg-desktop-portal-gtk
+: 1691949398:0;yay -S xdg-desktop-portal-hyprland-git
+: 1691949401:0;c
+: 1691949407:0;z work
+: 1691949408:0;git clone https://github.com/dracula/rofi
+: 1691949415:0;cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+: 1691949430:0;mkdir -p ~/.config/rofi/
+: 1691949432:0;cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+: 1691949433:0;c
+: 1691949444:0;git clone https://github.com/dracula/swaylock.git
+: 1691949447:0;cp swaylock/ ~/.config/
+: 1691949451:0;cp -r swaylock/ ~/.config/
+: 1691949452:0;c
+: 1691949472:0;sudo vim /etc/sddm.conf
+: 1691949477:0;c
+: 1691949511:0;git clone https://github.com/cxOrz/dotfiles-hyprland.git
+: 1691949513:0;c
+: 1691949517:0;cd dotfiles-hyprland
+: 1691949517:0;c
+: 1691949519:0;ll
+: 1691949526:0;z config
+: 1691949527:0;c
+: 1691949528:0;ll
+: 1691949531:0;rm -rf hypr
+: 1691949532:0;c
+: 1691949535:0;mkdir hypr
+: 1691949537:0;cd hypr
+: 1691949537:0;c
+: 1691949538:0;ll
+: 1691949577:0;cp hypr/*.* ~/.config/hypr
+: 1691949578:0;c
+: 1691949581:0;cd hypr
+: 1691949581:0;ll
+: 1691949588:0;vim hyprland.conf
+: 1691949635:0;xrandr
+: 1691949662:0;vim hyprland.conf
+: 1691949754:0;vim xdph.sh
+: 1691949766:0;vim hyprland.conf
+: 1691949895:0;vim hyprpaper.conf
+: 1691949904:0;c
+: 1691949966:0;vim hyprpaper.conf
+: 1691950009:0;c
+: 1691950010:0;ll
+: 1691950011:0;c
+: 1691950056:0;ll
+: 1691950059:0;z hypr
+: 1691950060:0;ll
+: 1691950062:0;cd ..
+: 1691950065:0;cd hyprland
+: 1691950072:0;c
+: 1691950074:0;cd hypr
+: 1691950079:0;vim hyprland.conf
+: 1691950216:0;z hypr
+: 1691950217:0;vim hyprland.conf
+: 1691950341:0;c
+: 1691950373:0;vim hyprland.conf
+: 1691950712:0;hyprctl monitors
+: 1691950854:0;c
+: 1691950856:0;vim hyprland.conf
+: 1691950879:0;hyprpaper
+: 1691950935:0;z hypr
+: 1691950936:0;ll
+: 1691950944:0;vim hyprland.conf
+: 1691950951:0;vim hyprpaper.conf
+: 1691950978:0;hyprpaper
+: 1691950981:0;c
+: 1691951037:0;z work
+: 1691951038:0;c
+: 1691951038:0;ll
+: 1691951040:0;cd dotfiles-hyprland
+: 1691951041:0;c
+: 1691951041:0;ll
+: 1691951055:0;cp kitty ~/.config
+: 1691951069:0;rm -rf ~/.config/kitty
+: 1691951072:0;cp -r kitty ~/.config
+: 1691951074:0;c
+: 1691951078:0;ll
+: 1691951080:0;neofetch
+: 1691951082:0;c
+: 1691951090:0;vim ~/.config/kitty/kitty.conf
+: 1691951105:0;fc-list | grep -i lxgw
+: 1691951111:0;fc-list | grep -i melon
+: 1691951119:0;fc-list | grep -i nerd-font
+: 1691951154:0;vim ~/.config/kitty/kitty.conf
+: 1691951189:0;fc-list | grep -i nerd-font
+: 1691951215:0;c
+: 1691951217:0;fc-list | grep -i nerd-font
+: 1691951218:0;c
+: 1691951225:0;vim ~/.config/kitty/kitty.conf
+: 1691951240:0;neofetch
+: 1691951243:0;c
+: 1691951286:0;z work
+: 1691951289:0;cd dotfiles-hyprland
+: 1691951290:0;ll
+: 1691951299:0;cp -r waybar ~/.config
+: 1691951309:0;z config
+: 1691951312:0;cd waybar
+: 1691951313:0;ll
+: 1691951318:0;vim config.jsonc
+: 1691951320:0;c
+: 1691951676:0;yay lxmusic
+: 1691951909:0;yay -S lx-music-desktop-bin
+: 1691952119:0;vim ~/.zshrc
+: 1691952145:0;sudo pacman -Syu
+: 1691952150:0;c
+: 1691952358:0;vim ~/.Xresources
+: 1691952455:0;vim ~/.config/hypr/hyprland.conf
+: 1691952724:0;xprop
+: 1691952733:0;xprop |
+: 1691952740:0;xprop | grep class
+: 1691952819:0;c
+: 1691952866:0;vim ~/.zshrc
+: 1691952891:0;source ~/.zshrc
+: 1691952893:0;c
+: 1691953137:0;vim ~/.config/kitty/kitty.conf
+: 1691953145:0;neofetch
+: 1691953273:0;vim ~/.xprofile
+: 1691953287:0;vim ~/.xinitrc
+: 1691953514:0;vim ~/.config/hypr/hyprland.conf
+: 1691953732:0;c
+: 1691953771:0;xrdb ~/.Xresources
+: 1691953862:0;yay -Rns lx-music-desktop-bin
+: 1691953866:0;c
+: 1691953874:0;yay -S lx-music
+: 1691954321:0;c
+: 1691954456:0;systemctl --user status xdg-desktop-portal-hyprland
+: 1691954492:0;sudo pacman -Rnsdd xdg-desktop-portal-kde
+: 1691954510:0;sudo pacman -Rnsdd xdg-desktop-portal-wlr
+: 1691954511:0;c
+: 1691954586:0;sudo pacman -S chromium
+: 1691954596:0;c
+: 1691954683:0;xrdb ~/.Xresources
+: 1691954703:0;vim ~/.config/hypr/hyprland.conf
+: 1691954786:0;z work
+: 1691954787:0;cd dotfiles-hyprland
+: 1691954788:0;llf
+: 1691954789:0;ll
+: 1691954800:0;vim ~/.config/hypr/hyprland.conf
+: 1691954809:0;cp -r rofi ~/.config
+: 1691954866:0;cd ..
+: 1691954867:0;git clone https://github.com/dracula/rofi
+: 1691954870:0;ll
+: 1691954872:0;cd rofi
+: 1691954878:0;		cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+: 1691954892:0;cd ..
+: 1691954893:0;cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi
+: 1691954893:0;c
+: 1691988734:0;vim ~/.config/hypr/hyprland.conf
+: 1691989058:0;yay -S xorg-xrdb
+: 1691989081:0;vim ~/.config/hypr/hyprland.conf
+: 1691989134:0;hyprctl monitors
+: 1691989146:0;vim ~/.zshrc
+: 1691989162:0;source ~/.zshrc
+: 1691989163:0;c
+: 1691989188:0;vim ~/.zshrc
+: 1691989196:0;vim ~/.config/hypr/hyprland.conf
+: 1691989328:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1691989418:0;yay -S dconf
+: 1691989422:0;c
+: 1691989431:0;yay -S dconf-editor
+: 1691989434:0;c
+: 1691989530:0;vim /org/gnome/desktop/interface/text-scaling-factor
+: 1691989539:0;dconf-editor
+: 1691989699:0;vim ~/.config/hypr/hyprland.conf
+: 1691989899:0;vim ~/.config/kitty/kitty.conf
+: 1691989908:0;neofetch
+: 1691989913:0;c
+: 1691989983:0;hyprctl monitors
+: 1691990003:0;hyprctl clients
+: 1691990084:0;export QT_WAYLAND_FORCE_DPI=144
+: 1691990299:0;c
+: 1691990302:0;vim ~/.config/hypr/hyprland.conf
+: 1691990314:0;hyprpaper
+: 1691990337:0;kill hyprpaper
+: 1691990351:0;ps -ef | grep hyprpaper
+: 1691990358:0;kill 14024
+: 1691990362:0;kill 21922
+: 1691990364:0;ps -ef | grep hyprpaper
+: 1691990373:0;kill 21969
+: 1691990381:0;kill 21789
+: 1691990382:0;c
+: 1691990384:0;hyprpaper
+: 1691990407:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691990495:0;hyprpaper
+: 1691990500:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691990510:0;hyprpaper
+: 1691990514:0;c
+: 1691990515:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691990573:0;hyprpaper
+: 1691990608:0;hyprctl monitors
+: 1691990629:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691990649:0;hyprpaper
+: 1691990651:0;c
+: 1691990812:0;vim ~/.config/waybar
+: 1691990852:0;c
+: 1691992768:0;ssh z config
+: 1691992791:0;vim ~/.config/dunst/dunstrc
+: 1691992804:0;mkdir ~/.config/dunst
+: 1691992808:0;vim ~/.config/dunst/dunstrc
+: 1691992811:0;c
+: 1691992814:0;dunst
+: 1691998607:0;vim ~/.config/dunst/dunstrc
+: 1691998611:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691998616:0;hyprctl monitors
+: 1691998618:0;vim ~/.config/hypr/hyprpaper.conf
+: 1691998640:0;vim ~/.config/hypr/hyprland.conf
+: 1691998648:0;c
+: 1692000341:0;vim ~/.config/hypr/hyprland.conf
+: 1692001035:0;~
+: 1692001037:0;vim ~/.config/hypr/hyprland.conf
+: 1692001524:0;c
+: 1692001525:0;ll
+: 1692001528:0;z work
+: 1692001529:0;ll
+: 1692001536:0;mkdir hypr
+: 1692001538:0;cd hypr
+: 1692001538:0;c
+: 1692001539:0;ll
+: 1692001547:0;vim windowrule.conf
+: 1692001643:0;vim hyprland.conf
+: 1692001883:0;hyprctl monitors
+: 1692001896:0;hyprctl clients
+: 1692001912:0;hyprctl clients | grep firefox
+: 1692001982:0;c
+: 1692002143:0;ll
+: 1692002149:0;lll
+: 1692002150:0;ll
+: 1692002155:0;c
+: 1692002162:0;la
+: 1692002164:0;c
+: 1692002175:0;ll
+: 1692002181:0;vim hyprland.conf
+: 1692002195:0;z work
+: 1692002198:0;cd hypr
+: 1692002199:0;c
+: 1692002199:0;ll
+: 1692002202:0;vim hyprland.conf
+: 1692002219:0;vim keybinds.conf
+: 1692002227:0;z hypr
+: 1692002232:0;vim hyprland.conf
+: 1692002274:0;c
+: 1692002551:0;vim keybinds.conf
+: 1692002638:0;z work
+: 1692002639:0;cd hypr
+: 1692002640:0;c
+: 1692002641:0;ll
+: 1692002643:0;vim keybinds.conf
+: 1692003380:0;vim windowrule.conf
+: 1692003390:0;c
+: 1692003404:0;cat ~/workspace/hypr/hyprland.conf
+: 1692003413:0;vim startup.conf
+: 1692003444:0;vim windowrule.conf
+: 1692003453:0;vim hyprland.conf
+: 1692003534:0;ll
+: 1692003580:0;cat ~/workspace/hypr/hyprland.conf
+: 1692003585:0;ll
+: 1692003589:0;vim env.conf
+: 1692003596:0;c
+: 1692003597:0;ll
+: 1692003604:0;vim hyprland.conf
+: 1692003631:0;z work
+: 1692003634:0;curl https://github.com/linuxmobile/hyprland-dots/raw/Sakura/.config/hypr/hyprland.conf
+: 1692003636:0;ll
+: 1692003643:0;sudo pacman -S wget
+: 1692003647:0;c
+: 1692003649:0;wget https://github.com/linuxmobile/hyprland-dots/raw/Sakura/.config/hypr/hyprland.conf
+: 1692003652:0;c
+: 1692003653:0;ll
+: 1692003655:0;vim hyprland.conf
+: 1692003831:0;vim windowrule.conf
+: 1692003873:0;vim keybinds.conf
+: 1692003907:0;c
+: 1692003908:0;ll
+: 1692003924:0;mkdir -p scripts
+: 1692003927:0;cd scripts
+: 1692003928:0;c
+: 1692003929:0;ll
+: 1692003972:0;cp ~/.config/hypr/xdph.sh ./
+: 1692003973:0;ll
+: 1692003974:0;cd ..
+: 1692003975:0;c
+: 1692003975:0;ll
+: 1692003985:0;vim ~/.zshrc
+: 1692004136:0;c
+: 1692004137:0;ll
+: 1692004142:0;c
+: 1692004143:0;ll
+: 1692004147:0;cd ..
+: 1692004150:0;ll
+: 1692004153:0;vim hyprland.conf
+: 1692004189:0;vim startup.conf
+: 1692004214:0;cd ..
+: 1692004214:0;ll
+: 1692004216:0;c
+: 1692004216:0;ll
+: 1692004232:0;rm -rf hypr/hyprland.conf
+: 1692004236:0;rm -rf hypr/xdph.sh
+: 1692004237:0;c
+: 1692004238:0;ll
+: 1692004254:0;cp -r hypr ~/.config
+: 1692004267:0;z /home/sinclair/.config
+: 1692004267:0;c
+: 1692004271:0;cd hypr
+: 1692004271:0;c
+: 1692004272:0;ll
+: 1692004283:0;vim keybinds.conf
+: 1692004332:0;hyprctl clients
+: 1692004352:0;vim keybinds.conf
+: 1692004419:0;kitty
+: 1692004516:0;c
+: 1692004544:0;z hypr
+: 1692004546:0;ll
+: 1692004552:0;vim windowrule.conf
+: 1692004637:0;c
+: 1692004693:0;vim startup.conf
+: 1692004728:0;cd ../kitty
+: 1692004729:0;ll
+: 1692004731:0;vim kitty.conf
+: 1692004858:0;neofetch
+: 1692004861:0;c
+: 1692004875:0;z work
+: 1692004876:0;git clone https://github.com/linuxmobile/hyprland-dots
+: 1692004895:0;cd hyprland-dots
+: 1692004897:0;ll
+: 1692004900:0;la
+: 1692004905:0;cd .config
+: 1692004907:0;ll
+: 1692004907:0;c
+: 1692004908:0;ll
+: 1692004931:0;vim ../hypr/keybinds.conf
+: 1692004972:0;rm ~/.config/rofi/config.rasi
+: 1692004985:0;cp -r rofi ~/.config
+: 1692005016:0;c
+: 1692005052:0;cd ..
+: 1692005052:0;c
+: 1692005061:0;mv waybar waybar.bak
+: 1692005071:0;cp -r waybar ~/.config
+: 1692005175:0;vim ~/.config/hypr/hyprland.conf
+: 1692005183:0;vim ~/.config/hypr/windowrule.conf
+: 1692005362:0;c
+: 1692005436:0;ll
+: 1692005438:0;cd work
+: 1692005441:0;z work
+: 1692005443:0;cd hyprland-dots
+: 1692005444:0;c
+: 1692005445:0;ll
+: 1692005447:0;la
+: 1692005452:0;cd .config
+: 1692005463:0;rm ~/.config/dunst/dunstrc
+: 1692005472:0;cp -r dunst ~/.config
+: 1692005476:0;c
+: 1692005602:0;z
+: 1692005605:0;z hypr
+: 1692005606:0;c
+: 1692005607:0;ll
+: 1692005609:0;vim hyprland.conf
+: 1692005647:0;hyprctl monitors
+: 1692005691:0;vim hyprland.conf
+: 1692005757:0;hyprctl monitors
+: 1692005788:0;vim hyprland.conf
+: 1692005834:0;c
+: 1692005837:0;nvidia-smi
+: 1692005837:0;c
+: 1692005856:0;sudo pacman -Syu
+: 1692005864:0;yay -Syu
+: 1692005904:0;c
+: 1692005943:0;hyprctl monitors
+: 1692005948:0;hyprctl clients
+: 1692006104:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692006195:0;c
+: 1692015173:0;vim ~/.config/hypr/hyprland.conf
+: 1692015412:0;c
+: 1692015435:0;vim ~/.xinitrc
+: 1692015444:0;vim  ~/.xprofile
+: 1692015447:0;c
+: 1692017225:0;sudo pacman -S pot-translation-bin
+: 1692017335:0;c
+: 1692017431:0;hyprctl clients
+: 1692017474:0;vim ~/.config/hypr/windowrule.conf
+: 1692017691:0;vim ~/.config/hypr/startup.conf
+: 1692017709:0;pot
+: 1692017742:0;vim ~/.config/hypr/keybinds.conf
+: 1692018153:0;vim ~/.config/hypr/windowrule.conf
+: 1692019688:0;hyprctl monitors
+: 1692019689:0;c
+: 1692019779:0;paru -S xorg-xwayland-hidpi-xprop wlroots-hidpi-xprop-git hyprland-hidpi-xprop-git    
+: 1692019844:0;timeshift 
+: 1692019887:0;c
+: 1692019892:0;paru -S xorg-xwayland-hidpi-xprop wlroots-hidpi-xprop-git hyprland-hidpi-xprop-git    
+: 1692019968:0;vim ~/.config/hypr/windowrule.conf
+: 1692019976:0;waybar
+: 1692019978:0;c
+: 1692019979:0;ll
+: 1692019987:0;vim ~/.config/hypr/keybinds.conf
+: 1692020011:0;c
+: 1692020013:0;vim ~/.config/hypr/keybinds.conf
+: 1692020020:0;firefox
+: 1692020028:0;c
+: 1692020072:0;vim ~/.config/hypr/startup.conf
+: 1692020328:0;echo 'Xft.dpi:144' | xrdb -merge
+: 1692020338:0;echo 'Xft.dpi:96' | xrdb -merge
+: 1692020361:0;vim ~/.config/hypr/startup.conf
+: 1692020385:0;xprop -root -f _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1
+: 1692020403:0;echo 'Xft.dpi:192' | xrdb -merge
+: 1692020543:0;echo 'Xft.dpi:144' | xrdb -merge
+: 1692020552:0;xprop -root -f _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1.5
+: 1692020563:0;xprop -root -f _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1
+: 1692020586:0;echo 'Xft.dpi:96' | xrdb -merge
+: 1692020684:0;vim ~/.config/hypr/startup.conf
+: 1692020690:0;c
+: 1692021548:0;neofetch
+: 1692021627:0;c
+: 1692021661:0;lspci | grep -i vga
+: 1692022708:0;sudo pacman -S hyprland-hidpi-xprop-git
+: 1692022714:0;c
+: 1692022786:0;sudo pacman -S xorg-xprop
+: 1692022792:0;sudo pacman -S xorg-xrdb
+: 1692022793:0;c
+: 1692022811:0;xsettingsd
+: 1692022819:0;sudo pacman -S xsettingsd
+: 1692022849:0;clear
+: 1692022857:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692022991:0;sudo pacman -S kcalc
+: 1692022993:0;c
+: 1692023006:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692023486:0;vim ~/.config/hypr/startup.conf
+: 1692023514:0;c
+: 1692023582:0;vim ~/.config/hypr/startup.conf
+: 1692023609:0;systemctl --user status xsettingsd.service
+: 1692023647:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692023656:0;systemctl --user status xsettingsd.service
+: 1692023698:0;systemctl --user restart xsettingsd.service
+: 1692023699:0;c
+: 1692023712:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692023730:0;systemctl --user restart xsettingsd.service
+: 1692023775:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692023827:0;systemctl --user restart xsettingsd.service
+: 1692023840:0;c
+: 1692023853:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692023863:0;vim ~/.config/hypr/startup.conf
+: 1692023872:0;c
+: 1692023882:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 192" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692023883:0;c
+: 1692023894:0;systemctl --user restart xsettingsd.service
+: 1692023942:0;hyprctl clients
+: 1692023949:0;c
+: 1692023954:0;vim ~/.config/hypr/windowrule.conf
+: 1692024264:0;c
+: 1692024279:0;vim ~/.local/share/fcitx5/rime/default.custom.yaml
+: 1692024315:0;vim ~/.local/share/fcitx5/rime/default.yaml
+: 1692024400:0;vim ~/.local/share/fcitx5/rime/custom_phrase.txt
+: 1692024423:0;vim ~/.local/share/fcitx5/rime/custom_phrase_double.txt
+: 1692024439:0;c
+: 1692024639:0;vim ~/.local/share/fcitx5/rime/custom_phrase_double.txt
+: 1692026173:0;vim ~/.config/waybar/config.jsonc
+: 1692026460:0;vim ~/.config/waybar/style.css
+: 1692026510:0;fc-list | grep -i nerd-font
+: 1692026553:0;vim ~/.config/waybar/style.css
+: 1692026677:0;waybar -r
+: 1692026718:0;killall waybar
+: 1692026721:0;waybar 
+: 1692026734:0;c
+: 1692026736:0;waybar 
+: 1692026773:0;vim ~/.config/kitty/kitty.conf
+: 1692026791:0;fc-list | grep -i nerd-font
+: 1692026822:0;neofetch
+: 1692026824:0;c
+: 1692026948:0;z work
+: 1692026948:0;c
+: 1692026952:0;git clone https://github.com/lgaboury/Sway-Waybar-Install-Script.git
+: 1692026959:0;cd Sway-Waybar-Install-Script
+: 1692026959:0;c
+: 1692026960:0;ll
+: 1692026966:0;cd .config
+: 1692026967:0;ll
+: 1692026992:0;mv ~/.config/waybar ~/.config/waybar.bak1
+: 1692027001:0;cp -r waybar ~/.config
+: 1692027001:0;c
+: 1692027004:0;waybar
+: 1692027030:0;c
+: 1692027035:0;z /home/sinclair/.config/waybar
+: 1692027036:0;c
+: 1692027037:0;ll
+: 1692027039:0;vim config
+: 1692027057:0;waybar
+: 1692027092:0;vim config
+: 1692027853:0;vim ~/.local/share/fcitx5/rime/custom_phrase_double.txt
+: 1692027970:0;vim ~/.local/share/fcitx5/rime/custom_phrase.txt
+: 1692027999:0;vim ~/.local/share/fcitx5/rime/custom_phrase_double.txt
+: 1692028018:0;waybar
+: 1692028038:0;vim ~/.local/share/fcitx5/rime/custom_phrase_double.txt
+: 1692028071:0;waybar
+: 1692028102:0;c
+: 1692028455:0;paru -S discord
+: 1692028464:0;c
+: 1692028637:0;timeshift-gtk
+: 1692028645:0;sudo timeshift-gtk
+: 1692028845:0;sudo -E timeshift-gtk
+: 1692028881:0;c
+: 1692029023:0;ll ~/.local/share/applications
+: 1692029029:0;ll /usr/share/applications/
+: 1692029035:0;ll /usr/share/applications/ | grep timeshift
+: 1692029047:0;vim /usr/share/applications/timeshift-gtk.desktop
+: 1692029052:0;sudo vim /usr/share/applications/timeshift-gtk.desktop
+: 1692029144:0;c
+: 1692029160:0;sudo vim /usr/share/applications/timeshift-gtk.desktop
+: 1692029181:0;sudo pacman -S timeshift
+: 1692029185:0;sudo pacman -Rns timeshift
+: 1692029188:0;sudo pacman -S timeshift
+: 1692029190:0;c
+: 1692029204:0;sudo -E timeshift-gtk
+: 1692029363:0;sudo cp /usr/share/applications/timeshift-gtk.desktop ~/.local/share/applications
+: 1692029373:0;vim ~/.local/share/applications
+: 1692029496:0;yay -S fbrokendesktop
+: 1692029511:0;fbrokendesktop
+: 1692029526:0;rm ~/.local/share/applications/flameshot-2.desktop
+: 1692029530:0;rm ~/.local/share/applications/flameshot.desktop
+: 1692029532:0;c
+: 1692029533:0;ll
+: 1692029537:0;vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029591:0;timeshift-gtk
+: 1692029595:0;sudo timeshift-gtk
+: 1692029600:0;sudo -E timeshift-gtk
+: 1692029609:0;c
+: 1692029631:0;vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029648:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029657:0;c
+: 1692029671:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029683:0;fbrokendesktop
+: 1692029694:0;timeshift
+: 1692029695:0;c
+: 1692029700:0;timeshift.desktop
+: 1692029701:0;c
+: 1692029732:0;la
+: 1692029764:0;mkdir .script
+: 1692029767:0;cd .script
+: 1692029768:0;c
+: 1692029768:0;ll
+: 1692029780:0;vim timeshift.sh
+: 1692029796:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029848:0;pwd
+: 1692029854:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029869:0;ll
+: 1692029892:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692029917:0;ll
+: 1692029922:0;chmod 777 timeshift.sh
+: 1692029973:0;bash timeshift.sh
+: 1692029979:0;c
+: 1692029982:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692030026:0;vim timeshift.sh
+: 1692030106:0;pacman -S xorg-xhost
+: 1692030109:0;sudo pacman -S xorg-xhost
+: 1692030111:0;c
+: 1692030118:0;timeshift-gtk
+: 1692030121:0;sudo timeshift-gtk
+: 1692030123:0;c
+: 1692030195:0;ll
+: 1692030198:0;vim timeshift.sh
+: 1692030215:0;c
+: 1692030357:0;vim ~/.config/hypr/startup.conf
+: 1692030667:0;c
+: 1692030672:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692030732:0;pkexec env $(env) timeshift-launcher
+: 1692030789:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692031025:0;pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY timeshift-launcher
+: 1692031082:0;vim ~/.config/hypr/startup.conf
+: 1692031241:0;ll
+: 1692031242:0;c
+: 1692031243:0;ll
+: 1692031248:0;vim nohup.out
+: 1692031256:0;rm nohup.out
+: 1692031259:0;ll
+: 1692031260:0;c
+: 1692031262:0;rm nohup.out
+: 1692031265:0;ll
+: 1692031266:0;c
+: 1692031279:0;vim ~/.config/hypr/startup.conf
+: 1692031287:0;sudo vim ~/.local/share/applications/timeshift-gtk.desktop
+: 1692031322:0;c
+: 1692031326:0;vim ~/.config/hypr/startup.conf
+: 1692031360:0;sudo pacman -S polkit-gnome
+: 1692031365:0;c
+: 1692031373:0;hyprctl monitors
+: 1692031375:0;c
+: 1692031385:0;vim ~/.config/hypr/startup.conf
+: 1692031391:0;vim ~/.config/hypr/hyprland.conf
+: 1692031407:0;c
+: 1692031428:0;vim ~/.config/hypr/hyprland.conf
+: 1692031437:0;vim ~/.config/hypr/hyprpaper.conf
+: 1692031448:0;c
+: 1692031454:0;hyprpaper
+: 1692031465:0;c
+: 1692031490:0;ll 
+: 1692031492:0;c
+: 1692031581:0;z work
+: 1692031582:0;ll
+: 1692031587:0;rm -rf dotfiles
+: 1692031589:0;rm -rf dotfiles-hyprland
+: 1692031589:0;c
+: 1692031590:0;ll
+: 1692031598:0;git clone https://github.com/AmitGolden/dotfiles.git
+: 1692031603:0;cd dotfiles
+: 1692031604:0;c
+: 1692031604:0;ll
+: 1692031607:0;c
+: 1692031654:0;rm -rf ~/.config/waybar
+: 1692031658:0;cd .config
+: 1692031659:0;c
+: 1692031660:0;ll
+: 1692031664:0;cp -r waybar ~/.config
+: 1692031672:0;waybar
+: 1692031681:0;killall waybar
+: 1692031683:0;waybar
+: 1692032359:0;z config
+: 1692032359:0;c
+: 1692032360:0;ll
+: 1692032366:0;vim waybar/config.jsonc
+: 1692032389:0;vim waybar/style.css
+: 1692032398:0;c
+: 1692032400:0;waybar
+: 1692032656:0;vim waybar/config.jsonc
+: 1692032743:0;c
+: 1692032744:0;way
+: 1692032746:0;waybar
+: 1692032767:0;c
+: 1692032769:0;vim waybar/config.jsonc
+: 1692032778:0;waybar
+: 1692032787:0;vim waybar/config.jsonc
+: 1692032796:0;waybar
+: 1692032809:0;vim waybar/config.jsonc
+: 1692033092:0;waybar
+: 1692033111:0;c
+: 1692033113:0;vim waybar/config.jsonc
+: 1692033263:0;vim waybar/style.css
+: 1692033297:0;vim ~/.config/waybar/style.css
+: 1692033312:0;waybar
+: 1692033354:0;c
+: 1692033564:0;vim ~/.config/waybar/config.jsonc
+: 1692033579:0;vim ~/.config/waybar/style.css
+: 1692033594:0;waybar
+: 1692033611:0;vim ~/.config/waybar/config.jsonc
+: 1692033628:0;waybar
+: 1692033635:0;vim ~/.config/waybar/config.jsonc
+: 1692033651:0;z hypr
+: 1692033659:0;vim startup.conf
+: 1692033672:0;vim binds.conf
+: 1692033677:0;vim keybinds.conf
+: 1692033731:0;waybar
+: 1692033734:0;vim keybinds.conf
+: 1692033739:0;vim ~/.config/waybar/config.jsonc
+: 1692033767:0;waybar
+: 1692033774:0;c
+: 1692033788:0;waybar
+: 1692033856:0;vim ~/.config/waybar/config.jsonc
+: 1692033876:0;waybar
+: 1692033881:0;c
+: 1692033891:0;vim ~/.config/waybar/style.css
+: 1692033912:0;waybar
+: 1692034026:0;c
+: 1692034503:0;rm -rf ~/.config/waybar
+: 1692034503:0;c
+: 1692034505:0;z work
+: 1692034508:0;git clone https://github.com/RoccoRakete/hyprland-dots.git
+: 1692034517:0;rm -rf hyprland-dots
+: 1692034522:0;git clone https://github.com/RoccoRakete/hyprland-dots.git
+: 1692034526:0;cd hyprland-dots
+: 1692034526:0;c
+: 1692034527:0;ll
+: 1692034530:0;cp -r waybar ~/.config
+: 1692034533:0;waybar
+: 1692034566:0;sudo pacman -S python-gi
+: 1692034575:0;sudo pacman -S python-require_version
+: 1692034598:0;c
+: 1692035007:0;hyprctl clients
+: 1692035024:0;vim ~/.config/hypr/windowrule.conf
+: 1692035136:0;c
+: 1692035142:0;rm -rf ~/.config/waybar
+: 1692035165:0;cp config.jsonc style.css ~/.config/waybar/
+: 1692035176:0;mkdir -p ~/.config/waybar
+: 1692035178:0;cp config.jsonc style.css ~/.config/waybar/
+: 1692035179:0;c
+: 1692035181:0;waybar
+: 1692035193:0;c
+: 1692035195:0;waybar
+: 1692035245:0;c
+: 1692035249:0;z config
+: 1692035256:0;cd waybar
+: 1692035256:0;c
+: 1692035257:0;ll
+: 1692035266:0;c
+: 1692035303:0;pactl set-sink-volume @DEFAULT_SINK@ -5%
+: 1692035305:0;pactl set-sink-volume @DEFAULT_SINK@ +5%
+: 1692035307:0;c
+: 1692035312:0;vim config.jsonc
+: 1692035370:0;waybar
+: 1692035532:0;vim ~/.config/hypr/keybinds.conf
+: 1692035571:0;c
+: 1692035572:0;waybar
+: 1692035584:0;c
+: 1692036045:0;waybar
+: 1692036069:0;vim style.css
+: 1692036082:0;waybar
+: 1692036584:0;vim config.jsonc
+: 1692036740:0;waybar
+: 1692036849:0;vim style.css
+: 1692036876:0;waybar
+: 1692037220:0;paru -S vscodium-bin
+: 1692037484:0;paru -Rns vscodium-bin
+: 1692037511:0;paru -S visual-studio-code-bin
+: 1692037673:0;c
+: 1692037680:0;paru -Rns visual-studio-code-bin
+: 1692037685:0;paru -S vscodium-bin
+: 1692037687:0;c
+: 1692037822:0;paru -Rns vscodium-bin
+: 1692037844:0;paru -S code
+: 1692037868:0;paru -Rns code
+: 1692037884:0;paru -S visual-studio-code-bin
+: 1692037896:0;c
+: 1692037933:0;paru -Rns visual-studio-code-bin
+: 1692037967:0;paru -S vscodium-bin
+: 1692037970:0;c
+: 1692038014:0;vim ~/.config/hypr/windowrule.conf
+: 1692038027:0;hyprctl clients
+: 1692038214:0;c
+: 1692038220:0;mkdir -p mycode
+: 1692038241:0;mkdir -p pullcode
+: 1692038242:0;c
+: 1692038263:0;mv -p * ./pullcode
+: 1692038268:0;mv -r * ./pullcode
+: 1692038271:0;mv * ./pullcode
+: 1692038274:0;c
+: 1692038282:0;mv ./pullcode/mycode ./
+: 1692038282:0;c
+: 1692038283:0;ll
+: 1692038284:0;c
+: 1692038333:0;waybar
+: 1692038340:0;c
+: 1692038343:0;vim style.css
+: 1692038417:0;waybar
+: 1692038667:0;c
+: 1692038669:0;vim style.css
+: 1692038678:0;vim config.jsonc
+: 1692038696:0;waybar
+: 1692039136:0;vim style.css
+: 1692039165:0;waybar
+: 1692039248:0;c
+: 1692039313:0;vim ~/.config/hypr/windowrule.conf
+: 1692039351:0;hyprctl clients
+: 1692039516:0;vim ~/.config/hypr/windowrule.conf
+: 1692039546:0;hyprctl clients
+: 1692039594:0;sudo pacman -Syu
+: 1692039602:0;c
+: 1692039606:0;paru -Syu
+: 1692039612:0;c
+: 1692040072:0;z way
+: 1692040073:0;c
+: 1692040077:0;vim config.jsonc
+: 1692040257:0;z hypr
+: 1692040257:0;c
+: 1692040258:0;ll
+: 1692040260:0;vim hyprland
+: 1692040263:0;vim hyprland.conf
+: 1692040336:0;vim startup.conf
+: 1692040364:0;c
+: 1692040365:0;ll
+: 1692040380:0;z /home/sinclair/.config/waybar
+: 1692040380:0;c
+: 1692040381:0;ll
+: 1692040383:0;vim config.jsonc
+: 1692040408:0;vim style.css
+: 1692040461:0;killall waybar
+: 1692040462:0;waybar
+: 1692040480:0;vim config.jsonc
+: 1692040487:0;waybar
+: 1692040497:0;c
+: 1692040615:0;z hypr
+: 1692040619:0;vim hyprland.conf
+: 1692040705:0;vim startup.conf
+: 1692040747:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 192" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040748:0;c
+: 1692040809:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 144" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1.5
+: 1692040828:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 144" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040853:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040856:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32 -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040859:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040867:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1.5
+: 1692040877:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 1.25
+: 1692040887:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 196" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040936:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 96" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040957:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 144" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692040975:0;systemctl --user start xsettingsd.service && echo "Xft.dpi: 192" | xrdb -merge && xprop -root -format _XWAYLAND_GLOBAL_OUTPUT_SCALE 32c -set _XWAYLAND_GLOBAL_OUTPUT_SCALE 2
+: 1692041014:0;c
+: 1692041510:0;mv /home/sinclair/Downloads/userChrome.css /home/sinclair/Downloads/userContent.css ./
+: 1692041510:0;c
+: 1692041511:0;ll
+: 1692072964:0;z rime
+: 1692072965:0;c
+: 1692072965:0;ll
+: 1692072972:0;vim double_pinyin_flypy.schema.yaml
+: 1692073030:0;vim custom_phrase_double.txt
+: 1692073058:0;kate custom_phrase_double.txt
+: 1692073129:0;hyprctl clients
+: 1692073146:0;z hypr
+: 1692073147:0;c
+: 1692073149:0;vim windowrule.conf
+: 1692073739:0;c
+: 1692093266:0;sudo pacman -Syu
+: 1692093276:0;c
+: 1692093279:0;paru -Syu
+: 1692093284:0;c
+: 1692094188:0;z way
+: 1692094189:0;ll
+: 1692094192:0;vim config.jsonc
+: 1692094207:0;waybar
+: 1692094305:0;vim config.jsonc
+: 1692094324:0;paru -S waybar-hyprland
+: 1692094401:0;paru -S waybar-hyprland-git
+: 1692094406:0;c
+: 1692094458:0;paru -S waybar
+: 1692094463:0;c
+: 1692094537:0;vim config.jsonc
+: 1692094899:0;vim style.css
+: 1692095103:0;z hypr
+: 1692095106:0;vim windowrule.conf
+: 1692095178:0;waybar
+: 1692095543:0;c
+: 1692095567:0;vim config.jsonc
+: 1692095803:0;waybar
+: 1692096708:0;vim config.jsonc
+: 1692096796:0;cd mycode
+: 1692096913:0;fc-list | grep -i nerd-font
+: 1692097004:0;neofetch
+: 1692097182:0;vim config.jsonc
+: 1692097197:0;c
+: 1692097202:0;rm config.
+: 1692097203:0;c
+: 1692098791:0;ll
+: 1692098792:0;cd ..
+: 1692098793:0;c
+: 1692098800:0;mv waybar waybar.bak2
+: 1692098829:0;mv config.jsonc ~/.config/waybar
+: 1692098884:0;cp style.css ~/.config/waybar/
+: 1692098895:0;cp style.css ~/.config/waybar
+: 1692098897:0;c
+: 1692098904:0;cd waybar
+: 1692098906:0;ll
+: 1692098907:0;c
+: 1692098914:0;rm waybar
+: 1692098917:0;mkdir waybar
+: 1692098928:0;cp config.jsonc style.css ~/.config/waybar/
+: 1692098985:0;vim waybar.bak2/config.jsonc
+: 1692099704:0;ll ~/.script
+: 1692100026:0;c
+: 1692100028:0;cp config.jsonc style.css ~/.config/waybar/
+: 1692100029:0;c
+: 1692100033:0;waybar
+: 1692100148:0;sudo pacman -S light
+: 1692100158:0;c
+: 1692100168:0;light -U 5
+: 1692100172:0;c
+: 1692100271:0;vim waybar.bak2/style.css
+: 1692100379:0;waybar
+: 1692100403:0;c
+: 1692100485:0;waybar
+: 1692100596:0;vim waybar.bak2/config.jsonc
+: 1692100698:0;vim ~/.script/user-info-json.sh
+: 1692100717:0;waybar
+: 1692100811:0;chmod +x user-info-json.sh
+: 1692100819:0;chmod +x ~/.script/user-info-json.sh
+: 1692100824:0;waybar
+: 1692101026:0;chmod +x ~/.script/user-info-json.sh
+: 1692101029:0;waybar
+: 1692101072:0;c
+: 1692101272:0;waybar
+: 1692101506:0;light -A 1
+: 1692101506:0;c
+: 1692101550:10;waybar
+: 1692101562:0;c
+: 1692101616:0;z hypr
+: 1692101619:0;vim keybinds.conf
+: 1692101706:0;codium
+: 1692101800:0;sudo cp /usr/share/applications/codium-wayland.desktop ~/
+: 1692101806:0;~
+: 1692101821:0;cp codium-wayland.desktop ~/.local/share/applications/
+: 1692101832:0;vim ~/.local/share/applications/codium-wayland.desktop
+: 1692101862:0;z hypr
+: 1692101865:0;vim keybinds.conf
+: 1692101975:0;vim ~/.local/share/applications/codium-wayland.desktop
+: 1692102019:0;/usr/bin/codium --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform=wayland --new-window
+: 1692102024:0;c
+: 1692102142:0;usermod -aG video $(whoami)
+: 1692102145:0;~
+: 1692102147:0;sudo usermod -aG video $(whoami)
+: 1692102151:0;c
+: 1692102160:0;light -A 1
+: 1692102163:0;light -A 5
+: 1692102166:0;c
+: 1692102486:0;htop
+: 1692102487:0;c
+: 1692102512:0;sudo pacman -S stop
+: 1692102517:0;sudo pacman -S htop
+: 1692102520:0;htop
+: 1692102532:0;c
+: 1692112036:0;z hypr
+: 1692112041:0;z way
+: 1692112045:0;vim config.jsonc
+: 1692112059:0;c
+: 1692113071:0;vim ~/.config/xsettingsd/xsettingsd.conf
+: 1692113696:0;z hypr
+: 1692113701:0;vim windowrule.conf
+: 1692117646:0;z work
+: 1692117647:0;ll
+: 1692117650:0;z pull
+: 1692117652:0;cd pull
+: 1692117653:0;cd pullcode
+: 1692117653:0;c
+: 1692117654:0;ll
+: 1692117660:0;git clone https://github.com/dikiaap/dotfiles.git
+: 1692117664:0;rm -rf dotfiles
+: 1692117667:0;git clone https://github.com/dikiaap/dotfiles.git
+: 1692117670:0;c
+: 1692117671:0;cd dotfiles
+: 1692117672:0;ll
+: 1692117675:0;la
+: 1692117696:0;rm -rf ~/.config/rofi
+: 1692117708:0;cp -r .rofi ~/.config
+: 1692117723:0;mv ~/.config/.rofi ~/.config/rofi
+: 1692117772:0;rm ~/.config/dunst/dunstrc
+: 1692117781:0;mv .dunst/dunstrc ~/.config/dunst
+: 1692117783:0;c
+: 1692118368:0;z way
+: 1692118369:0;c
+: 1692118370:0;ll
+: 1692118373:0;vim style.css
+: 1692118390:0;vim config.jsonc
+: 1692118426:0;waybar
+: 1692118748:0;sudo pacman -S fuck
+: 1692118756:0;sudo pacman -S thefuck
+: 1692118759:0;fuck
+: 1692118815:0;vim ~/.zshrc
+: 1692118820:0;source ~/.zshrc
+: 1692118822:0;fuck
+: 1692118830:0;puthon
+: 1692118831:0;fuck
+: 1692118837:0;python
+: 1692118837:0;c
+: 1692119493:0;~
+: 1692119494:0;c
+: 1692119498:0;z script
+: 1692119499:0;c
+: 1692119500:0;ll
+: 1692119532:0;vim rofi_powermenu.sh
+: 1692119561:0;chmod +x rofi_powermenu.sh
+: 1692119562:0;c
+: 1692119563:0;ll
+: 1692119564:0;c
+: 1692119606:0;rofi -show powermenu -modi "powermenu:~/.script/rofi_powermenu.sh"
+: 1692119953:0;vim rofi_powermenu.sh
+: 1692120038:0;rofi -show powermenu -modi "powermenu:~/.script/rofi_powermenu.sh"
+: 1692120248:0;vim rofi_powermenu.sh
+: 1692120262:0;rofi -show powermenu -modi "powermenu:~/.script/rofi_powermenu.sh"
+: 1692120278:0;vim rofi_powermenu.sh
+: 1692120298:0;z way
+: 1692120300:0;ll
+: 1692120302:0;vim config.jsonc
+: 1692120346:0;waybar
+: 1692120633:0;z scr
+: 1692120634:0;c
+: 1692120634:0;ll
+: 1692120637:0;vim rofi_powermenu.sh
+: 1692120683:0;rofi -show powermenu -modi "powermenu:~/.script/rofi_powermenu.sh"
+: 1692120690:0;vim rofi_powermenu.sh
+: 1692120785:0;rofi -show powermenu -modi "powermenu:~/.script/rofi_powermenu.sh"
+: 1692120790:0;c
+: 1692121022:0;history
+: 1692121031:0;history | rofi -dmenu
+: 1692121043:0;c
+: 1692121142:0;z hypr
+: 1692121143:0;c
+: 1692121143:0;ll
+: 1692121146:0;vim keybinds.conf
+: 1692121518:0;kitty --myclass
+: 1692121528:0;kitty --class myclass
+: 1692121533:0;ll
+: 1692121534:0;c
+: 1692121640:0;vim windowrule.conf
+: 1692121735:0;c
+: 1692121738:0;vim hyprland.conf
+: 1692121758:0;c
+: 1692121779:0;ll
+: 1692121782:0;vim startup.conf
+: 1692121796:0;vim hyprland.conf
+: 1692121977:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692122025:0;vim startup.conf
+: 1692122098:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692122124:0;z hypr
+: 1692122126:0;vim startup.conf
+: 1692122226:0;vim env.conf
+: 1692122274:0;vim startup.conf
+: 1692122298:0;vim env.conf
+: 1692122306:0;export QT_WAYLAND_FORCE_DPI=144
+: 1692122306:0;c
+: 1692122392:0;z way
+: 1692122394:0;c
+: 1692122395:0;ll
+: 1692122397:0;vim config.jsonc
+: 1692122449:0;z hypr
+: 1692122451:0;vim windowrule.conf
+: 1692122464:0;ll
+: 1692122465:0;c
+: 1692122471:0;hyprctl clients
+: 1692122614:0;waybar
+: 1692122660:0;vim config.jsonc
+: 1692122720:0;waybar
+: 1692122796:0;vim config.jsonc
+: 1692122829:0;z way
+: 1692122835:0;vim config.jsonc style.css
+: 1692122841:0;vim style.css
+: 1692122958:0;vim config.jsonc
+: 1692122996:0;waybar
+: 1692123432:0;vim config.jsonc
+: 1692123442:0;waybar
+: 1692123462:0;way
+: 1692123464:0;waybar
+: 1692123476:0;vim config.jsonc
+: 1692123617:0;waybar
+: 1692123992:0;vim style.css
+: 1692123996:0;waybar
+: 1692124094:0;c
+: 1692124154:0;z kitty
+: 1692124154:0;c
+: 1692124155:0;ll
+: 1692124157:0;vim kitty.conf
+: 1692124168:0;neofetch
+: 1692124171:0;c
+: 1692124174:0;z hypr
+: 1692124174:0;c
+: 1692124175:0;ll
+: 1692124180:0;z way
+: 1692124180:0;c
+: 1692124181:0;ll
+: 1692124189:0;vim config.jsonc
+: 1692124219:0;waybar
+: 1692124227:0;c
+: 1692124258:0;waybar
+: 1692124265:0;c
+: 1692124356:0;sudo vim /etc/sddm.conf.d/autologin.conf
+: 1692124391:0;c
+: 1692124409:0;ll /usr/share/wayland
+: 1692124421:0;ll /usr/share/wayland-sessions
+: 1692124428:0;sudo vim /etc/sddm.conf.d/autologin.conf
+: 1692124540:0;sudo pacman -S sddm-kcm
+: 1692124545:0;c
+: 1692124707:0;sudo vim /etc/sddm.conf.d/autologin.conf
+: 1692124760:0;ll /usr/share/wayland-sessions/
+: 1692124802:0;sudo vim /etc/sddm.conf.d/hidpi.conf
+: 1692124820:0;sudo vim /etc/sddm.conf.d/dpi.conf
+: 1692168481:0;paru -S ncmpcpp
+: 1692168550:0;c
+: 1692168560:0;paru -S deepin-wine-wechat
+: 1692168672:0;c
+: 1692168715:0;sudo pacman -Rns deepin-wine-wechat
+: 1692168725:0;sudo pacman -S lib32-freetype2
+: 1692168731:0;sudo pacman -Rns deepin-wine xsettingsd
+: 1692168736:0;sudo pacman -Rns deepin-wine5
+: 1692168739:0;c
+: 1692168744:0;sudo pacman -Rns wine wine-mono wine-gecko
+: 1692168753:0;rm -rf $HOME/.deepinwine/deepin-wine-helper
+: 1692168754:0;c
+: 1692168760:0;sudo pacman -Rns deepin-wine-wechat
+: 1692168779:0;yay -S deepin-wine-wechat
+: 1692168984:0;/opt/apps/com.qq.weixin.deepin/files/run.sh winecfg
+: 1692169118:0;c
+: 1692169167:0;vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692169198:0;sudo vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692169242:0;paru -S deepin-wine5
+: 1692169290:0;htop
+: 1692169299:0;c
+: 1692169326:0;sudo vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692169416:0;c
+: 1692169437:0;sudo pacman -Rns deepin-wine-wechat
+: 1692169439:0;c
+: 1692169467:0;z down
+: 1692169476:0;sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+: 1692169574:0;sudo pacman -S deepin-wine-helper
+: 1692169578:0;paru -S deepin-wine-helper
+: 1692169592:0;c
+: 1692169599:0;sudo pacman -U deepin-wine-wechat-3.5.0.46-1-x86_64.pkg.tar.zst
+: 1692169601:0;c
+: 1692169953:0;sudo pacman -Rns deepin-wine-wechat
+: 1692169958:0;c
+: 1692170082:0;sudo pacman -U deepin-wine-wechat-3.4.5.45-1-x86_64.pkg.tar.zst
+: 1692170085:0;c
+: 1692170158:0;sudo vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692170306:0;sudo pacman -Rns deepin-wine-wechat
+: 1692170308:0;c
+: 1692170438:0;paru -S wine-wechat-setup
+: 1692170591:0;paru -Rns wine-wechat-setup
+: 1692170593:0;c
+: 1692172049:0;~
+: 1692172049:0;c
+: 1692172231:0;paru -S wine-for-wechat
+: 1692172238:0;c
+: 1692172272:0;paru -S wine-for-wechat
+: 1692172307:0;c
+: 1692172317:0;wine-for-wechat
+: 1692172862:0;sudo pacman -U deepin-wine-wechat-3.4.5.45-1-x86_64.pkg.tar.zst
+: 1692172878:0;z down
+: 1692172878:0;c
+: 1692172880:0;sudo pacman -U deepin-wine-wechat-3.4.5.45-1-x86_64.pkg.tar.zst
+: 1692173093:0;c
+: 1692173094:0;ll
+: 1692173095:0;c
+: 1692173116:0;vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692173125:0;vim
+: 1692173228:0;z work
+: 1692173229:0;c
+: 1692173230:0;ll
+: 1692173251:0;cd mycode
+: 1692173251:0;c
+: 1692173252:0;ll
+: 1692173264:0;vim test.jar
+: 1692173266:0;c
+: 1692173858:0;z hypr
+: 1692173859:0;c
+: 1692173859:0;ll
+: 1692173862:0;vim env.conf
+: 1692173876:0;export QT_WAYLAND_FORCE_DPI=144
+: 1692173914:0;export QT_QPA_PLATFORMTHEME=gtk3
+: 1692174001:0;hyprctl clients
+: 1692174016:0;c
+: 1692174017:0;ll
+: 1692174019:0;vim windowrule.conf
+: 1692174032:0;c
+: 1692174172:0;~
+: 1692174172:0;c
+: 1692174174:0;hyprctl clients
+: 1692174202:0;hyprctl clients | grep workspace: -1
+: 1692174439:0;hyprctl clients
+: 1692174444:0;c
+: 1692174587:0;paru -S kotatogram-desktop
+: 1692174646:0;c
+: 1692174827:0;z
+: 1692174830:0;z hypr
+: 1692174830:0;c
+: 1692174831:0;ll
+: 1692174835:0;vim keybinds.conf
+: 1692174848:0;vim windowrule.conf
+: 1692174862:0;hyprctl clients
+: 1692175048:0;c
+: 1692175482:0;paru -S ranger
+: 1692175486:0;c
+: 1692175490:0;ranger
+: 1692175529:0;c
+: 1692175610:0;ll
+: 1692175613:0;z work
+: 1692175615:0;cd pullcode
+: 1692175616:0;c
+: 1692175616:0;ll
+: 1692175619:0;git clone https://github.com/0a00/hyprfiles.git
+: 1692175770:0;c
+: 1692175775:0;cd hyprfiles
+: 1692175776:0;c
+: 1692175777:0;ll
+: 1692175781:0;cd .config
+: 1692175781:0;c
+: 1692175782:0;ll
+: 1692175794:0;z config
+: 1692175794:0;c
+: 1692175798:0;cd rofi
+: 1692175798:0;ll
+: 1692175804:0;cd rofi
+: 1692175805:0;ll
+: 1692175813:0;vim config.rasi
+: 1692175859:0;rm -rf *
+: 1692175862:0;ll
+: 1692175863:0;c
+: 1692175874:0;cp -r * ~/.config/rofi
+: 1692175876:0;ll
+: 1692175877:0;c
+: 1692175882:0;ll
+: 1692175885:0;vim config.rasi
+: 1692175888:0;c
+: 1692175896:0;vim config.rasi
+: 1692175906:0;cd ../hypr
+: 1692175908:0;ll
+: 1692175911:0;vim hyprland.conf
+: 1692175943:0;c
+: 1692175944:0;ll
+: 1692175968:0;bash scripts/launcher_t3
+: 1692175982:0;bash scripts/launcher_t1
+: 1692176000:0;bash scripts/launcher_t2
+: 1692176003:0;bash scripts/launcher_t3
+: 1692176007:0;bash scripts/launcher_t4
+: 1692176022:0;bash scripts/launcher_t5
+: 1692176024:0;bash scripts/launcher_t6
+: 1692176032:0;bash scripts/launcher_t7
+: 1692176038:0;bash scripts/launcher_t8
+: 1692176040:0;c
+: 1692176042:0;bash scripts/launcher_t1
+: 1692176050:0;c
+: 1692176055:0;z hypr
+: 1692176056:0;ll
+: 1692176058:0;vim keybinds.conf
+: 1692177673:0;c
+: 1692177677:0;cd ../..
+: 1692177677:0;c
+: 1692177678:0;ll
+: 1692177679:0;cd ..
+: 1692177681:0;ll
+: 1692177689:0;rm -rf dotfiles
+: 1692177689:0;c
+: 1692177704:0;git clone https://github.com/Keyitdev/dotfiles
+: 1692177791:0;cd dotfiles
+: 1692177792:0;c
+: 1692177794:0;ll 
+: 1692177798:0;cd config
+: 1692177799:0;ll
+: 1692177803:0;cd rofi
+: 1692177804:0;ll
+: 1692177804:0;c
+: 1692177805:0;ll
+: 1692177812:0;rm -rf ~/.config/rofi
+: 1692177814:0;cd ..
+: 1692177819:0;cp -r rofi ~/.config
+: 1692177819:0;c
+: 1692177827:0;vim keybinds.conf
+: 1692177853:0;rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi
+: 1692177875:0;c
+: 1692177887:0;rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi
+: 1692177934:0;rofi -show window -no-default-config -config ~/.config/rofi/main.rasi
+: 1692177974:0;rofi-screenshot
+: 1692177975:0;c
+: 1692178072:0;cd ..
+: 1692178073:0;ll
+: 1692178077:0;cd scripts
+: 1692178078:0;c
+: 1692178078:0;ll
+: 1692178094:0;cp rofi-bookmarks rofi-powermenu rofi-screenshot ~/.script
+: 1692178095:0;c
+: 1692178096:0;ll
+: 1692178435:0;rofi -show screenshot -modi "screenshot:~/.script/rofi-screenshot"
+: 1692178447:0;ll ~/.script
+: 1692178466:0;vim ~/.script/rofi-screenshot
+: 1692178490:0;cp ~/.script/rofi-screenshot ~/.script/rofi-screenshot.sh
+: 1692178493:0;rofi -show screenshot -modi "screenshot:~/.script/rofi-screenshot"
+: 1692178497:0;rofi -show screenshot -modi "screenshot:~/.script/rofi-screenshot.sh"
+: 1692178501:0;c
+: 1692178509:0;vim ~/.script/rofi-screenshot.sh
+: 1692178555:0;c
+: 1692178556:0;ll
+: 1692178581:0;cliphist list
+: 1692178582:0;c
+: 1692178631:0;rofi -show window -no-default-config -config ~/.config/rofi/main.rasi
+: 1692178639:0;rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi
+: 1692178651:0;rofi -show ïƒ©© -modi 'ïƒ©©:rofi-bookmarks' -no-default-config -config ~/.config/rofi/main.rasi
+: 1692178793:0;cd ..
+: 1692178798:0;sudo cp -r ./fonts/* /usr/share/fonts\ 
+: 1692178800:0;ll
+: 1692178803:0;sudo cp -r ./fonts/* /usr/share/fonts
+: 1692178807:0;c
+: 1692179079:0;z pull
+: 1692179083:0;git clone https://github.com/yaocccc/scripts.git
+: 1692179118:0;c
+: 1692179120:0;cd scripts
+: 1692179121:0;c
+: 1692179121:0;ll
+: 1692179148:0;vim rofi.sh
+: 1692179338:0;paru -Rns wine-for-wechat
+: 1692179373:0;sudo pacman -Rns deepin-wine-wechat
+: 1692179385:0;paru -S wechat-uos
+: 1692179455:0;c
+: 1692181803:0;paru -Syu
+: 1692181822:0;c
+: 1692182001:0;neofetch
+: 1692185330:0;~
+: 1692185330:0;c
+: 1692185333:0;sudo pacman -S nvidia-open-dkms nvidia-settings lib32-nvidia-utils # å¿ƒ¥éƒ»å®ƒ©è£ƒ¥
+: 1692185339:0;sudo pacman -S nvidia-open-dkms nvidia-settings lib32-nvidia-utils
+: 1692185358:0;c
+: 1692185360:0;nvidia-smi
+: 1692185368:0;c
+: 1692185399:0;yay -S optimus-manager optimus-manager-qt
+: 1692185467:0;c
+: 1692185555:0;nvidia-smi
+: 1692185557:0;c
+: 1692185588:0;sudo systemctl enable optimus-manager.service
+: 1692185655:0;sudo pacman -S nvidia-prime
+: 1692185657:0;c
+: 1692185662:0;prime-run firefox
+: 1692185684:0;c
+: 1692185685:0;ll
+: 1692185690:0;c
+: 1692185691:0;ll
+: 1692185695:0;z hypr
+: 1692185695:0;c
+: 1692185696:0;ll
+: 1692185699:0;vim keybinds.conf
+: 1692185748:0;c
+: 1692185764:0;vim keybinds.conf
+: 1692185856:0;prime-run firefox
+: 1692185904:0;nvidia-smi
+: 1692185910:0;c
+: 1692185935:0;sudo pacman -S mesa-utils
+: 1692185943:0;glxgears
+: 1692185977:0;c
+: 1692185983:0;prime-run glxgears
+: 1692186015:0;nvidia-settings
+: 1692186021:0;c
+: 1692186088:0;vainfo
+: 1692186207:0;z hypr
+: 1692186208:0;ll
+: 1692186213:0;vim env.conf
+: 1692186227:0;c
+: 1692186250:0;paru -S qt5-wayland
+: 1692186269:0;paru -S qt5ct libva nvidia-vaapi-driver-git
+: 1692186276:0;c
+: 1692186330:0;nvidia-smi
+: 1692186331:0;c
+: 1692186446:0;z hypr
+: 1692186447:0;ll
+: 1692186450:0;vim env.conf
+: 1692186535:0;nvidia-smi
+: 1692186536:0;c
+: 1692186645:0;z hypr
+: 1692186647:0;vim env.conf
+: 1692186659:0;export QT_WAYLAND_FORCE_DPI=144
+: 1692186740:0;optimus-manager
+: 1692186743:0;optimus-manager --help
+: 1692186750:0;optimus-manager --status
+: 1692186770:0;optimus-manager --print-mode
+: 1692186880:0;sudo vim /etc/mkinitcpio.conf
+: 1692186904:0;mkinitcpio -P
+: 1692186907:0;sudo mkinitcpio -P
+: 1692186932:0;sudo systemctl enable optimus-manager.service
+: 1692186937:0;sudo systemctl status optimus-manager.service
+: 1692186946:0;c
+: 1692186948:0;optimus-manager --print-mode
+: 1692186955:0;optimus-manager -h
+: 1692186973:0;optimus-manager --print-next-mode
+: 1692186980:0;vim /var/log/optimus-manager/switch/switch-20230816T194622.log
+: 1692187319:0;sudo pacman -S nvtop\
+
+: 1692187323:0;c
+: 1692187355:0;sudo vim /etc/default/grub
+: 1692187382:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1692187443:0;nvidia-smi
+: 1692187469:0;~
+: 1692187472:0;nvidia-smi
+: 1692187473:0;c
+: 1692187479:0;sudo grub-mkconfig -o /boot/grub/grub.cfg\
+
+: 1692187483:0;nvidia-smi
+: 1692187554:0;lsmod | egrep "nvidia|nouveau"\
+
+: 1692187577:0;lspci -k | grep -A 2 -i "VGA"
+: 1692187591:0;sudo pacman -S mesa intel-media-driver vulkan-intel\
+
+: 1692187604:0;c
+: 1692187728:0;prime-run firefox
+: 1692187842:0;optimus-manager --print-next-mode
+: 1692187844:0;c
+: 1692187906:0;nvidia-smi
+: 1692187907:0;c
+: 1692187909:0;optimus-manager --print-next-mode
+: 1692187915:0;optimus-manager -h
+: 1692187926:0;optimus-manager --switch 
+: 1692187938:0;optimus-manager --switch GPU
+: 1692187956:0;cat /var/log/optimus-manager/switch/switch-20230816T201118.log
+: 1692187986:0;c
+: 1692187987:0;z hypr
+: 1692187991:0;vim env.conf
+: 1692188054:0;z hypr
+: 1692188055:0;ll
+: 1692188057:0;vim env.conf
+: 1692188096:0;optimus-manager --switch GPU
+: 1692188129:0;h
+: 1692188132:0;history | rofi -dmenu
+: 1692188188:0;dconf-editor
+: 1692188196:0;c
+: 1692188200:0;prime-run firefox
+: 1692188269:0;nvidia-smi
+: 1692188335:0;$ lspci -k | grep -A 2 -E "(VGA|3D)"
+: 1692188339:0;lspci -k | grep -A 2 -E "(VGA|3D)"
+: 1692188506:0;ll /etc/X11/xorg.conf
+: 1692188522:0;ll /etc/X11/xorg.conf.d/
+: 1692188528:0;vim /etc/X11/xorg.conf
+: 1692188532:0;cat /etc/X11/xorg.conf
+: 1692188533:0;c
+: 1692188567:0;optimus-manager --switch integrated
+: 1692188569:0;c
+: 1692188590:0;sudo vim /etc/optimus-manager/optimus-manager.conf
+: 1692188893:0;z hypr
+: 1692188894:0;ll
+: 1692188896:0;vim env.conf
+: 1692189230:0;nvidia-smi
+: 1692189231:0;c
+: 1692189234:0;prime-run firefox
+: 1692189330:0;optimus-manager --switch integrated
+: 1692189377:0;sudo vim /etc/optimus-manager/optimus-manager.conf
+: 1692189474:0;prime-run firefox
+: 1692189487:0;nvidia-smi
+: 1692189496:0;optimus-manager --status
+: 1692189580:0;z hypr
+: 1692189584:0;vim keybinds.conf
+: 1692189721:0;sudo pacman -S steam
+: 1692189729:0;c
+: 1692189896:0;prime-run steam
+: 1692189922:0;prime-run firefox
+: 1692189963:0;c
+: 1692189967:0;prime-run steam
+: 1692189969:0;c
+: 1692189972:0;sudo vim /etc/optimus-manager/optimus-manager.conf
+: 1692189985:0;c
+: 1692190082:0;nvidia-smi
+: 1692190083:0;c
+: 1692190088:0;optimus-manager --status
+: 1692190089:0;c
+: 1692190094:0;prime-run steam
+: 1692190279:0;nvidia-smi
+: 1692190282:0;sudo vim /etc/optimus-manager/optimus-manager.conf
+: 1692190305:0;c
+: 1692192196:0;htop
+: 1692192422:0;sudo vim /etc/optimus-manager/optimus-manager.conf
+: 1692192428:0;c
+: 1692192430:0;l
+: 1692192433:0;z hypr
+: 1692192434:0;ll
+: 1692192435:0;vim env.conf
+: 1692192441:0;c
+: 1692203793:0;vim ~/.config/chromium-flags.conf
+: 1692204547:0;sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+: 1692204561:0;sudo pacman-key --lsign-key 3056513887B78AEB
+: 1692204571:0;sudo  pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+: 1692204584:0;c
+: 1692204591:0;sudo vim /etc/pacman.conf
+: 1692204624:0;sudo pacman -Sy && sudo powerpill -Su && paru -Su.\
+
+: 1692204639:0;sudo pacman -Sy && paru -Su.\
+
+: 1692204644:0;sudo pacman -Sy && paru -Su\
+
+: 1692204752:0;c
+: 1692205200:0;sudo vim /etc/pacman.conf
+: 1692205561:0;sudo pacman-key --keyserver hkps://keyserver.ubuntu.com --recv-keys 9AE4078033F8024D && sudo pacman-key --lsign-key 9AE4078033F8024D
+: 1692205571:0;c
+: 1692205596:0;paru -S linux-lqx linux-lqx-headers
+: 1692205606:0;paru -Sy
+: 1692205613:0;paru -S linux-lqx linux-lqx-headers
+: 1692205942:0;c
+: 1692205946:0;sudo pacman -Rs linux-zen linux-zen-headers
+: 1692205949:0;sudo pacman -Rs linux-zen 
+: 1692205954:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1692205965:0;c
+: 1692207367:0;sudo vim /etc/systemd/system.conf
+: 1692207379:0;sudoedit vim /etc/systemd/system.conf
+: 1692207421:0;sudo -e vim ls -l $(which sudoedit)
+: 1692207501:0;echo EDITOR
+: 1692207504:0;echo $EDITOR
+: 1692207509:0;vim ~/.zshrc
+: 1692207529:0;source ~/.zshrc
+: 1692207532:0;vim ~/.zshrc
+: 1692207544:0;source ~/.zshrc
+: 1692207557:0;vim ~/.zshrc
+: 1692207561:0;source ~/.zshrc
+: 1692207581:0;echo $EDITOR
+: 1692207584:0;vim ~/.zshrc
+: 1692207639:0;nvim
+: 1692207641:0;c
+: 1692207643:0;vim ~/.zshrc
+: 1692207683:0;ll /usr/bin/ | grep nvim
+: 1692207684:0;c
+: 1692207686:0;source ~/.zshrc
+: 1692207689:0;echo $EDITOR
+: 1692207690:0;c
+: 1692207704:0;sudo -e vim ls -l $(which sudoedit)
+: 1692207709:0;sudoedit vim /etc/systemd/system.conf
+: 1692207738:0;c
+: 1692207743:0;sudo vim /etc/systemd/system.conf
+: 1692207748:0;c
+: 1692207778:0;sudoedit vim /etc/pacman.conf
+: 1692207823:0;sudo pacman -S vim
+: 1692207829:0;c
+: 1692207833:0;sudoedit vim /etc/pacman.conf
+: 1692207905:0;c
+: 1692207909:0;sudoedit vim /etc/pacman.d/chaotic-mirrorlist
+: 1692207962:0;/lib/ld-linux-x86-64.so.2 --help
+: 1692207990:0;paru -S alhp-keyring alhp-mirrorlist
+: 1692208001:0;c
+: 1692208014:0;sudoedit vim /etc/pacman.d/alhp-mirrorlist
+: 1692208035:0;sudoedit vim /etc/pacman.conf
+: 1692208066:0;sudo pacman -Syu
+: 1692208089:0;sudoedit vim /etc/pacman.d/alhp-mirrorlist
+: 1692208100:0;sudo pacman -Syu
+: 1692208127:0;sudoedit vim /etc/pacman.d/alhp-mirrorlist
+: 1692208138:0;sudoedit vim /etc/pacman.conf
+: 1692208147:0;sudo pacman -Syu
+: 1692208151:0;c
+: 1692208879:0;nvidia-smi
+: 1692208885:0;prime-run firefox
+: 1692208961:0;nvidia-smi
+: 1692208971:0;prime-run firefox
+: 1692209017:0;nvidia-smi
+: 1692209037:0;c
+: 1692209075:0;sudo pacman -S nvidia-open-dkms nvidia-settings lib32-nvidia-utils
+: 1692209083:0;c
+: 1692209151:0;nvidia-smi
+: 1692209152:0;c
+: 1692209495:0;dconf-editor
+: 1692209513:0;c
+: 1692209533:0;sudo pacman -S gnome
+: 1692209606:0;sudo pacman -S gnome-extra
+: 1692209673:0;c
+: 1692209740:0;reboot
+: 1692210461:0;hyprctl clients
+: 1692210466:0;c
+: 1692210523:0;nvidia-smi
+: 1692210524:0;c
+: 1692210644:0;sudo pacman -Runs gnome
+: 1692210659:0;sudo pacman -Runs gnome-extra
+: 1692211041:0;nvidia-smi
+: 1692211042:0;c
+: 1692244194:0;sudo pacman -Syu
+: 1692244221:0;c
+: 1692244223:0;paru -Syu
+: 1692244274:0;c
+: 1692244282:0;sudo pacman -S gnome\ 
+: 1692244300:0;sudo pacman -S gnome
+: 1692244344:0;c
+: 1692244386:0;sudo pacman -S gdm
+: 1692244391:0;c
+: 1692244401:0;systemctl enable gdm
+: 1692244492:0;sudo systemctl disable sddm
+: 1692244495:0;systemctl enable gdm
+: 1692244500:0;c
+: 1692244824:0;firefox
+: 1692247118:0;sudo pacman -S gnome-tweaks
+: 1692247123:0;c
+: 1692247408:0;clear
+: 1692247409:0;ll
+: 1692247411:0;c
+: 1692247412:0;ll
+: 1692247421:0;c
+: 1692247426:0;z desktop
+: 1692247426:0;c
+: 1692247428:0;ll
+: 1692247450:0;cd ~/.local/share/applications
+: 1692247451:0;ll
+: 1692247455:0;vim firefox.desktop
+: 1692247474:0;c
+: 1692247475:0;ll
+: 1692247531:0;firefox
+: 1692247582:0;systemctl disable gdm
+: 1692247592:0;systemctl enable sddm
+: 1692247595:0;c
+: 1692247601:0;reboot
+: 1692286438:0;ll
+: 1692286454:0;firefox
+: 1692286483:0;sudo pacman -Runs gnome-extra
+: 1692286491:0;sudo pacman -Runs gnome
+: 1692286505:0;sudo pacman -Rns gdm
+: 1692286506:0;c
+: 1692286516:0;dconf-editor
+: 1692286834:0;paru -S dconf-editor
+: 1692286840:0;dc
+: 1692286842:0;dconf-editor
+: 1692286862:0;c
+: 1692286895:0;neofetch
+: 1692286907:0;c
+: 1692287611:0;systemctl enable --now sddm
+: 1692287622:0;systemctl start sddm
+: 1692287635:0;sudo systemctl start sddm
+: 1692287651:0;reboot
+: 1692287730:0;nvidia-smi
+: 1692287733:0;c
+: 1692287768:0;optimus-manager --status
+: 1692287771:0;c
+: 1692287851:0;nvidia-smi
+: 1692287852:0;c
+: 1692287872:0;nvidia-smi
+: 1692287881:0;c
+: 1692287917:0;prime-run steam
+: 1692287927:0;nvidia-smi
+: 1692290505:0;z work
+: 1692290506:0;c
+: 1692290506:0;ll
+: 1692291534:0;sudo vim /etc/mkinitcpio.conf
+: 1692291544:0;sudoedit vim /etc/mkinitcpio.conf
+: 1692291609:0;sudoedit vim /etc/pacman.d/hooks/nvidia.hook
+: 1692291613:0;sudo vim /etc/pacman.d/hooks/nvidia.hook
+: 1692291636:0;sudo touch /etc/pacman.d/hooks
+: 1692291640:0;sudo rm /etc/pacman.d/hooks
+: 1692291644:0;sudo mkdir /etc/pacman.d/hooks
+: 1692291646:0;sudo vim /etc/pacman.d/hooks/nvidia.hook
+: 1692291649:0;c
+: 1692291726:0;sudo pacman -S nvidia-open-dkms
+: 1692291731:0;c
+: 1692291740:0;sudo vim /etc/pacman.d/hooks/nvidia.hook
+: 1692291769:0;uname -r
+: 1692291777:0;uname -a
+: 1692291783:0;neofetch
+: 1692291841:0;c
+: 1692291843:0;sudo pacman
+: 1692291849:0;sudo pacman -S nvidia-open-dkms
+: 1692291917:0;sudo vim /etc/pacman.d/hooks/nvidia.hook
+: 1692291942:0;sudo pacman -S nvidia-open-dkms
+: 1692292959:0;sudo vim /etc/default/grub
+: 1692292994:0;sudoedit vim /etc/mkinitcpio.conf
+: 1692293029:0;sudo vim /etc/modprobe.d/nvidia.conf
+: 1692293125:0;vim ~/.config/hypr/env.conf
+: 1692293173:0;sudo pacman -S hyprland-nvidia-git
+: 1692293218:0;paru -S hyprland-nvidia-hidpi-git
+: 1692293224:0;c
+: 1692293369:0;z hypr
+: 1692293370:0;ll
+: 1692293376:0;vim env.conf
+: 1692293433:0;paru -Rns optimus-manager optimus-manager-qt
+: 1692293439:0;c
+: 1692293630:0;nvidia-smi
+: 1692293631:0;c
+: 1692293636:0;prime-run firefox
+: 1692293650:0;nvidia-smi
+: 1692293708:0;z hypr
+: 1692293712:0;prime-run steam
+: 1692293720:0;nvidia-smi
+: 1692293722:0;c
+: 1692293748:0;nvidia-smi
+: 1692293797:0;c
+: 1692293797:0;ll
+: 1692293799:0;nvidia-smi
+: 1692293800:0;c
+: 1692293811:0;nvidia-smi
+: 1692293812:0;c
+: 1692293908:0;lspci | grep -E 'VGA|3D'
+: 1692293918:0;ls -l /dev/dri/by-path
+: 1692293971:0;vim env.conf
+: 1692294073:0;z work
+: 1692294074:0;c
+: 1692294076:0;ll
+: 1692294080:0;vim hyprland.sh
+: 1692294141:0;vim ~/.zshrc
+: 1692294160:0;c
+: 1692294163:0;source ~/.zshrc
+: 1692294164:0;c
+: 1692294209:0;clear
+: 1692294212:0;startw
+: 1692294281:0;vim ~/.zshrc
+: 1692294291:0;c
+: 1692294294:0;z hypr
+: 1692294294:0;ll
+: 1692294296:0;vim env.conf
+: 1692294310:0;c
+: 1692294313:0;startw
+: 1692294391:0;z hypr
+: 1692294392:0;ll
+: 1692294394:0;vim env.conf
+: 1692294403:0;clear
+: 1692294442:0;nvidia-smi
+: 1692294446:0;c
+: 1692294450:0;prime-run firefox
+: 1692294466:0;dconf-editor
+: 1692294473:0;c
+: 1692294490:0;nvidia-smi
+: 1692294513:0;z hypr
+: 1692294515:0;vim binds.conf
+: 1692294520:0;vim keybinds.conf
+: 1692294615:0;nvidia-smi
+: 1692294617:0;c
+: 1692294632:0;ll
+: 1692294665:0;sudo cp /usr/share/applications/steam.desktop ~/.local/share/applications
+: 1692294677:0;vim ~/.local/share/applications/steam.desktop
+: 1692294844:0;sudo vim ~/.local/share/applications/steam.desktop
+: 1692294851:0;sudoedit vim ~/.local/share/applications/steam.desktop
+: 1692294858:0;sudo vim ~/.local/share/applications/steam.desktop
+: 1692294919:0;nvidia-smi
+: 1692294920:0;c
+: 1692294945:0;nvidia-smi
+: 1692296868:0;c
+: 1692296871:0;htop
+: 1692300522:0;c
+: 1692300601:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692300656:0;vim hyprland.sh
+: 1692300658:0;ll
+: 1692300662:0;vim hyprland.conf
+: 1692300712:0;echo 'Xft.dpi: 96' | xrdb -merge
+: 1692300730:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692300756:0;ll
+: 1692300758:0;vim env.conf
+: 1692300794:0;echo 'Xft.dpi: 96' | xrdb -merge
+: 1692300812:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692300827:0;nvidia-smi
+: 1692300831:0;c
+: 1692300858:0;nvidia-smi
+: 1692300860:0;c
+: 1692300909:0;vim env.conf
+: 1692300925:0;echo 'Xft.dpi: 144' | xrdb -merge
+: 1692300934:0;c
+: 1692300935:0;ll
+: 1692300937:0;vim hyprland.conf
+: 1692300972:0;echo 'Xft.dpi: 192' | xrdb -merge
+: 1692300983:0;echo 'Xft.dpi: 96' | xrdb -merge
+: 1692300984:0;c
+: 1692331233:0;sudo pacman -Syu
+: 1692347842:0;nvidia-smi
+: 1692348368:0;sudo pacman -S lutris wine-staging
+: 1692348582:0;c
+: 1692348587:0;ps -ef | grep lu
+: 1692348595:0;killall wine-staging
+: 1692348599:0;killall lutris
+: 1692348603:0;killall 14020
+: 1692348606:0;killall -9 14020
+: 1692348610:0;kill -9 14020
+: 1692348611:0;c
+: 1692348900:0;nvidia-smi
+: 1692348981:0;z hypr
+: 1692348982:0;ll
+: 1692348985:0;vim env.conf
+: 1692348998:0;c
+: 1692349461:0;sudo pacman -S wine-staging
+: 1692349469:0;c
+: 1692349506:0;ll
+: 1692349529:0;ll /usr/share/applications/ | grep lu
+: 1692349539:0;lutris
+: 1692349550:0;nvidia-smi
+: 1692349551:0;c
+: 1692349560:0;ll
+: 1692349562:0;c
+: 1692349648:0;prime-run lutris
+: 1692349720:0;neofetch
+: 1692349856:0;c
+: 1692349901:0;nvidia-smi
+: 1692349975:0;c
+: 1692349977:0;nvidia-smi
+: 1692350005:0;neofetch
+: 1692350205:0;c
+: 1692350206:0;ll
+: 1692350206:0;c
+: 1692417643:0;sudo pacman -Syu
+: 1692417832:0;c
+: 1692417837:0;paru -Syu
+: 1692417907:0;c
+: 1692417910:0;z hypr
+: 1692417911:0;ll
+: 1692417914:0;z way
+: 1692417916:0;ll
+: 1692417919:0;vim config.rasi
+: 1692417922:0;ll
+: 1692417925:0;vim config.jsonc
+: 1692417951:0;z hypr
+: 1692417951:0;ll
+: 1692417954:0;vim keybinds.conf
+: 1692417999:0;waybar
+: 1692418007:0;c
+: 1692418139:0;hyprctl clients
+: 1692418162:0;z hypr
+: 1692418165:0;vim windowrule.conf
+: 1692465368:0;nvidia-smi
+: 1692465369:0;c
+: 1692466227:0;codium
+: 1692466243:0;c
+: 1692466245:0;ll
+: 1692466250:0;codium
+: 1692466251:0;c
+: 1692466251:0;ll
+: 1692466265:0;paru -S codium
+: 1692466278:0;paru -Rns codium
+: 1692466288:0;sudo pacman -Rns codium
+: 1692466308:0;sudo pacman -Rns vscodium-bin 
+: 1692466325:0;paru -S visual-studio-code-bin
+: 1692466342:0;c
+: 1692471861:0;ll
+: 1692471870:0;rm codium-wayland.desktop
+: 1692471873:0;ll
+: 1692471874:0;c
+: 1692471897:0;rm ~/.local/share/applications/codium-wayland.desktop
+: 1692471898:0;c
+: 1692471908:0;z hypr
+: 1692471908:0;ll
+: 1692471910:0;vim windowrule.conf
+: 1692472848:0;sudo shutdown -h 60
+: 1692472860:0;sudo shutdown -h 40
+: 1692472862:0;c
+: 1692517490:0;sudo pacman -Syu
+: 1692517505:0;yay -Syu
+: 1692517688:0;c
+: 1692551232:0;sudo pacman -Syu
+: 1692551402:0;paru -Syu
+: 1692551436:0;c
+: 1692552904:0;z hypr
+: 1692552906:0;vim keybinds.conf
+: 1692552959:0;ll
+: 1692552961:0;vim env.conf
+: 1692553159:0;dconf-editor
+: 1692553231:0;c
+: 1692553238:0;ssh racknerd1
+: 1692553241:0;c
+: 1692553246:0;vim ~/.ssh/config
+: 1692553283:0;c
+: 1692553292:0;vim ~/.ssh/config
+: 1692553400:0;ssh racknerd1
+: 1692553406:0;vim ~/.ssh/config
+: 1692553416:0;ssh racknerd1
+: 1692553420:0;vim ~/.ssh/config
+: 1692553509:0;ncat
+: 1692553511:0;nc
+: 1692553516:0;sudo pacman -S nc
+: 1692553520:0;sudo pacman -S ncat
+: 1692553560:0;sudo pacman -S netcat
+: 1692553641:0;c
+: 1692553644:0;ssh racknerd1
+: 1692553649:0;vim ~/.ssh/config
+: 1692553671:0;nc 
+: 1692553678:0;nc --help
+: 1692553746:0;ssh racknerd1
+: 1692553751:0;nc --help
+: 1692553753:0;vim ~/.ssh/config
+: 1692553763:0;ssh racknerd1
+: 1692553771:0;vim ~/.ssh/config
+: 1692553792:0;ssh racknerd1
+: 1692553834:0;ssh racknerd1:5997
+: 1692553842:0;ssh -p 5997 racknerd1
+: 1692553874:0;ssh -p 5997 root@172.245.126.160
+: 1692554072:0;c
+: 1692554073:0;vim ~/.ssh/config
+: 1692554083:0;c
+: 1692554086:0;z rofi
+: 1692554089:0;z config
+: 1692554092:0;cd rofi
+: 1692554093:0;ll
+: 1692554097:0;c
+: 1692554098:0;ll
+: 1692554140:0;c
+: 1692554143:0;ssh -p 5997 root@172.245.126.160
+: 1692554221:0;c
+: 1692554443:0;lsmod | egrep "nvidia|nouveau"\
+
+: 1692555146:0;export QT_QPA_PLATFORMTHEME=gtk3
+: 1692555236:0;sudo pacman -S fcitx5-im
+: 1692555254:0;c
+: 1692555324:0;echo $QT_QPA_PLATFORMTHEME
+: 1692555325:0;c
+: 1692555451:0;echo $QT_WAYLAND_FORCE_DPI
+: 1692555514:0;echo $QT_AUTO_SCREEN_SCALE_FACTOR
+: 1692555514:0;c
+: 1692555588:0;export QT_WAYLAND_FORCE_DPI=144
+: 1692555848:0;export QT_AUTO_SCREEN_SCALE_FACTOR=1
+: 1692555849:0;export QT_AUTO_SCREEN_SCALE_FACTOR=0
+: 1692555856:0;export QT_ENABLE_HIGHDPI_SCALING=0
+: 1692556095:0;sudo pacman -S obs
+: 1692556102:0;sudo pacman -S obs-studio
+: 1692556107:0;c
+: 1692556232:0;z config
+: 1692556233:0;mkdir environment.d
+: 1692556236:0;cd environment.d
+: 1692556245:0;vim env.conf
+: 1692556324:0;export QT_FONT_DPI=144
+: 1692560346:0;sudo shutdown -h 60
+: 1692560351:0;c
+: 1692590471:0;sudo pacman -Syu
+: 1692590626:0;paru -Syu
+: 1692590637:0;c
+: 1692604029:0;z hypr
+: 1692604031:0;vim windowrule.conf
+: 1692604306:0;grep steam windowrule.conf
+: 1692604325:0;grep -i steam windowrule.conf
+: 1692604326:0;c
+: 1692604357:0;vim windowrule.conf
+: 1692604544:0;hyprctl clients
+: 1692604552:0;hyprctl clients | grep jop
+: 1692604564:0;hyprctl clients 
+: 1692604587:0;hyprctl clients | grep -i joplin
+: 1692604600:0;vim windowrule.conf
+: 1692604655:0;c
+: 1692604734:0;hyprctl clients | grep -ni joplin
+: 1692604742:0;hyprctl clients | grep -vni joplin
+: 1692604743:0;c
+: 1692605832:0;paru -S watt-toolkit-git 
+: 1692605929:0;curl https://www.nightmare-mio.cn/
+: 1692605932:0;c
+: 1692605961:0;curl https://www.nightmare-mio.cn/
+: 1692605978:0;curl https://www.nightmare-mio.cn:80
+: 1692605981:0;curl https://www.nightmare-mio.cn
+: 1692605982:0;c
+: 1692606666:0;paru -S watt-toolkit-bin
+: 1692606691:0;c
+: 1692607059:0;ll
+: 1692607063:0;z code
+: 1692607064:0;c
+: 1692607065:0;ll
+: 1692607068:0;cd ../mycode
+: 1692607068:0;ll
+: 1692607073:0;vim config.jsonc
+: 1692607263:0;curl https://www.nightmare-mio.cn
+: 1692607740:0;c
+: 1692607741:0;ll
+: 1692610811:0;cd ../pullcode
+: 1692610814:0;git clone https://github.com/QNetITQ/WaveFox.git
+: 1692610861:0;ll
+: 1692610865:0;cd Wave
+: 1692610866:0;cd WaveFox
+: 1692610867:0;ll
+: 1692610875:0;cp -r chrome  /home/sinclair/.mozilla/firefox/v742ijwz.default-release
+: 1692610877:0;ll
+: 1692616404:0;c
+: 1692617358:0;sudo pacman -Ss docker
+: 1692617365:0;c
+: 1692617417:0;~
+: 1692617417:0;c
+: 1692617421:0;sudo pacman -S docker
+: 1692617426:0;c
+: 1692617428:0;docker ps
+: 1692617455:0;systemctl start docker.service
+: 1692617463:0;systemctl status docker.service
+: 1692617465:0;c
+: 1692617467:0;docker ps
+: 1692617487:0;sudo gpasswd -a $USER docker
+: 1692617488:0;c
+: 1692617504:0;sudo systemctl enable docker.service
+: 1692617505:0;c
+: 1692617517:0;docker info
+: 1692617538:0;docker info | head
+: 1692617546:0;sudo docker info | head
+: 1692617570:0;c
+: 1692617722:0;docker ps -a
+: 1692617723:0;c
+: 1692617773:0;ssh root@192.168.1.50
+: 1692617904:0;kitty +kitten ssh root@192.168.1.50
+: 1692617921:0;kitty +kitten ssh racknerd1
+: 1692617923:0;kitty +kitten ssh racknerd2
+: 1692617925:0;kitty +kitten ssh racknerd3
+: 1692618064:0;vim ~/.zshrc
+: 1692618091:0;source ~/.zshrc
+: 1692618092:0;c
+: 1692618094:0;ssh root@192.168.1.50
+: 1692618098:0;c
+: 1692618109:0;ssh racknerd1
+: 1692618115:0;vim ~/.ssh/config
+: 1692618354:0;ssh racknerd1
+: 1692618359:0;c
+: 1692618361:0;exit
+: 1692618504:0;ll ~/.ssh
+: 1692618505:0;c
+: 1692618506:0;exit
+: 1692618656:0;ssh-keygen
+: 1692618664:0;c
+: 1692618676:0;cat ~/.ssh/id_rsa.pub
+: 1692618680:0;c
+: 1692618682:0;ll
+: 1692618893:0;ssh-copy-id -i ~/.ssh/id_rsa.pub racknerd1
+: 1692618920:0;vim ~/.ssh/config
+: 1692618930:0;ssh-copy-id -i ~/.ssh/id_rsa.pub root@172.245.126.160
+: 1692618943:0;ssh-copy-id -i ~/.ssh/id_rsa.pub -p 5997 root@172.245.126.160
+: 1692618967:0;c
+: 1692618970:0;ssh racknerd1
+: 1692619039:0;c
+: 1692619046:0;ssh racknerd3
+: 1692619053:0;c
+: 1692619076:0;ssh racknerd1
+: 1692619083:0;ssh racknerd2
+: 1692619097:0;ssh racknerd
+: 1692619099:0;ssh racknerd2
+: 1692619106:0;c
+: 1692619117:0;ssh-copy-id -i ~/.ssh/id_rsa.pub -p 5997 root@172.245.126.160
+: 1692619136:0;ll
+: 1692619143:0;ssh -p 5997 root@172.245.126.160
+: 1692619152:0;c
+: 1692619153:0;ll
+: 1692619154:0;c
+: 1692619162:0;ssh racknerd1
+: 1692619189:0;ssh-copy-id -i ~/.ssh/id_rsa.pub root@107.174.218.101
+: 1692619199:0;ssh-copy-id -i ~/.ssh/id_rsa.pub -p 5997 root@107.174.218.101
+: 1692619216:0;c
+: 1692619219:0;ssh root@107.174.218.101
+: 1692619223:0;ssh -p 5997 root@107.174.218.101
+: 1692619234:0;c
+: 1692619254:0;ssh-copy-id -i ~/.ssh/id_rsa.pub root@124.221.218.196
+: 1692619258:0;c
+: 1692619260:0;exit
+: 1692619304:0;ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.1.50
+: 1692619308:0;clear
+: 1692619309:0;pwd
+: 1692619310:0;c
+: 1692619332:0;ll
+: 1692619335:0;ssh racknerd1
+: 1692619336:0;c
+: 1692619340:0;ssh racknerd3
+: 1692619342:0;c
+: 1692619345:0;ssh racknerd3
+: 1692619354:0;c
+: 1692619356:0;vim ~/.ssh/config
+: 1692619364:0;ssh racknerd3
+: 1692619365:0;c
+: 1692619378:0;ssh racknerd3
+: 1692619382:0;ssh 50\ 
+: 1692619383:0;ssh 50
+: 1692619388:0;ssh txy
+: 1692619441:0;docker pull mysql
+: 1692619485:0;c
+: 1692619488:0;docker images
+: 1692619540:0;c
+: 1692619551:0;ssh 50
+: 1692619883:0;vim ~/.zshrc
+: 1692622976:0;c
+: 1692622977:0;ip addr
+: 1692624480:0;ping ff02::1%eth0
+: 1692624494:0;ping ff02::1%enp8s0f1
+: 1692624500:0;c
+: 1692624505:0;ip -6 neigh
+: 1692626264:0;ip addr
+: 1692627814:0;systemctl status iptables
+: 1692627829:0;iptables -nvL
+: 1692627834:0;sudo iptables -nvL
+: 1692627899:0;ip addr
+: 1692628106:0;c
+: 1692628150:0;ip config
+: 1692628152:0;ipconfig
+: 1692628155:0;ifconfig
+: 1692628166:0;sudo pacman -S ifconfig
+: 1692628174:0;sudo pacman -S nettools
+: 1692628177:0;sudo pacman -S net-tools
+: 1692628181:0;ifconfig
+: 1692628244:0;ping6 ipv6.scau.edu.cnping6 ipv6.scau.edu.cn
+: 1692628246:0;ping6 ipv6.scau.edu.cn
+: 1692628253:0;ping6
+: 1692628298:0;ping -6 ipv6.scau.edu.cn
+: 1692628347:0;ping 2001:19f0:5:2ce9:5400:03ff:fe12:9809
+: 1692628385:0;ping -6 ipv6.scau.edu.cn
+: 1692628395:0;ping ipv6.scau.edu.cn
+: 1692628467:0;systemctl enable iptables.service
+: 1692628476:0;sudo systemctl start iptables.service
+: 1692628477:0;c
+: 1692628481:0;sudo systemctl status iptables.service
+: 1692628623:0;iptables -A INPUT -p ipv6-icmp -j ACCEPT
+: 1692628628:0;sudo iptables -A INPUT -p ipv6-icmp -j ACCEPT
+: 1692628629:0;c
+: 1692628637:0;sudo iptables -nvL
+: 1692628654:0;sudo iptables -nvL --line-numbers
+: 1692628667:0;sudo iptables -A INPUT -p ipv6-icmp -j ACCEPT
+: 1692628712:0;curl 6.ipw.cn
+: 1692628718:0;curl test.ipw.cn
+: 1692628848:0;ifconfig
+: 1692629481:0;ip addr
+: 1692636808:0;ssh linzx6@192.168.1.60
+: 1692636812:0;ssh -p 5997 linzx6@192.168.1.60
+: 1692636825:0;c
+: 1692636829:0;ssh 50
+: 1692637433:0;ssh -p 5997 linzx6@192.168.1.60
+: 1692643339:0;sudo shutdown -h 60
+: 1692643343:0;c
+: 1692677039:0;sudo pacman -Syu
+: 1692677141:0;paru -Syu
+: 1692677992:0;c
+: 1692690212:0;sudo pacman -Syu
+: 1692690221:0;c
+: 1692694211:0;nvidia-smi
+: 1692694212:0;c
+: 1692698078:0;neofetch
+: 1692698155:0;hyprctl clients 
+: 1692698180:0;hyprctl clients | grep -vni xdg-desktop
+: 1692698188:0;hyprctl clients | grep -ni xdg-desktop
+: 1692698191:0;c
+: 1692698192:0;hyprctl clients | grep -ni xdg-desktop
+: 1692698205:0;vainfo
+: 1692698221:0;sudo pacman -S  	libva-utils
+: 1692698744:0;vainfo
+: 1692702144:0;nvidia-smi
+: 1692707539:0;sudo pacman -S element-desktop
+: 1692707896:0;c
+: 1692719098:0;sudo pacman -S watt-toolkit-bin
+: 1692719105:0;paru -S watt-toolkit-bin
+: 1692719162:0;paru -S watt-toolkit-git 
+: 1692723288:0;sudo shutdown -h 3:00
+: 1692723294:0;c
+: 1692759755:0;sudo pacman -Syu
+: 1692759773:0;paru -Syu
+: 1692803922:0;ifconfig
+: 1692804341:0;curl 6.ipw.cn
+: 1692804351:0;curl 4.ipw.cn
+: 1692804356:0;curl test.ipw.cn
+: 1692804597:0;ip a
+: 1692804612:0;ping ff02::1%enp8s0f1
+: 1692804929:0;c
+: 1692804932:0;ip a
+: 1692805006:0;c
+: 1692805013:0;ip a | grep ipv6
+: 1692805016:0;ip a
+: 1692805025:0;ip a | grep enp8s0f1
+: 1692805036:0;ip a | grep inet6
+: 1692805037:0;c
+: 1692805038:0;ip a | grep inet6
+: 1692805197:0;ping fe80::10
+: 1692805265:0;c
+: 1692805278:0;ping fe80::6805:dff:fe77:ced7
+: 1692805507:0;ip a
+: 1692805516:0;ping fe80::6805:dff:fe77:ced7%enp8s0f1
+: 1692805554:0;ping 2409:8a1e:ad82:4b61:91c1:bc8c:3c0e:cdac%enp8s0f1
+: 1692805677:0;ping 2409:8a1e:ad82:4b60:d183:f680:4fcc:3dbc%enp8s0f1
+: 1692805686:0;ping 2409:8a1e:ad82:4b60:d183:f680:4fcc:3dbc
+: 1692805904:0;curl 2409:8a1e:ad82:4b60:d183:f680:4fcc:3dbc
+: 1692805945:0;c
+: 1692805949:0;ping 2400:3200:baba::1
+: 1692805974:0;curl 2400:3200:baba::1
+: 1692805976:0;curl 2400:3200:baba::1:53
+: 1692805987:0;curl [2400:3200:baba::1]:53
+: 1692805994:0;c
+: 1692805995:0;curl -v www.taobao.com
+: 1692807737:0;curl test.ipw.cn
+: 1692807739:0;c
+: 1692808028:0;curl test.ipw.cn
+: 1692808033:0;curl 6.ipw.cn
+: 1692808490:0;ip -6 a
+: 1692808493:0;ip a
+: 1692808739:0;ip -6 a
+: 1692808999:0;c
+: 1692809020:0;curl 6.ipw.cn
+: 1692810595:0;ping fdcc:9b76:6ac3::1%enp8s0f1
+: 1692810598:0;c
+: 1692810614:0;ping fdcc:9b76:6ac3::1
+: 1692816308:0;c
+: 1692816316:0;sudo shutdown -h 4:00
+: 1692847786:0;sudo pacman -Syu
+: 1692847955:0;x
+: 1692847957:0;c
+: 1692847960:0;paru -Syu\ 
+: 1692847961:0;paru -Syu
+: 1692848006:0;c
+: 1692849502:0;nslookup www.baidu.com
+: 1692849542:0;ssh root@192.168.1.55
+: 1692849781:0;curl test.ipw.cn\
+
+: 1692849782:0;c
+: 1692850173:0;ssh racknerd3
+: 1692850213:0;vim ~/.ssh/config
+: 1692850221:0;c
+: 1692850224:0;ssh racknerd3
+: 1692850229:0;ll ~/.ssh
+: 1692850240:0;vim ~/.ssh/known_hosts
+: 1692850251:0;ssh racknerd3
+: 1692850294:0;rm ~/.ssh/known_hosts
+: 1692850296:0;rm ~/.ssh/known_hosts.old
+: 1692850298:0;ssh racknerd3
+: 1692850299:0;c
+: 1692850331:0;chmod 600 ~/.ssh
+: 1692850340:0;chmod 600 ~/.ssh/id_rsa
+: 1692850343:0;c
+: 1692850345:0;ll
+: 1692850346:0;c
+: 1692850348:0;ssh racknerd3
+: 1692850351:0;c
+: 1692850355:0;ll ~/.ssh
+: 1692850361:0;c
+: 1692850366:0;sudo ll ~/.ssh
+: 1692850372:0;sudo ls ~/.ssh
+: 1692850374:0;c
+: 1692850379:0;sudo ls -l ~/.ssh
+: 1692850408:0;sudo chmod 777 ~/.ssh
+: 1692850411:0;ll ~/.ssh
+: 1692850415:0;c
+: 1692850416:0;ssh racknerd3
+: 1692850444:0;vim ~/.ssh/known_hosts
+: 1692850452:0;vim ~/.ssh/config
+: 1692850464:0;ssh racknerd3
+: 1692850467:0;ssh 50
+: 1692850476:0;c
+: 1692850477:0;ll
+: 1692850480:0;vim ~/.ssh/config
+: 1692850495:0;c
+: 1692850497:0;vim ~/.ssh/config
+: 1692850531:0;ssh -p 5997 root@192.210.136.203
+: 1692850562:0;vim ~/.ssh/id_rsa.pub
+: 1692850569:0;ll
+: 1692850578:0;ssh -p 5997 root@192.210.136.203
+: 1692850646:0;cat ~/.ssh/id_rsa.pub
+: 1692850679:0;c
+: 1692850683:0;ssh racknerd3
+: 1692850685:0;ssh -v racknerd3
+: 1692850732:0;c
+: 1692850774:0;vim ~/.ssh/config
+: 1692850795:0;ssh -v racknerd3
+: 1692850800:0;vim ~/.ssh/config
+: 1692850810:0;ssh -v racknerd3
+: 1692850812:0;c
+: 1692850813:0;ssh -v racknerd3
+: 1692850864:0;ssh -p 5997 root@192.210.136.203  -o "ProxyCommand=nc -X 5 -x 127.0.0.1:7890 %h %p"\
+
+: 1692850876:0;ssh -p 5997 root@192.210.136.203  -o "ProxyCommand=nc -X 5 -x 192.168.1.55:7893 %h %p"\
+
+: 1692850879:0;ssh -p 5997 root@192.210.136.203  -o "ProxyCommand=nc -X 5 -x 192.168.1.55:7893 %h %p" -v\
+
+: 1692850887:0;ssh -p 5997 root@192.210.136.203  -o "ProxyCommand=nc -x 192.168.1.55:7893 %h %p" -v\
+
+: 1692850893:0;c
+: 1692851037:0;sudo pacman -S openbsd-netcat
+: 1692851047:0;c
+: 1692851054:0;vim ~/.ssh/config
+: 1692851063:0;ssh racknerd3
+: 1692851089:0;c
+: 1692851092:0;vim ~/.ssh/config
+: 1692851102:0;ssh racknerd3
+: 1692851760:0;z code
+: 1692851762:0;c
+: 1692851828:0;ssh racknerd3
+: 1692852381:0;vim ~/.ssh/config
+: 1692852388:0;ssh racknerd3
+: 1692862744:0;curl test.ipw.cn\
+
+: 1692862746:0;c
+: 1692864951:0;paru -S icalingua++-bin
+: 1692865703:0;c
+: 1692866560:0;paru -S icalingua++-bin
+: 1692866711:0;c
+: 1692867079:0;ssh 50
+: 1692868203:0;paru -Rns wechat-uos
+: 1692868234:0;c
+: 1692868405:0;paru -S com.qq.weixin.spark 
+: 1692868617:0;c
+: 1692868659:0;paru -Rns com.qq.weixin.spark 
+: 1692868747:0;hyprctl clients 
+: 1692868764:0;z hypr
+: 1692868766:0;vim windowrule.conf
+: 1692868875:0;hyprctl clients 
+: 1692869090:0;vim windowrule.conf
+: 1692869135:0;z down
+: 1692869135:0;c
+: 1692869138:0;sudo pacman -U deepin-wine-wechat-3.8.1.26-1-x86_64.pkg.tar.zst
+: 1692869167:0;sudo pacman -Rns deepin-wine6-stable
+: 1692869170:0;sudo pacman -S deepin-wine6-stable
+: 1692869183:0;paru -S deepin-wine6-stable
+: 1692869289:0;sudo pacman -S deepin-wine6-stable
+: 1692869292:0;sudo pacman -U deepin-wine-wechat-3.8.1.26-1-x86_64.pkg.tar.zst
+: 1692875859:0;c
+: 1692875940:0;sudo -E vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1692875954:0;c
+: 1692876002:0;/opt/apps/com.qq.weixin.deepin/files/run.sh winecfg
+: 1692876149:0;hyprctl clients 
+: 1692876209:0;sudo pacman -S lib32-freetype2
+: 1692876214:0;sudo pacman -Rns deepin-wine xsettingsd
+: 1692876219:0;sudo pacman -Rns deepin-wine5
+: 1692876224:0;sudo pacman -Rns wine wine-mono wine-gecko
+: 1692876230:0;sudo pacman -Rns deepin-wine-wechat
+: 1692878109:0;paru -S deepin-wine-wechat
+: 1692879237:0;c
+: 1692879239:0;~
+: 1692879240:0;ll
+: 1692879248:0;mkdir -p ~/.wine
+: 1692879250:0;cd .wine
+: 1692879251:0;c
+: 1692879268:0;mkdir DoChat
+: 1692879270:0;cd DoChat
+: 1692879270:0;c
+: 1692879271:0;ll
+: 1692879284:0;vim dochat.sh
+: 1692879639:0;ll
+: 1692879802:0;c
+: 1692879805:0;ll
+: 1692879814:0;mv dochat.sh ~/.script
+: 1692879818:0;~
+: 1692879822:0;rm -r .wine
+: 1692879822:0;c
+: 1692879885:0;ll
+: 1692879900:0;vim wechat.desktop
+: 1692880395:0;mkdir .icons
+: 1692880414:0;mv ~/Downloads/å¾®ä¿ƒ_\ åºƒ´çƒ´¨ç¨ƒ«åºƒ¯_\ èƒªå¤©_\ å¸‚åƒ¼ºèƒ°¥éƒ´€_\ åªƒ²ä½ƒ³_\ ç¤¾äº¤çƒºƒ¤_\ ç½ƒ±_çƒ¨±ç»ƒ¹ç½ƒ±_aigei_com.png ~/.icons/wechat.png
+: 1692880414:0;c
+: 1692880466:0;z scr
+: 1692880467:0;c
+: 1692880468:0;ll
+: 1692880477:0;chmod +x dochat.sh
+: 1692880481:0;doch
+: 1692880486:0;./dochat.sh
+: 1692882442:0;c
+: 1692882445:0;z pull
+: 1692882445:0;c
+: 1692882446:0;ll
+: 1692882449:0;rm -rf dotfiles
+: 1692882453:0;git cloen https://github.com/thenicebro/dotfiles.git
+: 1692882456:0;git clone https://github.com/thenicebro/dotfiles.git
+: 1692882476:0;c
+: 1692882477:0;ll
+: 1692882479:0;cd dotfiles
+: 1692882479:0;c
+: 1692882480:0;ll
+: 1692882510:0;c
+: 1692882954:0;ll
+: 1692883076:0;rm -rf ~/.config/waybar.bak
+: 1692883080:0;rm -rf ~/.config/waybar.bak1
+: 1692883083:0;rm -rf ~/.config/waybar.bak2
+: 1692883083:0;c
+: 1692883090:0;mv ~/.config/waybar ~/.config/waybar.bak
+: 1692883091:0;c
+: 1692883103:0;mv waybar ~/.config/
+: 1692883109:0;c
+: 1692883112:0;waybar
+: 1692883165:0;c
+: 1692883166:0;ll
+: 1692883183:0;cp -r ~/.config/waybar ./
+: 1692883184:0;ll
+: 1692883185:0;c
+: 1692883227:0;cd waybar
+: 1692883227:0;c
+: 1692883228:0;ll
+: 1692883244:0;vim scripts/mediaplayer.sh
+: 1692883267:0;playerctl
+: 1692883271:0;playerctl status
+: 1692883273:0;c
+: 1692883278:0;playerctl status
+: 1692883321:0;playerctl metadata --foremat "{{artist}}"
+: 1692883326:0;playerctl metadata --format "{{artist}}"
+: 1692883328:0;c
+: 1692883371:0;playerctl metadata --format "{{ playerName }}"
+: 1692883449:0;waybar
+: 1692883470:0;ll
+: 1692883486:0;bash waybar.sh
+: 1692883502:0;vim waybar.sh
+: 1692883516:0;bash waybar.sh
+: 1692883528:0;c
+: 1692883529:0;ll
+: 1692883535:0;c
+: 1692883542:0;z dot
+: 1692883543:0;c
+: 1692883545:0;ll
+: 1692883551:0;vim waybar.sh
+: 1692883657:0;waybar --help
+: 1692883670:0;waybar -s
+: 1692883721:0;bash waybar.sh
+: 1692883794:0;c
+: 1692883805:0;ll
+: 1692883810:0;vim modules
+: 1692884036:0;vim config
+: 1692884055:0;vim modules
+: 1692884063:0;ip a
+: 1692884125:0;c
+: 1692884126:0;ll
+: 1692884128:0;vim config
+: 1692884150:0;c
+: 1692884151:0;ll
+: 1692884169:0;vim scripts/powermenu.sh
+: 1692884296:0;c
+: 1692884297:0;ll
+: 1692884299:0;c
+: 1692884301:0;z scri
+: 1692884301:0;c
+: 1692884302:0;ll
+: 1692884314:0;vim rofi_powermenu.sh
+: 1692884324:0;vim rofi_powermenu
+: 1692884332:0;vim rofi-powermenu
+: 1692884656:0;c
+: 1692884660:0;ll
+: 1692884663:0;cd scripts
+: 1692884664:0;ll
+: 1692884670:0;cd ..
+: 1692884671:0;c
+: 1692884671:0;ll
+: 1692884675:0;cd scripts
+: 1692884688:0;cp powermenu.sh ~/.config/waybar/scripts
+: 1692884689:0;c
+: 1692884690:0;ll
+: 1692884695:0;vim cava.sh
+: 1692884720:0;cave
+: 1692884721:0;c
+: 1692884790:0;paru -Ss cava
+: 1692884805:0;paru -S cava
+: 1692884810:0;c
+: 1692884820:0;ll
+: 1692884824:0;vim waybar-restart.sh
+: 1692884871:0;paru swww
+: 1692884948:0;c
+: 1692884950:0;swww init
+: 1692884953:0;c
+: 1692884975:0;vim waybar-restart.sh
+: 1692884998:0;ll
+: 1692885002:0;vim waybar-restart.sh
+: 1692885027:0;bash waybar-restart.sh
+: 1692885032:0;vim waybar-restart.sh
+: 1692885107:0;bash waybar-restart.sh
+: 1692885130:0;c
+: 1692885184:0;bash waybar-restart.sh &
+: 1692885186:0;c
+: 1692885187:0;ll
+: 1692885188:0;c
+: 1692885198:0;vim ~/.zshrc
+: 1692885243:0;source ~/.zshrc
+: 1692885245:0;waybar
+: 1692885251:0;vim ~/.zshrc
+: 1692885259:0;source ~/.zshrc
+: 1692885335:0;waybar
+: 1692885337:0;c
+: 1692885338:0;ll
+: 1692885376:0;vim cava.sh
+: 1692885384:0;cd ..
+: 1692885385:0;ll
+: 1692885390:0;vim config
+: 1692885433:0;startw
+: 1692885436:0;waybar
+: 1692885439:0;clear
+: 1692885446:0;reboot
+: 1692885561:0;ll
+: 1692885563:0;z way
+: 1692885564:0;ll
+: 1692885565:0;c
+: 1692885569:0;z /home/sinclair/.config/waybar
+: 1692885570:0;c
+: 1692885571:0;ll
+: 1692885572:0;vim config
+: 1692885584:0;ll
+: 1692885591:0;z way
+: 1692885597:0;cd ../waybar.bak
+: 1692885600:0;ll
+: 1692885603:0;vim config.jsonc
+: 1692885643:0;c
+: 1692885644:0;waybar
+: 1692885646:0;c
+: 1692885648:0;ll
+: 1692885670:0;mv config config.jsonc
+: 1692885671:0;ll
+: 1692885673:0;vim config.jsonc
+: 1692885684:0;vim modules
+: 1692885693:0;ip a
+: 1692885759:0;c
+: 1692885761:0;ll
+: 1692885764:0;cd ../waybar
+: 1692885765:0;ll
+: 1692885768:0;vim scripts/powermenu.sh
+: 1692885847:0;c
+: 1692885848:0;reboot
+: 1692885967:0;ll
+: 1692885972:0;z way
+: 1692885972:0;c
+: 1692885973:0;ll
+: 1692885977:0;vim modules
+: 1692886072:0;ll
+: 1692886074:0;vim config.jsonc
+: 1692886092:0;ll
+: 1692886096:0;vim scripts/cava.sh
+: 1692886113:0;bash scripts/cava.sh
+: 1692886133:0;sudo modprobe snd_aloop
+: 1692886137:0;bash scripts/cava.sh
+: 1692886139:0;c
+: 1692886142:0;ll
+: 1692886218:0;c
+: 1692886219:0;ll
+: 1692886222:0;waybar
+: 1692886224:0;c
+: 1692886228:0;ll
+: 1692886239:0;vim scripts/powermenu.sh
+: 1692886245:0;z way
+: 1692886247:0;cd ../waybar
+: 1692886250:0;cd ../waybar.bak
+: 1692886251:0;ll
+: 1692886255:0;vim config.jsonc
+: 1692886258:0;z scr
+: 1692886258:0;ll
+: 1692886266:0;vim rofi-powermenu
+: 1692886396:0;reboot
+: 1692886513:0;nvtop
+: 1692886527:0;c
+: 1692886536:0;z way
+: 1692886537:0;ll
+: 1692886546:0;vim modules
+: 1692886571:0;waybar
+: 1692886576:0;c
+: 1692886577:0;ll
+: 1692886582:0;vim scripts/cava.sh
+: 1692886589:0;bash scripts/cava.sh
+: 1692886660:0;sudo pacman -S base-devel fftw ncurses alsa-lib iniparser pulseaudio autoconf-archive pkgconf
+: 1692886782:0;cava
+: 1692886784:0;c
+: 1692886786:0;bash scripts/cava.sh
+: 1692886788:0;c
+: 1692886870:0;bash scripts/cava.sh
+: 1692887731:0;c
+: 1692887943:0;vim $HOME/.config/cava/config
+: 1692887956:0;ll
+: 1692887961:0;z dot
+: 1692887962:0;ll
+: 1692887981:0;cp -r cava ~/.config/
+: 1692887984:0;z cava
+: 1692887987:0;z con
+: 1692887990:0;z cava
+: 1692887992:0;z con
+: 1692887995:0;cd cava
+: 1692887996:0;ll
+: 1692888001:0;c
+: 1692888003:0;cava
+: 1692888005:0;c
+: 1692888006:0;ll
+: 1692888016:0;cd ..
+: 1692888019:0;rm -rf cava
+: 1692888023:0;z dot
+: 1692888026:0;cp -r cava ~/.config/
+: 1692888027:0;cava
+: 1692888033:0;sudo modprobe snd_aloop
+: 1692888039:0;cava
+: 1692888043:0;waybar
+: 1692888045:0;c
+: 1692888064:0;cd ../waybar.bak..
+: 1692888066:0;cd ..
+: 1692888078:0;mv waybar waybar.bak1
+: 1692888087:0;mv waybar.bak waybar
+: 1692888087:0;c
+: 1692888088:0;ll
+: 1692888089:0;waybar
+: 1692888095:0;c
+: 1692888096:0;ll
+: 1692888100:0;cd waybar.bak1
+: 1692888100:0;c
+: 1692888101:0;ll
+: 1692888111:0;cp scripts/waybar-restart.sh ~/.script
+: 1692888112:0;c
+: 1692888116:0;vim ~/.zshrc
+: 1692888131:0;source ~/.zshrc
+: 1692888134:0;waybar
+: 1692888145:0;ll ~/.script
+: 1692888148:0;vim ~/.zshrc
+: 1692888153:0;source ~/.zshrc
+: 1692888154:0;waybar
+: 1692888160:0;c
+: 1692888166:0;waybar
+: 1692888173:0;source ~/.zshrc
+: 1692888177:0;vim ~/.zshrc
+: 1692888181:0;c
+: 1692888706:0;nvidia-smi
+: 1692889936:0;c
+: 1692889938:0;nvidia-smi
+: 1692889942:0;c
+: 1692889943:0;nvtop
+: 1692891079:0;c
+: 1692891081:0;z my
+: 1692891082:0;c
+: 1692891082:0;ll
+: 1692891085:0;git clone https://github.com/SinclairLin/dotfiles.git
+: 1692891129:0;cd dotfiles
+: 1692891130:0;c
+: 1692891131:0;ll
+: 1692891135:0;cd config
+: 1692891135:0;c
+: 1692891136:0;ll
+: 1692891139:0;cd omz
+: 1692891139:0;c
+: 1692891140:0;ll
+: 1692891145:0;rm README.md
+: 1692891146:0;c
+: 1692891147:0;ll
+: 1692891183:0;rm -r screenshots
+: 1692891378:0;ll
+: 1692891380:0;vim omz.zsh
+: 1692891401:0;c
+: 1692891402:0;ll
+: 1692891452:0;z dot
+: 1692891457:0;z /home/sinclair/workspace/mycode/dotfiles
+: 1692891457:0;c
+: 1692891458:0;ll
+: 1692891462:0;vim README.md
+: 1692891648:0;z nvim
+: 1692891650:0;ll
+: 1692891660:0;vim lua/pack/markdown.lua
+: 1692891690:0;cd ~/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim/app && yarn
+: 1692891716:0;c
+: 1692891717:0;ll
+: 1692891727:0;z omz
+: 1692891728:0;c
+: 1692891729:0;z dot
+: 1692891732:0;z /home/sinclair/workspace/mycode/dotfiles
+: 1692891733:0;c
+: 1692891733:0;ll
+: 1692891737:0;vim README.md
+: 1692891909:0;ll
+: 1692891910:0;c
+: 1692891922:0;z hypr
+: 1692891932:0;sudo pacman -S tree
+: 1692891936:0;c
+: 1692891937:0;tree
+: 1692892145:0;z way
+: 1692892145:0;c
+: 1692892146:0;ll
+: 1692892312:0;z nvim
+: 1692892313:0;c
+: 1692892314:0;ll
+: 1692892317:0;vim lua/pack/markdown.lua
+: 1692892430:0;cd ~/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim/app && yarn
+: 1692892435:0;c
+: 1692892448:0;z nvim
+: 1692892449:0;vim lua/pack/markdown.lua
+: 1692892466:0;cd ~/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim/app && yarn
+: 1692892477:0;vim README.md
+: 1692892721:0;sudo pacman -S wyeb
+: 1692892777:0;paru -S wyeb-git
+: 1692892804:0;c
+: 1692892813:0;z nvim
+: 1692892816:0;vim lua/pack/markdown.lua
+: 1692892822:0;cd ~/.local/share/nvim/site/pack/packer/opt/markdown-preview.nvim/app && yarn
+: 1692892823:0;c
+: 1692892828:0;z dot
+: 1692892830:0;z /home/sinclair/workspace/mycode/dotfiles
+: 1692892831:0;c
+: 1692892831:0;ll
+: 1692892834:0;vim README.md
+: 1692892865:0;c
+: 1692892973:0;~
+: 1692892973:0;c
+: 1692893285:0;hyprctl clients 
+: 1692893320:0;c
+: 1692936064:0;docker images
+: 1692936064:0;c
+: 1692936066:0;ll
+: 1692936067:0;docker ps
+: 1692936069:0;c
+: 1692936081:0;bash ~/.script/dochat.sh
+: 1692941633:0;sudo pacman -Syu
+: 1692941904:0;c
+: 1692941909:0;bash ~/.script/dochat.sh
+: 1692941918:0;c
+: 1692941919:0;bash ~/.script/dochat.sh
+: 1692942157:0;curl test.ipw.cn\
+
+: 1692942159:0;c
+: 1692944239:0;paru -S mpv-handler
+: 1692944338:0;c
+: 1692944380:0;bash ~/.script/dochat.sh
+: 1692944382:0;c
+: 1692944389:0;docker images
+: 1692944391:0;c
+: 1692944442:0;echo $XDG_SESSION_TYPE\
+
+: 1692944443:0;c
+: 1692944452:0;yay -S binder_linux-dkms\
+
+: 1692944460:0;paru -S binder_linux-dkms
+: 1692944487:0;cava
+: 1692944504:0;ll /etc/modules-load.d
+: 1692944506:0;ll /etc/modules-load.d/
+: 1692944520:0;echo "binder_linux" >> /etc/modules-load.d/binder.conf\
+
+: 1692944523:0;sudo echo "binder_linux" >> /etc/modules-load.d/binder.conf\
+
+: 1692944526:0;echo "binder_linux" >> /etc/modules-load.d/binder.conf\
+
+: 1692944528:0;su 
+: 1692944557:0;c
+: 1692944561:0;	\
+\
+sudo modprobe binder_linux\
+
+: 1692944566:0;c
+: 1692944576:0;paru -S binder_linux-dkms
+: 1692944592:0;sudo modprobe binder_linux
+: 1692944610:0;paru -S waydroid
+: 1692944614:0;c
+: 1692944720:0;	\
+\
+sudo waydroid init -s GAPPS -f\
+
+: 1692944793:0;c
+: 1692944809:0;sudo systemctl start waydroid-container
+: 1692944816:0;sudo systemctl enable waydroid-container
+: 1692944839:0;waydroid show-full-ui
+: 1692944849:0;c
+: 1692944902:0;sudoedit vim /var/lib/waydroid/waydroid_base.prop
+: 1692944951:0;sudo systemctl restart waydroid-container
+: 1692944952:0;c
+: 1692944956:0;waydroid show-full-ui
+: 1692944957:0;c
+: 1692944978:0;sudo modprobe binder_linux
+: 1692944980:0;c
+: 1692947687:0;cava
+: 1692947690:0;c
+: 1692947699:0;cava
+: 1692947702:0;c
+: 1692947850:0;waydroid session stop
+: 1692947855:0;sudo systemctl stop waydroid-container
+: 1692947864:0;c
+: 1692947869:0;paru -Rsn waydroid
+: 1692947876:0;sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
+: 1692947878:0;c
+: 1692948197:0;sudo vim /etc/environment
+: 1692948212:0;c
+: 1692949545:0;paru -Qs "telegram"
+: 1692950169:0;	\
+\
+xdg-mime default mpv-handler.desktop x-scheme-handler/mpv\
+
+: 1692950169:0;c
+: 1692951214:0;paru -Qs "mpv"
+: 1692951266:0;paru -Qls "mpv"
+: 1692951273:0;paru -Ql mpv
+: 1692951290:0;paru -Ql mpv | grep mpv
+: 1692951306:0;vim ~/.config/mpv-handler/config.toml
+: 1692951335:0;mkdir -p ~/.config/mpv-handler/
+: 1692951338:0;vim ~/.config/mpv-handler/config.toml
+: 1692951359:0;c
+: 1692951415:0;paru -S yt-dlp-git 
+: 1692951624:0;paru -S yt-dlp-drop-in 
+: 1692951650:0;c
+: 1692951685:0;hyprctl clients 
+: 1692951707:0;z hypr
+: 1692951709:0;vim windowrule.conf
+: 1692952034:0;c
+: 1692952778:0;	\
+\
+sudo pacman -R mpv
+: 1692952787:0;c
+: 1692952889:0;z pull
+: 1692952889:0;c
+: 1692952890:0;	\
+\
+git clone https://github.com/bloc97/Anime4K.git
+: 1692952958:0;c
+: 1692952962:0;cd Anime4K
+: 1692952967:0;mkdir ~/.config/mpv/shaders
+: 1692952976:0;find glsl -type f -exec cp "{}" ~/.config/mpv/shaders \;
+: 1692952977:0;ll
+: 1692952987:0;~/.config/mpv/mpv.conf
+: 1692952989:0;vim ~/.config/mpv/mpv.conf
+: 1692953010:0;vim ~/.config/mpv/input.conf
+: 1692953050:0;z hypr
+: 1692953050:0;c
+: 1692953051:0;ll
+: 1692953054:0;vim windowrule.conf
+: 1692953174:0;paru -S mpv-vapoursynth
+: 1692953322:0;c
+: 1692953324:0;	\
+\
+sudo pacman -S vapoursynth-plugin-mvtools\
+
+: 1692953326:0;c
+: 1692953335:0;cd ~/.config/mpv
+: 1692953340:0;wget https://gist.githubusercontent.com/phiresky/4bfcfbbd05b3c2ed8645/raw/d2431bc64b2cff0c80c5953bca71968dcdf82971/motioninterpolation.vpy
+: 1692953342:0;c
+: 1692953354:0;vim motioninterpolation.vpy
+: 1692953391:0;vim mpv.conf
+: 1692953403:0;vim input.conf
+: 1692953454:0;vim mpv.conf
+: 1692953489:0;c
+: 1692953680:0;ll
+: 1692953682:0;z down
+: 1692953683:0;c
+: 1692953683:0;ll
+: 1692953693:0;unzip embyToLocalPlayer.zip
+: 1692953694:0;ll
+: 1692953706:0;c
+: 1692953716:0;mkdir embyToLocalPlayer
+: 1692953725:0;mv embyToLocalPlayer.zip embyToLocalPlayer
+: 1692953728:0;cd embyToLocalPlayer
+: 1692953728:0;ll
+: 1692953731:0;unzip embyToLocalPlayer.zip
+: 1692953732:0;c
+: 1692953732:0;ll
+: 1692953734:0;cd ..
+: 1692953744:0;mv embyToLocalPlayer ~/.script
+: 1692953747:0;z scr
+: 1692953747:0;c
+: 1692953748:0;ll
+: 1692953750:0;cd embyToLocalPlayer
+: 1692953750:0;c
+: 1692953779:0;vim embyToLocalPlayer_config.ini
+: 1692953816:0;ll
+: 1692953827:0;vim emby_script_run.command
+: 1692953838:0;chmod +x emby_script_run.command
+: 1692953841:0;./emby_script_run.command
+: 1692953853:0;c
+: 1692953855:0;ll
+: 1692953863:0;z hypr
+: 1692953864:0;ll
+: 1692953868:0;vim startup.conf
+: 1692953898:0;z scr
+: 1692953900:0;ll
+: 1692953903:0;./emby_script_run.command
+: 1692953906:0;cd embyToLocalPlayer
+: 1692953908:0;./emby_script_run.command
+: 1692953950:0;nvidia-smi
+: 1692953959:0;c
+: 1692953960:0;ll
+: 1692953983:0;sudo cp /usr/share/applications/mpv.desktop ~/.local/share/applications
+: 1692953986:0;c
+: 1692953987:0;ll
+: 1692954074:0;vim ~/.local/share/applications/mpv.desktop
+: 1692954186:0;sudoedit vim ~/.local/share/applications/mpv.desktop
+: 1692954191:0;sudo vim ~/.local/share/applications/mpv.desktop
+: 1692954231:0;nvidia-smi
+: 1692954233:0;c
+: 1692954251:0;nvidia-smi
+: 1692954255:0;c
+: 1692954264:0;z scr
+: 1692954265:0;ll
+: 1692954267:0;cd embyToLocalPlayer
+: 1692954273:0;vim embyToLocalPlayer_config.ini
+: 1692954323:0;./emby_script_run.command
+: 1692954339:0;c
+: 1692954370:0;./emby_script_run.command
+: 1692954381:0;nvidia-smi
+: 1692954383:0;c
+: 1692954433:0;mpv
+: 1692954456:0;./emby_script_run.command
+: 1692954466:0;nvidia-smi
+: 1692954469:0;c
+: 1692954483:0;vim embyToLocalPlayer_config.ini
+: 1692954666:0;sudo vim ~/.local/share/applications/firefox.desktop
+: 1692954705:0;nvidia-smi
+: 1692954708:0;c
+: 1692954733:0;./emby_script_run.command
+: 1692954787:0;ll
+: 1692954793:0;vim embyToLocalPlayer.py
+: 1692954979:0;c
+: 1692954999:0;sudo vim ~/.local/share/applications/mpv.desktop
+: 1692955154:0;c
+: 1692958698:0;mpv --hwdec=auto-safe ~/Videos
+: 1692958723:0;nvidia-smi
+: 1692958738:0;prime-run mpv --hwdec=auto-safe ~/Videos/BanG\ Dream\!\ It\'s\ MyGO\!\!\!\!\!\ -\ S01E01\ -\ Lilith-Raws\ -\ ç¬¬1éƒ»ƒ¦.mp4
+: 1692958753:0;c
+: 1692958836:0;z scr
+: 1692958837:0;ll
+: 1692958852:0;vim mpv-prime-run.sh
+: 1692959013:0;c
+: 1692959058:0;ll
+: 1692959408:0;sudo vim sudo vim /etc/environment
+: 1692959415:0;sudo vim /etc/environment
+: 1692959440:0;c
+: 1692963075:0;yay -Rns binder_linux-dkms
+: 1692963081:0;paru -Rns binder_linux-dkms
+: 1692963107:0;sudo pacman -S android-tools scrcpy
+: 1692963111:0;c
+: 1692963133:0;z 
+: 1692963135:0;~
+: 1692963136:0;c
+: 1692963145:0;mkdir ~/.redroid
+: 1692963151:0;cd .redroid
+: 1692963157:0;vim docker-compose.yml
+: 1692963261:0;c
+: 1692963284:0;docker compose up -d
+: 1692963363:0;paru -S docker-compose
+: 1692963366:0;c
+: 1692963368:0;docker compose up -d
+: 1692963758:0;	\
+\
+adb connect localhost:5555
+: 1692963760:0;c
+: 1692963770:0;scrcpy -s localhost:5555 --audio-codec=raw
+: 1692963910:0;sudo pacman -S linux-zen linux-zen-headers
+: 1692963914:0;c
+: 1692963942:0;sudo pacman -S linux-zen linux-zen-headers
+: 1692963950:0;c
+: 1692963962:0;sudo vim /etc/pacman.d/mirrorlist
+: 1692963989:0;sudo pacman -Syu
+: 1692964021:0;sudo pacman -S linux-zen linux-zen-headers
+: 1692964061:0;sudo pacman -Q lqx
+: 1692964083:0;paru -Qs "lqx"
+: 1692964221:0;sudo vim /etc/default/grub
+: 1692964258:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1692964293:0;sudo mkinitcpio -p linux-zen
+: 1692964304:0;c
+: 1692964434:0;uname -a
+: 1692964436:0;c
+: 1692964445:0;paru -Qs "lqx"
+: 1692964520:0;c
+: 1692964535:0;sudo pacman -R linux-lqx
+: 1692964546:0;sudo pacman -R linux-lqx linux-lqx-headers
+: 1692964558:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1692964563:0;c
+: 1692964578:0;docker ps -a
+: 1692964584:0;docker start 2ce
+: 1692964585:0;c
+: 1692964590:0;scrcpy -s localhost:5555 --audio-codec=raw
+: 1692964600:0;c
+: 1692964609:0;adb connect localhost:5555
+: 1692964612:0;scrcpy -s localhost:5555 --audio-codec=raw
+: 1692964621:0;c
+: 1692964622:0;ll
+: 1692964704:0;scrcpy -s localhost:5555 --audio-codec=raw
+: 1692964727:0;scrcpy -s localhost:5555 --audio-codec=raw > /dev/null
+: 1692964810:0;nvidia-smi
+: 1692964820:0;c
+: 1692964989:0;adb -s localhost:5555 install "~/Downloads/arknights-hg-2062.apk"
+: 1692964999:0;z down
+: 1692965005:0;adb -s localhost:5555 install "arknights-hg-2062.apk"
+: 1692965062:0;scrcpy -s localhost:5555 --audio-codec=raw > /dev/null
+: 1692965103:0;nvidia-smi
+: 1692965456:0;z hypr
+: 1692965457:0;ll
+: 1692965460:0;vim keybinds.conf
+: 1692965651:0;c
+: 1692965735:0;z red
+: 1692965736:0;ll
+: 1692965739:0;vim docker-compose.yml
+: 1692965825:0;ll
+: 1692965826:0;c
+: 1692965829:0;z red
+: 1692965830:0;vim docker-compose.yml
+: 1692965859:0;docker compose up -d
+: 1692965879:0;vim docker-compose.yml
+: 1692965888:0;docker compose up -d
+: 1692965925:0;adb connect localhost:5555
+: 1692965927:0;scrcpy -s localhost:5555 --audio-codec=raw > /dev/null
+: 1692965985:0;nvidia-smi
+: 1692965992:0;c
+: 1692965993:0;nvtop
+: 1692966154:0;vim docker-compose.yml
+: 1692966161:0;c
+: 1692966170:0;docker compose down
+: 1692966213:0;c
+: 1692966221:0;z
+: 1692966222:0;~
+: 1692966223:0;c
+: 1692967359:0;nvidia-smi
+: 1692981206:0;c
+: 1692981209:0;vim ~/.zshrc
+: 1692981300:0;source ~/.zshrc
+: 1692981304:0;c
+: 1692981306:0;vim ~/.zshrc
+: 1692981381:0;source ~/.zshrc
+: 1692981383:0;c
+: 1692981409:0;sudo vim /etc/environment
+: 1692981420:0;c
+: 1692981547:0;nvidia-smi
+: 1692981548:0;c
+: 1692981623:0;vim ~/.zshrc
+: 1692981838:0;c
+: 1692981839:0;ll
+: 1692981844:0;z emby
+: 1692981845:0;c
+: 1692981846:0;ll
+: 1692981849:0;vim embyToLocalPlayer.py
+: 1692981923:0;vim ~/.zshrc
+: 1692982581:0;sudo -E vim /etc/environment
+: 1692982592:0;sudoedit vim /etc/environment
+: 1692982599:0;c
+: 1692982829:0;bash ~/.script/dochat.sh
+: 1692982837:0;c
+: 1692982838:0;ll
+: 1692982840:0;z scr
+: 1692982841:0;ll
+: 1692982847:0;vim dochat.sh
+: 1692982922:0;bash ~/.script/dochat.sh
+: 1692982935:0;vim dochat.sh
+: 1692982981:0;chmod +x dochat.sh
+: 1692982982:0;c
+: 1692983350:0;nvidia-smi
+: 1692983352:0;c
+: 1692983876:0;sudo shutdown -h 4:00
+: 1692983880:0;c
+: 1693023374:0;sudo pacman -Syu
+: 1693023403:0;paru -Syu
+: 1693023466:0;c
+: 1693025541:0;echo 'Xft.dpi: 120' | xrdb -merge
+: 1693025555:0;hyprctl clients 
+: 1693025586:0;z hypr
+: 1693025586:0;ll
+: 1693025589:0;vim env.conf
+: 1693025599:0;vim startup.conf
+: 1693025612:0;c
+: 1693025622:0;dconf-editor
+: 1693025728:0;vim ~/.config/chromium-flags.conf
+: 1693030738:0;z red
+: 1693030739:0;c
+: 1693030740:0;ll
+: 1693030743:0;docker compose up -d
+: 1693030747:0;adb connect localhost:5555
+: 1693030761:0;scrcpy -s localhost:5555 --audio-codec=raw > /dev/null
+: 1693031025:0;c
+: 1693031028:0;docker compose down
+: 1693032155:0;hyprctl clients 
+: 1693032598:0;sudo pacman -Sy gvfs gfvs-smb sshfs
+: 1693032609:0;sudo pacman -S gvfs gfvs-smb sshfs
+: 1693032618:0;paru -S davfs2
+: 1693032786:0;sudo vim /etc/locale.conf
+: 1693032866:0;z hypr
+: 1693032866:0;c
+: 1693032868:0;vim env.conf
+: 1693033279:0;sudo pacman -S qt6-wayland
+: 1693033286:0;sudo pacman -S qt5-wayland
+: 1693033750:0;z hypr
+: 1693033752:0;vim env.conf
+: 1693038397:0;c
+: 1693039875:0;ll
+: 1693041518:0;curl test.ipw.cn\
+
+: 1693041520:0;c
+: 1693043279:0;z my
+: 1693043279:0;c
+: 1693043280:0;ll
+: 1693043281:0;vim ACL4SSR_Online_Full_Mannix.ini
+: 1693043765:0;paru -S ACL4SSR_Online_Full_Mannix.ini
+: 1693043771:0;paru -S clash-for-windows-electron-zh
+: 1693043824:0;c
+: 1693043838:0;cfw
+: 1693043859:0;paru -Rns clash-for-windows-electron-zh
+: 1693043869:0;paru -S clash-for-windows-bin
+: 1693043889:0;c
+: 1693045944:0;curl test.ipw.cn\
+
+: 1693045945:0;c
+: 1693045947:0;curl test.ipw.cn\
+
+: 1693045948:0;c
+: 1693048402:0;typora
+: 1693048411:0;hyprctl clients 
+: 1693048445:0;c
+: 1693050245:0;ssh racknerd3
+: 1693050489:0;vim ~/.ssh/config
+: 1693050501:0;ssh racknerd3
+: 1693051041:0;c
+: 1693051043:0;bash ~/.script/dochat.sh
+: 1693051171:0;adb connect 192.168.1.110
+: 1693051202:0;adb connect 192.168.1.110:42487
+: 1693051221:0;adb connect 192.168.1.110:38837
+: 1693051248:0;adb connect 192.168.1.110:37113
+: 1693051974:0;ssh racknerd3
+: 1693052019:0;vim ~/.ssh/config\ 
+: 1693052020:0;vim ~/.ssh/config
+: 1693052029:0;ssh racknerd3\ 
+: 1693052030:0;ssh racknerd3
+: 1693053037:0;c
+: 1693057528:0;ssh 50
+: 1693058331:0;paru -S typora
+: 1693058364:0;c
+: 1693058379:0;paru -Qs "typora"
+: 1693058388:0;paru -Rns typora-free
+: 1693058399:0;paru -S typora-free-cn
+: 1693058437:0;paru -S typora-free
+: 1693058548:0;z down
+: 1693058548:0;c
+: 1693058549:0;ll
+: 1693058553:0;cd easymosdns
+: 1693058554:0;c
+: 1693058555:0;ll
+: 1693058557:0;vim README.md
+: 1693058949:0;c
+: 1693059079:0;ssh 50
+: 1693062504:0;sudo vim /etc/environment
+: 1693062514:0;c
+: 1693062594:0;cd 
+: 1693062596:0;exit
+: 1693062605:0;z down
+: 1693062605:0;ll
+: 1693062612:0;cd embyToLocalPlayer\(2\)
+: 1693062613:0;c
+: 1693062614:0;ll
+: 1693062625:0;vim embyToLocalPlayer_config.ini
+: 1693062659:0;rm -r ~/.script/embyToLocalPlayer
+: 1693062661:0;cd ..
+: 1693062678:0;mv embyToLocalPlayer\(2\) ~/.script/embyToLocalPlayer
+: 1693062681:0;z scr
+: 1693062682:0;c
+: 1693062682:0;ll
+: 1693062684:0;cd embyToLocalPlayer
+: 1693062685:0;c
+: 1693062685:0;ll
+: 1693062691:0;vim embyToLocalPlayer_config.ini
+: 1693062730:0;chmod +x emby_script_run.command
+: 1693062731:0;c
+: 1693062739:0;vim embyToLocalPlayer.py
+: 1693062837:0;nvidia-smi
+: 1693062838:0;c
+: 1693062887:0;z emby
+: 1693062887:0;c
+: 1693062888:0;ll
+: 1693062894:0;vim emby_script_run.command
+: 1693062909:0;nvidia-smi
+: 1693062911:0;c
+: 1693062967:0;vim emby_script_run.command
+: 1693062981:0;c
+: 1693073532:0;~
+: 1693073533:0;c
+: 1693073537:0;sudo shutdown -h 4:00
+: 1693121163:0;sudo pacman -Syyu
+: 1693121184:0;c
+: 1693121187:0;paru -Syyu
+: 1693121250:0;c
+: 1693122960:0;ssh 50
+: 1693125686:0;c
+: 1693125705:0;ll
+: 1693125715:0;mv Downloads/sinclair_azure_key.pem ~/.ssh
+: 1693125737:0;ssh -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693125867:0;chmod 400 ~/.ssh/sinclair_azure_key.pem
+: 1693125875:0;ssh -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693125934:0;scp ~/.ssh/sinclair_azure_key.pem root@192.168.1.50:/root
+: 1693125938:0;ssh 50
+: 1693125972:0;ssh -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693125995:0;ssh -v -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693126032:0;vim ~/.ssh/known_hosts
+: 1693126038:0;c
+: 1693126112:0;ssh -v -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693126134:0;c
+: 1693126166:0;kitty +kitten ssh sinclair@20.196.210.13
+: 1693126170:0;ssh sinclair@20.196.210.13
+: 1693126175:0;c
+: 1693126179:0;ssh 50
+: 1693126475:0;ssh root@20.196.210.13
+: 1693126499:0;c
+: 1693126506:0;ssh sinclair@20.196.210.13
+: 1693126510:0;ssh root@20.196.210.13
+: 1693126511:0;c
+: 1693126548:0;sudo systemctl status sshd.service
+: 1693126558:0;c
+: 1693126702:0;paru -S  termius 
+: 1693126722:0;c
+: 1693126867:0;ssh root@20.196.210.13
+: 1693126869:0;c
+: 1693127223:0;ssh -i ~/.ssh/sinclair_azure_key.pem sinclair@20.196.210.13
+: 1693127254:0;cat ~/.ssh/id_rsa.pub
+: 1693127263:0;ssh root@20.196.210.13
+: 1693127270:0;ssh sinclair@20.196.210.13
+: 1693127350:0;ssh root@20.196.210.13
+: 1693127356:0;ssh sinclair@20.196.210.13
+: 1693127381:0;vim ~/.ssh/config
+: 1693127445:0;ssh azure
+: 1693127774:0;vim ~/.zshrc
+: 1693127969:0;vim ~/.ssh/config
+: 1693128009:0;ssh racknerd3
+: 1693128027:0;c
+: 1693128030:0;vim ~/.ssh/config
+: 1693128063:0;ssh racknerd1
+: 1693128076:0;c
+: 1693128077:0;ll
+: 1693128079:0;c
+: 1693141576:0;ll
+: 1693141578:0;z pull
+: 1693141579:0;c
+: 1693141588:0;git clone https://github.com/wenjinnn/config.git
+: 1693141695:0;cd config
+: 1693141696:0;ll
+: 1693141696:0;c
+: 1693141698:0;code
+: 1693141709:0;code ./
+: 1693142086:0;cd ..
+: 1693142089:0;mkdir waybar
+: 1693142089:0;c
+: 1693142151:0;cp /home/sinclair/workspace/pullcode/config/.config/waybar/*.* ./waybar
+: 1693142165:0;cp /home/sinclair/workspace/pullcode/config/.config/waybar./
+: 1693142169:0;cp /home/sinclair/workspace/pullcode/config/.config/waybar ./
+: 1693142173:0;cp -r /home/sinclair/workspace/pullcode/config/.config/waybar ./
+: 1693142175:0;clear
+: 1693142177:0;waybar
+: 1693142212:0;z way
+: 1693142213:0;ll
+: 1693142215:0;z waybar
+: 1693142224:0;cd ../waybar
+: 1693142225:0;c
+: 1693142225:0;ll
+: 1693142228:0;vim config
+: 1693142331:0;cd ..
+: 1693142335:0;mv waybar waybar.bak3
+: 1693142346:0;mv waybar.bak2 waybar
+: 1693142348:0;waybar
+: 1693142351:0;c
+: 1693145048:0;neofetch
+: 1693147707:0;htop
+: 1693164602:0;sudo shutdown -h 4:00
+: 1693232163:0;sudo pacman -Syyu
+: 1693232195:0;paru -Syyu
+: 1693232249:0;c
+: 1693232257:0;dconf-editor
+: 1693232263:0;c
+: 1693232265:0;z hypr
+: 1693232266:0;ll
+: 1693232268:0;vim env.conf
+: 1693232280:0;vim startup.conf
+: 1693232287:0;ll
+: 1693232288:0;c
+: 1693234204:0;~
+: 1693234208:0;vim ~/.ssh/config
+: 1693234219:0;ssh azure
+: 1693235176:0;vim ~/.ssh/config
+: 1693235183:0;ssh azure
+: 1693235189:0;vim ~/.ssh/config
+: 1693235194:0;ssh azure
+: 1693235235:0;ssh racknerd1
+: 1693235258:0;ssh azure
+: 1693236534:0;ssh txy
+: 1693236609:0;ssh azure
+: 1693238141:0;paru v2ray
+: 1693238150:0;paru v2rayn
+: 1693238174:0;paru nekoray
+: 1693238208:0;c
+: 1693238242:0;ll
+: 1693238244:0;z hypr
+: 1693238246:0;hyprctl clients 
+: 1693238249:0;c
+: 1693238254:0;vim windowrule.conf
+: 1693238427:0;paru -S v2raya
+: 1693238436:0;c
+: 1693238459:0;paru -Rns v2raya
+: 1693238463:0;c
+: 1693238544:0;ssh racknerd2
+: 1693238558:0;cat ~/.ssh/id_rsa.pub
+: 1693238749:0;curl http://107.174.218.101:10086/
+: 1693238751:0;clear
+: 1693284787:0;sudo pacman -Syyu
+: 1693284804:0;paru -Syyu
+: 1693284814:0;c
+: 1693285140:0;sudo pacman -Ss Dbeaver
+: 1693285154:0;sudo pacman -S dbeaver
+: 1693285820:0;c
+: 1693285875:0;$ docker pull mysql:latest
+: 1693285878:0;docker pull mysql:latest
+: 1693285908:0;docker run -itd --name mysql-test -p 3306:3306 -e MYSQL_ROOT_PASSWORD=lzxs5997 mysql
+: 1693285929:0;mysql -h localhost -p
+: 1693285935:0;mysql -h localhost -u root -p
+: 1693285943:0;sudo pacman -S mysql
+: 1693285953:0;c
+: 1693286148:0;paru -S mysql
+: 1693286153:0;c
+: 1693286155:0;mysql -h localhost -u root -p
+: 1693286266:0;docker ps -a
+: 1693286282:0;mysql -h 127.0.0.1 -u root -p
+: 1693286624:0;sudo pacman -S dbeaver
+: 1693286904:0;c
+: 1693287002:0;htop
+: 1693287080:0;c
+: 1693304046:0;sudo pacman -Syu
+: 1693304051:0;sudo pacman -Syyu
+: 1693304102:0;paru -Syyu
+: 1693304113:0;c
+: 1693316085:0;ssh linzx6@192.168.1.60
+: 1693316090:0;ssh -p 5997 linzx6@192.168.1.60
+: 1693316104:0;ssh 50
+: 1693319146:0;docker pull hsuyelin/nas-tools:latest
+: 1693319191:0;id -u
+: 1693319192:0;id -g
+: 1693319199:0;ll
+: 1693319200:0;z my
+: 1693319201:0;ll
+: 1693319204:0;mkdir nastools
+: 1693319205:0;cd nastools
+: 1693319207:0;c
+: 1693319210:0;vim docker-compose.yml
+: 1693319237:0;docker compose up -d
+: 1693319345:0;docker ps -a
+: 1693321482:0;docker compose down
+: 1693323832:0;paru -S deepin-wine-wechat
+: 1693323867:0;paru -Scc
+: 1693323880:0;c
+: 1693323884:0;paru -S deepin-wine-wechat
+: 1693323925:0;cd  ~/.cache/yay/deepin-wine-wechat
+: 1693323931:0;wget  https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.0.28/WeChatSetup-3.9.0.28.exe
+: 1693323941:0;paru -S deepin-wine-wechat
+: 1693323973:0;z down
+: 1693323976:0;wget https://github.com/vufa/deepin-wine-wechat-arch/releases/download/v3.9.0.28-3/deepin-wine-wechat-3.9.0.28-3-x86_64.pkg.tar.zst
+: 1693324001:0;sudo pacman -U deepin-wine-wechat-3.9.0.28-3-x86_64.pkg.tar.zst
+: 1693324004:0;c
+: 1693324198:0;sudo pacman -Rns deepin-wine-wechat
+: 1693324208:0;sudo pacman -U deepin-wine-wechat-3.4.5.45-1-x86_64.pkg.tar.zst
+: 1693324223:0;paru -S deepin-wine5
+: 1693324240:0;sudo pacman -U deepin-wine-wechat-3.4.5.45-1-x86_64.pkg.tar.zst
+: 1693324355:0;sudo vim /opt/apps/com.qq.weixin.deepin/files/run.sh
+: 1693324449:0;htop
+: 1693324530:0;hyprctl clients 
+: 1693324564:0;sudo pacman -S dbus-python
+: 1693324574:0;sudo vim /opt/deepinwine/tools/get_tray_window
+: 1693373121:0;sudo pacman -Syyu
+: 1693373588:0;c
+: 1693373591:0;paru -Syyu
+: 1693373620:0;c
+: 1693373706:0;paru -Syyu
+: 1693373728:0;sudo vim /etc/pacman
+: 1693373732:0;sudo vim /etc/pacman.conf
+: 1693373749:0;paru -Syyu
+: 1693374297:0;c
+: 1693374298:0;ll
+: 1693374305:0;ll ~/.config |
+: 1693374310:0;ll ~/.config | grep nvim
+: 1693375118:0;c
+: 1693375440:0;ll
+: 1693375444:0;z my
+: 1693375444:0;ll
+: 1693375448:0;vim docker-compose.sh
+: 1693375455:0;vim nastools
+: 1693375574:0;z config
+: 1693375575:0;ll
+: 1693375650:0;kitty +list-fonts
+: 1693375688:0;vim kitty/kitty.conf
+: 1693375714:0;cd kitty
+: 1693375714:0;ll
+: 1693375717:0;vim kitty.conf
+: 1693379879:0;ip a
+: 1693381202:0;c
+: 1693381206:0;ssh root@192.168.1.70
+: 1693387507:0;clear
+: 1693387830:0;~
+: 1693387830:0;c
+: 1693389729:0;docker images
+: 1693395544:0;neofetch
+: 1693395572:0;c
+: 1693395573:0;neofetch
+: 1693396208:0;c
+: 1693396210:0;z config
+: 1693396210:0;ll
+: 1693396221:0;sudo pacman -Rns neovim
+: 1693396231:0;sudo pacman -S neovim
+: 1693396235:0;vim
+: 1693396238:0;ll
+: 1693396251:0;rm -rf nvim
+: 1693396252:0;c
+: 1693396253:0;vim
+: 1693396256:0;c
+: 1693397862:0;$ sudo pacman -S ripgrep
+: 1693397864:0;sudo pacman -S ripgrep
+: 1693398006:0;sudo pacman -S lazygit
+: 1693398009:0;c
+: 1693398011:0;lazygit
+: 1693398014:0;c
+: 1693398125:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1693398130:0;rm -rf ~/.config/nvim/.git
+: 1693398132:0;vim
+: 1693398228:0;mv ~/.config/nvim{,.bak}
+: 1693398238:0;ll | nvim
+: 1693398252:0;ll | grep nvim
+: 1693398255:0;c
+: 1693398260:0;git clone https://github.com/LazyVim/starter ~/.config/nvim
+: 1693398267:0;rm -rf ~/.config/nvim/.git
+: 1693398789:0;vim
+: 1693398888:0;c
+: 1693398890:0;cd nvim
+: 1693398891:0;c
+: 1693398891:0;ll
+: 1693398894:0;git init
+: 1693398897:0;c
+: 1693398915:0;vim 
+: 1693398961:0;vim .
+: 1693399217:0;git config
+: 1693399230:0;git config --global 
+: 1693399435:0;ll
+: 1693399439:0;vim README.md
+: 1693399468:0;c
+: 1693399738:0;im-select
+: 1693400460:0;fcitx5-remote -c
+: 1693400464:0;fcitx5-remote -o
+: 1693400466:0;fcitx5-remote -c
+: 1693400573:0;vim
+: 1693401913:0;hyprctl monitors
+: 1693401940:0;c
+: 1693401992:0;xrandr
+: 1693402416:0;z hypr
+: 1693402416:0;c
+: 1693402417:0;ll
+: 1693402424:0;vim hyprland.conf
+: 1693402439:0;hyprctl monitors
+: 1693402483:0;vim hyprland.conf
+: 1693402758:0;z nvim
+: 1693402759:0;c
+: 1693402760:0;ll
+: 1693402765:0;cd lua
+: 1693402766:0;ll
+: 1693402772:0;vim .
+: 1693402902:0;z hypr
+: 1693402903:0;ll
+: 1693402906:0;vim keybinds.conf
+: 1693402921:0;vim windowrule.conf
+: 1693402970:0;vim hyprland.conf
+: 1693402985:0;c
+: 1693403053:0;ll
+: 1693403057:0;vim env.conf
+: 1693403063:0;nvidia-smi
+: 1693403065:0;c
+: 1693403067:0;nvidia-smi
+: 1693403069:0;c
+: 1693403213:0;ll
+: 1693403217:0;cd user
+: 1693403217:0;ll
+: 1693403219:0;vim tools.lua
+: 1693403233:0;vim test.py
+: 1693403269:0;c
+: 1693403359:0;ll
+: 1693403399:0;cd ..
+: 1693403400:0;ll
+: 1693403403:0;cd config
+: 1693403404:0;ll
+: 1693403408:0;vim lazy.lua
+: 1693403430:0;ll
+: 1693403434:0;z nvim
+: 1693403435:0;ll
+: 1693403473:0;sudo pacman -S unarchiver
+: 1693403480:0;unar 
+: 1693403481:0;c
+: 1693403557:0;paru -S typora-free
+: 1693403661:0;c
+: 1693403663:0;hyprctl monitors
+: 1693403669:0;xrandr
+: 1693403676:0;c
+: 1693403880:0;xrandr
+: 1693403906:0;c
+: 1693403912:0;z hypr
+: 1693403913:0;ll
+: 1693403917:0;vim hyprland.conf
+: 1693403930:0;hyprctl monitors
+: 1693403932:0;clear
+: 1693403935:0;c
+: 1693403936:0;ll
+: 1693403937:0;vim
+: 1693403945:0;xrandr
+: 1693404254:0;vim hyprland.conf
+: 1693404259:0;c
+: 1693404261:0;exit
+: 1693404303:0;z hypr
+: 1693404304:0;ll
+: 1693404338:0;dconf-editor
+: 1693404480:0;c
+: 1693404481:0;ll
+: 1693404484:0;vim windowrule.conf
+: 1693404491:0;vim hyprland.conf
+: 1693404507:0;vim windowrule.conf
+: 1693404521:0;vim keybinds.conf
+: 1693404537:0;vim windowrule.conf
+: 1693405079:0;vim hyprland.conf
+: 1693405121:0;nvidia-smi
+: 1693405123:0;c
+: 1693405219:0;vim hyprland.conf
+: 1693405232:0;c
+: 1693405295:0;vim hyprland.conf
+: 1693405564:0;c
+: 1693405643:0;hyprctl monitors
+: 1693406029:0;ll
+: 1693406030:0;vim hyprland.conf
+: 1693406469:0;c
+: 1693406470:0;ll
+: 1693406473:0;vim windowrule.conf
+: 1693406812:0;c
+: 1693406817:0;z nvim
+: 1693406818:0;ll
+: 1693406822:0;vim .
+: 1693407163:0;c
+: 1693407174:0;z hypr
+: 1693407174:0;c
+: 1693407175:0;ll
+: 1693407180:0;vim windowrule.conf
+: 1693407197:0;vim hyprland.conf
+: 1693407213:0;c
+: 1693450087:0;nvidia-smi
+: 1693450094:0;sudo pacman -Syyu
+: 1693450116:0;uname -a
+: 1693450120:0;paru -Syyu
+: 1693450132:0;c
+: 1693452194:0;z hypr
+: 1693452197:0;vim windowrule.conf
+: 1693453141:0;z nvim
+: 1693453141:0;c
+: 1693453142:0;ll
+: 1693453146:0;vim init.lua
+: 1693453183:0;ll
+: 1693453198:0;vim lua/plugins/colorscheme.lua
+: 1693453557:0;cd lua
+: 1693453558:0;c
+: 1693453558:0;ll
+: 1693453561:0;cd plugins
+: 1693453561:0;ll
+: 1693453562:0;c
+: 1693453563:0;ll
+: 1693453567:0;rm colorscheme.lua
+: 1693453567:0;c
+: 1693453718:0;ll
+: 1693453721:0;vim colorscheme.lua
+: 1693454192:0;ll
+: 1693454201:0;mv colorscheme.lua theme.lua
+: 1693454204:0;vim example.lua
+: 1693454219:0;vim theme.lua
+: 1693454522:0;ll
+: 1693454524:0;c
+: 1693454533:0;ll
+: 1693454536:0;vim example.lua
+: 1693454625:0;vim theme.lua
+: 1693454719:0;vim
+: 1693454739:0;c
+: 1693454895:0;vim
+: 1693454999:0;vim .
+: 1693455006:0;c
+: 1693455008:0;cd ..
+: 1693455010:0;ll
+: 1693455012:0;vim .
+: 1693455151:0;vim
+: 1693455208:0;vim .
+: 1693455673:0;c
+: 1693455696:0;vim
+: 1693457746:0;c
+: 1693457784:0;vim
+: 1693458426:0;c
+: 1693458431:0;hyprctl clients 
+: 1693458604:0;c
+: 1693458931:0;z pull
+: 1693458931:0;c
+: 1693458934:0;git clone https://github.com/nightmare-mio/Arknights-stochastic-simulate.git
+: 1693458938:0;java -v
+: 1693458940:0;java -V
+: 1693458948:0;sudo pacman -S java
+: 1693458953:0;sudo pacman -Ss java
+: 1693458979:0;sudo pacman -S jre8-openjdk
+: 1693458982:0;c
+: 1693458983:0;ll
+: 1693458985:0;java
+: 1693458986:0;c
+: 1693458987:0;ll
+: 1693458990:0;cd Arknights-stochastic-simulate
+: 1693458991:0;c
+: 1693458992:0;ll
+: 1693458994:0;cd src
+: 1693458995:0;ll
+: 1693458997:0;c
+: 1693459002:0;ll
+: 1693459004:0;cd main
+: 1693459005:0;ll
+: 1693459007:0;cd java
+: 1693459008:0;ll
+: 1693459010:0;cd com
+: 1693459010:0;ll
+: 1693459012:0;cd example
+: 1693459013:0;ll
+: 1693459017:0;cd ../../../..
+: 1693459019:0;ll
+: 1693459027:0;cd ..
+: 1693459028:0;kk
+: 1693459029:0;ll
+: 1693459031:0;vim
+: 1693459038:0;vim .
+: 1693459194:0;tree
+: 1693459215:0;c
+: 1693459278:0;z kitty
+: 1693459279:0;c
+: 1693459279:0;ll
+: 1693459288:0;vim tokyonight_night.conf
+: 1693459301:0;ll
+: 1693459310:0;vim kitty.conf kitty.conf.bak
+: 1693459318:0;mv kitty.conf kitty.conf.bak
+: 1693459327:0;mv tokyonight_night.conf kitty.conf
+: 1693459330:0;c
+: 1693459331:0;ll
+: 1693459336:0;z /home/sinclair/.config/kitty
+: 1693459338:0;ll
+: 1693459341:0;vim kitty.conf
+: 1693459357:0;vim kitty.conf.bak
+: 1693459397:0;z pull
+: 1693459398:0;pwd
+: 1693459693:0;z kiity
+: 1693459694:0;ll
+: 1693459697:0;z kitty
+: 1693459697:0;c
+: 1693459698:0;ll
+: 1693459706:0;rm kitty.conf
+: 1693459713:0;mv kitty.conf.bak kitty.conf
+: 1693459905:0;c
+: 1693460063:0;vim
+: 1693460104:0;z hypr
+: 1693460106:0;vim windowrule.conf
+: 1693460152:0;c
+: 1693460197:0;z nvim
+: 1693460198:0;ll
+: 1693460201:0;cd lua/plugins
+: 1693460202:0;c
+: 1693460203:0;ll
+: 1693460204:0;vim colorscheme.lua
+: 1693460220:0;ll
+: 1693460224:0;vim plugins.lua
+: 1693460250:0;vim easy_command.lua
+: 1693460257:0;vim
+: 1693460262:0;vim 
+: 1693460267:0;vim easy_command.lua
+: 1693460291:0;vim plugins.lua
+: 1693460301:0;rm plugins.lua
+: 1693460302:0;c
+: 1693460303:0;vim
+: 1693460306:0;l
+: 1693460307:0;ll
+: 1693460308:0;c
+: 1693460308:0;ll
+: 1693460312:0;vim easy_command.lua
+: 1693460317:0;vim colorscheme.lua
+: 1693460336:0;c
+: 1693460411:0;vim
+: 1693460775:0;c
+: 1693460776:0;ll
+: 1693460781:0;vim disable.lua
+: 1693460848:0;vim
+: 1693460902:0;ll
+: 1693460906:0;vim disable.lua
+: 1693460917:0;c
+: 1693460944:0;vim disable.lua
+: 1693461221:0;c
+: 1693461222:0;ll
+: 1693461224:0;cd ..
+: 1693461225:0;c
+: 1693461226:0;ll
+: 1693461228:0;vim
+: 1693461232:0;vim .
+: 1693461464:0;ll
+: 1693461467:0;c
+: 1693461468:0;ll
+: 1693461470:0;cd ..
+: 1693461471:0;c
+: 1693461471:0;ll
+: 1693461474:0;nvim .
+: 1693461490:0;vim .
+: 1693461548:0;c
+: 1693461555:0;vim .
+: 1693461647:0;git config --global user.name "Sinclair Lin"
+: 1693461657:0;git config --global user.email lzx2155433@gmail.com
+: 1693461657:0;c
+: 1693461661:0;vim .
+: 1693461683:0;c
+: 1693461684:0;ll
+: 1693461685:0;gs
+: 1693461686:0;c
+: 1693472163:0;ln -s /mnt/g/@home/sinclair/.config ~/
+: 1693472164:0;c
+: 1693472166:0;source .zshrc
+: 1693472168:0;c
+: 1693472168:0;ll
+: 1693472170:0;la
+: 1693472171:0;c
+: 1693472173:0;vim ~/.zshrc
+: 1693472177:0;c
+: 1693472178:0;vim
+: 1693472185:0;sudo pacman -S neovim
+: 1693472194:0;c
+: 1693472210:0;ln -s /mnt/g/@home/sinclair/.zshrc ~/
+: 1693472216:0;rm ~/.zshrc
+: 1693472218:0;ln -s /mnt/g/@home/sinclair/.zshrc ~/
+: 1693472220:0;source .zshrc
+: 1693472224:0;source ~/.zshrc
+: 1693472231:0;sudo pacman -S thefuck
+: 1693472234:0;source ~/.zshrc
+: 1693472235:0;c
+: 1693472237:0;fuck
+: 1693472244:0;c
+: 1693472245:0;ll
+: 1693472251:0;vim ~/.zshrc
+: 1693472311:0;c
+: 1693472311:0;ll
+: 1693472313:0;c
+: 1693473027:0;vim
+: 1693473072:0;c
+: 1693473319:0;ll
+: 1693473321:0;la
+: 1693473329:0;c
+: 1693473334:0;rm -rf .config
+: 1693487106:0;c
+: 1693487108:0;ll
+: 1693487109:0;c
+: 1693487111:0;ll
+: 1693487114:0;rm wechat.desktop
+: 1693487114:0;c
+: 1693495494:0;sudo pacman -Syuu
+: 1693495517:0;sudo pacman -Rns jre-openjdk
+: 1693495522:0;sudo pacman -Rns java
+: 1693495525:0;sudo pacman -Rns jre
+: 1693495529:0;sudo pacman -Rns jre8-openjdk
+: 1693495537:0;c
+: 1693495542:0;sudo pacman -Syuu
+: 1693495547:0;sudo pacman -Syyu
+: 1693495557:0;c
+: 1693495559:0;paru -Syyu
+: 1693495567:0;c
+: 1693509929:0;ssh -p 5997 linzx6@192.168.1.60
+: 1693509939:0;ssh 50
+: 1693547357:0;clear
+: 1693547359:0;pwd
+: 1693547362:0;htop
+: 1693547370:0;c
+: 1693547397:0;sudo pacman -Syyu
+: 1693547407:0;c
+: 1693547410:0;paru -Syyu
+: 1693547462:0;c
+: 1693558246:0;vim
+: 1693558642:0;c
+: 1693558642:0;ll
+: 1693558645:0;z pull
+: 1693558645:0;ll
+: 1693558650:0;git clone https://github.com/yaocccc/nvim.git
+: 1693558653:0;c
+: 1693558654:0;ll
+: 1693558655:0;cd nvim
+: 1693558655:0;c
+: 1693558656:0;ll
+: 1693558661:0;vim .
+: 1693558822:0;vim
+: 1693558961:0;vi --version
+: 1693558990:0;c
+: 1693558993:0;z nvim
+: 1693558994:0;c
+: 1693558995:0;ll
+: 1693558997:0;gs
+: 1693559000:0;cd ..
+: 1693559005:0;mkdir nvim1
+: 1693559007:0;cd nvim1
+: 1693559007:0;c
+: 1693559008:0;ll
+: 1693559025:0;vim init.lua
+: 1693559565:0;c
+: 1693559566:0;ll
+: 1693559568:0;vim init.lua
+: 1693559571:0;c
+: 1693559572:0;ll
+: 1693559777:0;vim
+: 1693560887:0;c
+: 1693560890:0;z nvim
+: 1693560890:0;c
+: 1693560891:0;ll
+: 1693560893:0;gs
+: 1693560908:0;lazygit
+: 1693560921:0;c
+: 1693561173:0;cd ..
+: 1693561174:0;mv ~/.config/nvim ~/.config/nvim.bak
+: 1693561185:0;mv ~/.local/share/nvim ~/.local/share/nvim.bak\
+mv ~/.local/state/nvim ~/.local/state/nvim.bak\
+mv ~/.cache/nvim ~/.cache/nvim.bak
+: 1693561188:0;git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim\
+nvim
+: 1693561212:0;vim
+: 1693561230:0;c
+: 1693561231:0;ll
+: 1693561232:0;vim .
+: 1693561272:0;c
+: 1693561485:0;sudo pacman -S gdu
+: 1693561487:0;c
+: 1693561499:0;sudo pacman -S bottom
+: 1693561626:0;vim .
+: 1693561635:0;c
+: 1693561637:0;cd nvim
+: 1693561638:0;c
+: 1693561638:0;ll
+: 1693561640:0;vim .
+: 1693561934:0;git clone https://github.com/AstroNvim/user_example ~/.config/nvim/lua/user
+: 1693561937:0;cd lua
+: 1693561938:0;c
+: 1693561938:0;ll
+: 1693561946:0;cd user
+: 1693561946:0;c
+: 1693561947:0;ll
+: 1693561961:0;rm -rf .git
+: 1693561962:0;ll
+: 1693561972:0;c
+: 1693561975:0;z nvim
+: 1693561976:0;ll
+: 1693561979:0;rm -rf .git
+: 1693561980:0;c
+: 1693561983:0;git init
+: 1693561987:0;lazygit
+: 1693562025:0;rm -rf .git
+: 1693562025:0;c
+: 1693562029:0;z user
+: 1693562030:0;c
+: 1693562034:0;git init
+: 1693562035:0;c
+: 1693562037:0;lazygit
+: 1693562044:0;c
+: 1693562061:0;vim .
+: 1693562147:0;cc
+: 1693562148:0;c
+: 1693562149:0;ll
+: 1693562150:0;pwd
+: 1693562151:0;c
+: 1693562152:0;ll
+: 1693562152:0;c
+: 1693562318:0;z nvim
+: 1693562322:0;cd ../nvim.bak
+: 1693562323:0;c
+: 1693562324:0;ll
+: 1693562328:0;cd lua
+: 1693562329:0;c
+: 1693562330:0;ll
+: 1693562332:0;cd plugins
+: 1693562333:0;ll
+: 1693562335:0;cd ..
+: 1693562336:0;ll
+: 1693562338:0;cd config
+: 1693562338:0;ll
+: 1693562341:0;c
+: 1693562342:0;ll
+: 1693562343:0;cd ..
+: 1693562344:0;ll
+: 1693562345:0;cd ..
+: 1693562346:0;ll
+: 1693562350:0;cd nvim
+: 1693562352:0;ll
+: 1693562354:0;cd lua
+: 1693562355:0;ll
+: 1693562359:0;cd plugins
+: 1693562360:0;ll
+: 1693562377:0;cat fcitx5.lua
+: 1693563446:0;vim .
+: 1693563466:0;c
+: 1693563467:0;vim
+: 1693563506:0;vim .
+: 1693563670:0;vim ,
+: 1693563680:0;vim .
+: 1693563906:0;c
+: 1693563908:0;vim .
+: 1693564101:0;c
+: 1693564103:0;z kitty
+: 1693564103:0;c
+: 1693564104:0;ll
+: 1693564117:0;mv kitty.conf kitty.conf.bak
+: 1693564134:0;mv kitty.conf.bak kitty.conf
+: 1693564135:0;ll
+: 1693564146:0;cp kitty.conf kitty.conf.bak
+: 1693564147:0;c
+: 1693564152:0;vim kitty.conf
+: 1693564174:0;c
+: 1693564175:0;ll
+: 1693564176:0;c
+: 1693564303:0;z nvim
+: 1693564304:0;c
+: 1693564305:0;ll
+: 1693564307:0;z user
+: 1693564308:0;c
+: 1693564308:0;ll
+: 1693564311:0;vim .
+: 1693564990:0;gs
+: 1693564991:0;c
+: 1693565103:0;vim .
+: 1693565405:0;c
+: 1693565411:0;vim .
+: 1693568507:0;c
+: 1693568612:0;vim .
+: 1693568909:0;c
+: 1693568910:0;ll
+: 1693568911:0;c
+: 1693568912:0;z my
+: 1693568912:0;c
+: 1693568913:0;ll
+: 1693568918:0;vim test.py
+: 1693569056:0;c
+: 1693569060:0;z nvim
+: 1693569061:0;c
+: 1693569062:0;ll
+: 1693569063:0;c
+: 1693569065:0;z user
+: 1693569065:0;c
+: 1693569066:0;ll
+: 1693569114:0;c
+: 1693569262:0;ll
+: 1693569308:0;vim .
+: 1693569429:0;c
+: 1693569431:0;vim .
+: 1693569435:0;z my
+: 1693569436:0;ll
+: 1693569439:0;vim test.py
+: 1693569448:0;c
+: 1693569451:0;z usre
+: 1693569453:0;z user
+: 1693569454:0;c
+: 1693569475:0;find python
+: 1693569480:0;which python
+: 1693570200:0;c
+: 1693570202:0;vim .
+: 1693570465:0;c
+: 1693570466:0;ll
+: 1693570466:0;c
+: 1693570598:0;git remote add origin https://github.com/SinclairLin/nvim.git
+: 1693570602:0;git branch -M main
+: 1693570606:0;git push -u origin main
+: 1693570612:0;c
+: 1693570663:0;cat ~/.ssh/id_rsa.pub
+: 1693570708:0;git push -u origin main
+: 1693570711:0;c
+: 1693570811:0;git remote set-url git@github.com:SinclairLin/nvim.git
+: 1693570846:0;git remote set-url origin git@github.com:SinclairLin/nvim.git
+: 1693570849:0;git remote -v
+: 1693570850:0;c
+: 1693570853:0;vim .
+: 1693570894:0;git push -u origin main
+: 1693570900:0;c
+: 1693570902:0;vim .
+: 1693571034:0;sudo pacman -S neovim
+: 1693571040:0;c
+: 1693571650:0;vim .
+: 1693571977:0;c
+: 1693572152:0;vim .
+: 1693572181:0;c
+: 1693572190:0;vim .
+: 1693573626:0;c
+: 1693574097:0;cp ~/.config/nvim.bak/nvim/lua/plugins/easy_command.lua plugins
+: 1693574104:0;cp ~/.config/nvim.bak/nvim/lua/plugins/fcitx5.lua plugins
+: 1693574112:0;vim .
+: 1693574248:0;git pull
+: 1693574266:0;git config pull.rebase false
+: 1693574268:0;git pull
+: 1693574294:0;ll
+: 1693574296:0;vim README.md
+: 1693574303:0;c
+: 1693574304:0;ll
+: 1693574306:0;git pull
+: 1693574312:0;git push -u origin main
+: 1693574854:0;echo QT_AUTO_SCREEN_SCALE_FACTOR=0
+: 1693574861:0;echo $QT_AUTO_SCREEN_SCALE_FACTOR
+: 1693574863:0;c
+: 1693574866:0;z hypr
+: 1693574866:0;c
+: 1693574867:0;ll
+: 1693574868:0;vim env.conf
+: 1693575078:0;echo $QT_AUTO_SCREEN_SCALE_FACTOR
+: 1693575082:0;vim env.conf
+: 1693575289:0;echo $LANG
+: 1693575294:0;cat env.conf
+: 1693575304:0;echo $LANGUAGE
+: 1693575314:0;echo $QT_SCALE_FACTOR
+: 1693575323:0;c
+: 1693575406:0;ll
+: 1693575408:0;vim env.conf
+: 1693575420:0;c
+: 1693575422:0;z user
+: 1693575422:0;c
+: 1693575423:0;ll
+: 1693575431:0;ll utils
+: 1693575434:0;cat utils/fcitx5.lua
+: 1693575439:0;c
+: 1693575733:0;z conf
+: 1693575734:0;c
+: 1693575738:0;cd nvim.bak
+: 1693575740:0;ll
+: 1693575743:0;cd lua
+: 1693575743:0;ll
+: 1693575747:0;cd ..nvim
+: 1693575751:0;cd ../nvim
+: 1693575751:0;c
+: 1693575752:0;ll
+: 1693575754:0;cd lua
+: 1693575754:0;ll
+: 1693575757:0;cd plugins
+: 1693575758:0;ll
+: 1693575776:0;cat ../../init.lua
+: 1693575786:0;c
+: 1693575788:0;code
+: 1693575796:0;code .
+: 1693575807:0;cd ../../
+: 1693575807:0;c
+: 1693575808:0;ll
+: 1693575810:0;code .
+: 1693575839:0;z user
+: 1693575840:0;c
+: 1693575840:0;ll
+: 1693575844:0;vim utils/fcitx5.lua
+: 1693575960:0;cp utils/fcitx5.lua plugins
+: 1693575963:0;vim .
+: 1693575988:0;rm plugins/fcitx5.lua
+: 1693576105:0;vim .
+: 1693576920:0;gs
+: 1693576921:0;c
+: 1693576922:0;ll
+: 1693576924:0;c
+: 1693576927:0;vim .
+: 1693577186:0;mv autocmds.lua autocmd.lua
+: 1693577187:0;c
+: 1693577188:0;ll
+: 1693577189:0;vim .
+: 1693577198:0;ll
+: 1693577200:0;vim .
+: 1693577511:0;im-select
+: 1693577511:0;c
+: 1693577522:0;/usr/bin/fcitx-remote
+: 1693577530:0;/usr/bin/fcitx5-remote
+: 1693577531:0;c
+: 1693577591:0;vim .
+: 1693577895:0;c
+: 1693577961:0;ll
+: 1693577973:0;vim .
+: 1693578231:0;cp utils/fcitx5.lua ./
+: 1693578232:0;ll
+: 1693578233:0;vim .
+: 1693578241:0;c
+: 1693578241:0;ll
+: 1693578247:0;rm fcitx5.lua
+: 1693578250:0;vim .
+: 1693578315:0;cp utils/fcitx5.lua ./
+: 1693578323:0;vim .
+: 1693578334:0;c
+: 1693578334:0;ll
+: 1693578338:0;rm fcitx5.lua
+: 1693578343:0;vim options.lua
+: 1693578536:0;vim .
+: 1693578618:0;code ~/.config/nvim
+: 1693578786:0;vim .
+: 1693579103:0;gs
+: 1693579107:0;vim .
+: 1693579137:0;c
+: 1693579137:0;gs
+: 1693579145:0;c
+: 1693579149:0;git diff
+: 1693579156:0;c
+: 1693579159:0;git diff
+: 1693579160:0;c
+: 1693579161:0;git diff
+: 1693579165:0;c
+: 1693579777:0;z rime
+: 1693579779:0;git pull
+: 1693579784:0;c
+: 1693579786:0;ll
+: 1693579787:0;c
+: 1693581029:0;htop
+: 1693581279:0;c
+: 1693586681:0;ll
+: 1693588402:0;c
+: 1693588404:0;ranger
+: 1693588414:0;c
+: 1693588416:0;z hypr
+: 1693588416:0;c
+: 1693588417:0;ll
+: 1693588419:0;ranger
+: 1693589122:0;z user
+: 1693589125:0;vim init.lua
+: 1693589137:0;ll
+: 1693589143:0;c
+: 1693589144:0;ranger
+: 1693589205:0;z wall
+: 1693589211:0;cd ~/Pictures
+: 1693589212:0;c
+: 1693589212:0;ll
+: 1693589214:0;ranger
+: 1693589348:0;ranger --copy-config=all
+: 1693589358:0;z config
+: 1693589361:0;cd ranger
+: 1693589361:0;c
+: 1693589362:0;ll
+: 1693589431:0;c
+: 1693589637:0;git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+: 1693589643:0;echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
+: 1693589644:0;c
+: 1693589645:0;ranger
+: 1693589821:0;vim rc.conf
+: 1693589840:0;c
+: 1693589843:0;z user
+: 1693589844:0;ll
+: 1693589846:0;vim init.lua
+: 1693589857:0;z ranger
+: 1693589858:0;ll
+: 1693589860:0;vim rc.conf
+: 1693589918:0;ranger
+: 1693589967:0;sudo pacman -S pillow
+: 1693590046:0;sudo pacman -S ueberzug
+: 1693590049:0;c
+: 1693590052:0;vim rc.conf
+: 1693590067:0;ranger
+: 1693590149:0;vim rc.conf
+: 1693590192:0;ranger
+: 1693590213:0;pacman -S poppler
+: 1693590217:0;sudo pacman -S poppler
+: 1693590219:0;c
+: 1693590225:0;vim scope.sh
+: 1693590363:0;sudo pacman -S ffmpegthumbnailer
+: 1693590365:0;c
+: 1693590383:0;vim scope.sh
+: 1693590409:0;c
+: 1693590457:0;ranger
+: 1693590609:0;sudo pacman -S highlight
+: 1693590611:0;c
+: 1693590618:0;ranger
+: 1693590635:0;sudo pacman -S atool
+: 1693590663:0;c
+: 1693590664:0;ll
+: 1693590667:0;vim rc.conf
+: 1693590816:0;rr
+: 1693590817:0;lg
+: 1693590818:0;c
+: 1693590821:0;vim ~/.zshrc
+: 1693590842:0;source ~/.zshrc
+: 1693590843:0;rr
+: 1693590845:0;lg
+: 1693590852:0;c
+: 1693592820:0;vim rc.conf
+: 1693592908:0;c
+: 1693592910:0;ranger
+: 1693592927:0;echo $SHELL
+: 1693593652:0;fzf
+: 1693593659:0;c
+: 1693593735:0;fzf  
+: 1693593740:0;fzf | vim
+: 1693593751:0;c
+: 1693593800:0;rr
+: 1693594025:0;z omz
+: 1693594025:0;c
+: 1693594026:0;ll
+: 1693594030:0;rm -rf .git
+: 1693594030:0;c
+: 1693594031:0;ll
+: 1693594033:0;c
+: 1693594034:0;la
+: 1693594035:0;c
+: 1693594038:0;ll
+: 1693594041:0;z omz
+: 1693594042:0;c
+: 1693594042:0;ll
+: 1693594089:0;vim ~/.zshrc
+: 1693594135:0;mv omz.zsh init.zsh
+: 1693594136:0;cd ..
+: 1693594141:0;mv omz zsh
+: 1693594142:0;c
+: 1693594144:0;source ~/.zshrc
+: 1693594152:0;vim ~/.zshrc
+: 1693594162:0;cd zsh
+: 1693594162:0;c
+: 1693594163:0;ll
+: 1693594165:0;vim init.zsh
+: 1693594186:0;c
+: 1693594187:0;ll
+: 1693594193:0;rm README.md
+: 1693594196:0;rm -r screenshots
+: 1693594196:0;c
+: 1693594197:0;ll
+: 1693594199:0;cd themes
+: 1693594200:0;ll
+: 1693594202:0;vim simple.zsh-theme
+: 1693594209:0;c
+: 1693594210:0;ll
+: 1693594212:0;cd ..
+: 1693594213:0;c
+: 1693594213:0;ll
+: 1693594215:0;git init
+: 1693594236:0;git branch -M main
+: 1693594237:0;c
+: 1693594238:0;ll
+: 1693594239:0;lg
+: 1693594250:0;c
+: 1693594250:0;ll
+: 1693594260:0;cd config
+: 1693594260:0;ll
+: 1693594263:0;vim fzf.zsh
+: 1693594346:0;fzf
+: 1693594352:0;source ~/.zshrc
+: 1693594370:0;c
+: 1693594372:0;vim omz.zsh
+: 1693594385:0;cd ..
+: 1693594385:0;ll
+: 1693594391:0;mv init.zsh omz.zsh
+: 1693594395:0;vim ~/.zshrc
+: 1693594401:0;c
+: 1693594402:0;ll
+: 1693594403:0;source ~/.zshrc
+: 1693594409:0;vim omz.zsh
+: 1693594419:0;source ~/.zshrc
+: 1693594420:0;c
+: 1693594420:0;ll
+: 1693594423:0;fzf
+: 1693594431:0;c
+: 1693594432:0;ll
+: 1693594435:0;cd config
+: 1693594435:0;ll
+: 1693594437:0;vim fzf.zsh
+: 1693594495:0;c
+: 1693594496:0;ll
+: 1693594497:0;vim fzf.zsh
+: 1693594526:0;source ~/.zshrc
+: 1693594527:0;c
+: 1693594528:0;fzf
+: 1693594531:0;c
+: 1693594532:0;ll
+: 1693594534:0;lg
+: 1693594560:0;c
+: 1693594561:0;ll
+: 1693594650:0;c
+: 1693594651:0;ll
+: 1693594654:0;vim ~/.zshrc
+: 1693594784:0;mv alias.zsh aliases.zsh
+: 1693594784:0;c
+: 1693594786:0;vim .
+: 1693594878:0;echo $RANGER_LEVEL
+: 1693595029:0;c
+: 1693595030:0;ll
+: 1693595032:0;ranger
+: 1693595089:0;fzf 
+: 1693595108:0;source ~/.zshrc
+: 1693595109:0;c
+: 1693595110:0;fzf
+: 1693595112:0;c
+: 1693595113:0;ll
+: 1693595115:0;cd ..
+: 1693595116:0;ll
+: 1693595118:0;c
+: 1693595119:0;vim omz.zsh
+: 1693595185:0;c
+: 1693630869:0;C
+: 1693630874:0;c
+: 1693630875:0;ll
+: 1693630877:0;la
+: 1693630882:0;vim .zshrc
+: 1693630924:0;vim .
+: 1693635470:0;ranger
+: 1693635472:0;c
+: 1693635473:0;ll
+: 1693635476:0;sudo pacman -S ranger
+: 1693635481:0;c
+: 1693635482:0;ranger
+: 1693635517:0;c
+: 1693636475:0;sudo pacman -Syyu
+: 1693636496:0;z kitty
+: 1693636497:0;ll
+: 1693636500:0;vim kitty.conf
+: 1693636538:0;c
+: 1693636547:0;z kitty
+: 1693636548:0;ll
+: 1693636549:0;c
+: 1693636552:0;vim kitty.conf\ 
+: 1693636553:0;vim kitty.conf
+: 1693636647:0;sudo pacman -S FiraCode
+: 1693636698:0;paru -S ttf-consolas-ligaturized 
+: 1693636722:0;c
+: 1693636725:0;vim kitty.conf
+: 1693636744:0;fc-list :lang=zh
+: 1693636755:0;fc-list | grep -i nerd-font
+: 1693636783:0;ll
+: 1693636784:0;vim kitty.conf
+: 1693636788:0;z kitty
+: 1693636790:0;vim kitty.conf
+: 1693636828:0;fc-list | grep nerd-font
+: 1693636856:0;ll
+: 1693636858:0;z kitty
+: 1693636860:0;vim kitty.conf
+: 1693636876:0;fc-list | grep ttf-consolas-ligaturized
+: 1693636883:0;fc-list | grep ttf-consolas
+: 1693636886:0;fc-list | grep consolas
+: 1693636904:0;paru -S ttf-firacode 
+: 1693636931:0;c
+: 1693636941:0;fc-list | grep fira
+: 1693636944:0;fc-list | grep code
+: 1693637023:0;fc-list | grep FiraCode
+: 1693637040:0;c
+: 1693637041:0;ll
+: 1693637046:0;c
+: 1693637049:0;z hypr
+: 1693637050:0;ll
+: 1693637051:0;vim env.conf
+: 1693637071:0;c
+: 1693637072:0;ll
+: 1693637073:0;c
+: 1693637087:0;z kitty
+: 1693637087:0;c
+: 1693637090:0;ll
+: 1693637093:0;vim kitty.conf
+: 1693637180:0;c
+: 1693637183:0;z kitty
+: 1693637184:0;vim kitty.conf
+: 1693637250:0;z kitty
+: 1693637251:0;l
+: 1693637252:0;ll
+: 1693637254:0;vim kitty.conf
+: 1693637293:0;z kitty
+: 1693637294:0;vim kitty.conf
+: 1693637379:0;c
+: 1693637380:0;ll
+: 1693637381:0;z hypr
+: 1693637382:0;ll
+: 1693637385:0;vim windowrule.conf
+: 1693637390:0;vim hyprland.conf
+: 1693637476:0;kitty +list-fonts
+: 1693637516:0;z kitty
+: 1693637517:0;ll
+: 1693637519:0;vim kitty.conf
+: 1693637532:0;z kitty
+: 1693637533:0;vim kitty.conf
+: 1693637576:0;c
+: 1693637577:0;ll
+: 1693637579:0;c
+: 1693637580:0;ll
+: 1693637581:0;c
+: 1693637584:0;ll
+: 1693637588:0;z kitty
+: 1693637589:0;ll
+: 1693637591:0;vim kitty.conf
+: 1693637599:0;kitty +list-fonts
+: 1693637667:0;c
+: 1693637671:0;sudo pacman -Syyu
+: 1693637678:0;c
+: 1693637685:0;paru -Syyu
+: 1693637843:0;c
+: 1693637844:0;z
+: 1693637845:0;c
+: 1693637846:0;ll
+: 1693638070:0;kitty +list-fonts
+: 1693638074:0;kitty +list-fonts | grep JetBrains Mono
+: 1693638077:0;kitty +list-fonts | grep JetBrains
+: 1693638100:0;z kitty
+: 1693638102:0;vim kitty.conf
+: 1693638120:0;ll
+: 1693638123:0;pwd
+: 1693638126:0;c
+: 1693638127:0;kitty +list-fonts | grep JetBrains
+: 1693638148:0;kitty +list-fonts 
+: 1693638211:0;z kitty
+: 1693638215:0;vim kitty.conf
+: 1693638249:0;ll
+: 1693638251:0;c
+: 1693638255:0;kitty +list-fonts | grep JetBrains
+: 1693638264:0;c
+: 1693638267:0;ll
+: 1693638274:0;cd ~
+: 1693638275:0;ll
+: 1693638278:0;rm ~
+: 1693638281:0;rm -r ~
+: 1693638291:0;c
+: 1693638292:0;cd ~
+: 1693638293:0;ll
+: 1693638296:0;ll -a
+: 1693638847:0;c
+: 1693638852:0;cd .config
+: 1693638853:0;c
+: 1693638855:0;z kitty
+: 1693638856:0;ll
+: 1693638858:0;vim kitty.conf
+: 1693638868:0;kitty +list-fonts | grep JetBrains
+: 1693639346:0;c
+: 1693639353:0;ping v2ex.com
+: 1693639518:0;paru -S ttf-monaco-nerd-font-git
+: 1693639663:0;c
+: 1693639665:0;kitty +list-fonts | grep Monaco Nerd Font Complete Mono
+: 1693639668:0;kitty +list-fonts | grep Monaco 
+: 1693639676:0;c
+: 1693646561:0;z hypr
+: 1693646561:0;ll
+: 1693646565:0;z way
+: 1693646566:0;c
+: 1693646566:0;ll
+: 1693646572:0;rm -rf .git
+: 1693646574:0;ll
+: 1693646578:0;c
+: 1693646579:0;ll
+: 1693646586:0;waybar
+: 1693646589:0;c
+: 1693646592:0;ll
+: 1693646596:0;vim config
+: 1693646608:0;ll
+: 1693646610:0;z way
+: 1693646616:0;z /home/sinclair/.config/waybar
+: 1693646617:0;c
+: 1693646617:0;ll
+: 1693646621:0;vim config.jsonc
+: 1693646639:0;c
+: 1693646647:0;sudo pacman -Syyu
+: 1693646673:0;c
+: 1693646689:0;z kitty
+: 1693646689:0;c
+: 1693646690:0;ll
+: 1693646692:0;c
+: 1693646695:0;z hypr
+: 1693646695:0;ll
+: 1693646697:0;vim env.conf
+: 1693646825:0;clear
+: 1693646853:0;z hypr
+: 1693646854:0;c
+: 1693646855:0;ll
+: 1693646857:0;z kitty
+: 1693646858:0;c
+: 1693646858:0;ll
+: 1693646860:0;vim kitty.conf
+: 1693646868:0;kitty +list-fonts | grep JetBrains
+: 1693646892:0;c
+: 1693646893:0;ll
+: 1693646895:0;z waybar
+: 1693646895:0;c
+: 1693646896:0;ll
+: 1693646900:0;z /home/sinclair/.config/waybar
+: 1693646900:0;c
+: 1693646901:0;ll
+: 1693646903:0;vim config.jsonc
+: 1693646914:0;vim style.css
+: 1693646932:0;vim config.jsonc
+: 1693646936:0;waybar
+: 1693646939:0;c
+: 1693646943:0;vim config.jsonc
+: 1693647287:0;c
+: 1693647287:0;ll
+: 1693647291:0;z pull
+: 1693647295:0;git clone git clone https://github.com/DreamMaoMao/purplehypr.git
+: 1693647299:0;git clone https://github.com/DreamMaoMao/purplehypr.git
+: 1693647303:0;cd purplehypr
+: 1693647303:0;c
+: 1693647304:0;ll
+: 1693647307:0;cd dotfiles
+: 1693647307:0;ll
+: 1693647324:0;vim ~/.zshrc
+: 1693647333:0;source ~/.zshrc
+: 1693647335:0;waybar
+: 1693647337:0;c
+: 1693647340:0;source ~/.zshrc
+: 1693647363:0;unalias waybar
+: 1693647365:0;waybar
+: 1693647374:0;c
+: 1693648999:0;ll
+: 1693649003:0;z hypr
+: 1693649004:0;ll
+: 1693649006:0;vim hyprland.conf
+: 1693649036:0;c
+: 1693649037:0;ll
+: 1693649038:0;z waybar
+: 1693649039:0;ll
+: 1693649044:0;z /home/sinclair/.config/waybar
+: 1693649044:0;c
+: 1693649045:0;ll
+: 1693649055:0;vim config.jsonc
+: 1693649101:0;z pu
+: 1693649102:0;ll
+: 1693649104:0;cd purplehypr
+: 1693649104:0;c
+: 1693649105:0;ll
+: 1693649108:0;cd dotfiles
+: 1693649108:0;c
+: 1693649109:0;ll
+: 1693649112:0;cd waybar
+: 1693649113:0;c
+: 1693649113:0;ll
+: 1693649116:0;vim config.jsonc
+: 1693649181:0;waybar
+: 1693649184:0;c
+: 1693649230:0;vim config.jsonc
+: 1693649241:0;vim ~/.zshrc
+: 1693649248:0;source ~/.zshrc
+: 1693649249:0;c
+: 1693649251:0;waybar
+: 1693649253:0;c
+: 1693649254:0;ll
+: 1693649255:0;c
+: 1693649256:0;ll
+: 1693649259:0;c
+: 1693649267:0;vim config.jsonc
+: 1693649379:0;waybar
+: 1693649384:0;c
+: 1693649385:0;ll
+: 1693649387:0;vim config.jsonc
+: 1693649455:0;waybar
+: 1693649458:0;c
+: 1693649469:0;ll
+: 1693649471:0;vim config
+: 1693649474:0;vim config.jsonc
+: 1693649484:0;c
+: 1693649486:0;waybar
+: 1693649487:0;c
+: 1693649488:0;ll
+: 1693649503:0;vim config.jsonc
+: 1693649572:0;c
+: 1693649818:0;z pull
+: 1693649819:0;c
+: 1693649820:0;ll
+: 1693649829:0;rm -rf .
+: 1693649842:0;rm -rf .*
+: 1693649845:0;rm -rf ./*
+: 1693649851:0;c
+: 1693649852:0;ll
+: 1693649854:0;git clone https://github.com/catppuccin/rofi.git
+: 1693649857:0;cd rofi
+: 1693649858:0;c
+: 1693649858:0;ll
+: 1693649869:0;z rofi
+: 1693649870:0;ll
+: 1693649873:0;z /home/sinclair/.config/rofi
+: 1693649874:0;c
+: 1693649874:0;ll
+: 1693649881:0;cd ..
+: 1693649888:0;mv rofi rofi.bak
+: 1693649942:0;cd rofi..
+: 1693649944:0;cd ..
+: 1693649945:0;ll
+: 1693649947:0;rm -rf rofi
+: 1693649950:0;git clone https://github.com/catppuccin/rofi && cd rofi/deathemonic
+: 1693649953:0;c
+: 1693649954:0;ll
+: 1693649961:0;cp -r * ~/.config/rofi
+: 1693649967:0;mkdir rofi
+: 1693649969:0;cp -r * ~/.config/rofi
+: 1693649970:0;c
+: 1693649996:0;ll
+: 1693649998:0;c
+: 1693650000:0;z rofi
+: 1693650007:0;z con
+: 1693650008:0;cd rofi
+: 1693650008:0;c
+: 1693650009:0;ll
+: 1693650011:0;c
+: 1693650012:0;ll
+: 1693650013:0;z hypr
+: 1693650014:0;c
+: 1693650015:0;ll
+: 1693650017:0;vim keybinds.conf
+: 1693650139:0;cd rofi
+: 1693650140:0;ll
+: 1693650141:0;c
+: 1693650141:0;ll
+: 1693650143:0;cd bin
+: 1693650144:0;ll
+: 1693650148:0;cd ..
+: 1693650151:0;c
+: 1693650379:0;ll
+: 1693650404:0;c
+: 1693650405:0;z pull
+: 1693650410:0;git clone https://github.com/lr-tech/rofi-themes-collection.git
+: 1693650417:0;cd rofi-themes-collection/c
+: 1693650418:0;cd rofi-themes-collection
+: 1693650419:0;c
+: 1693650424:0;mkdir -p ~/.local/share/rofi/themes/
+: 1693650469:0;cp themes/squared-nord.rasi ~/.local/share/rofi/themes/
+: 1693650470:0;c
+: 1693650486:0;rofi run
+: 1693650642:0;cliphist list
+: 1693650653:0;cliphist list | rofi -dmenu
+: 1693650783:0;c
+: 1693650784:0;ll
+: 1693650786:0;z pull
+: 1693650787:0;git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1693650793:0;rm -rf rofi
+: 1693650794:0;git clone --depth=1 https://github.com/adi1090x/rofi.git
+: 1693650806:0;cd rofi
+: 1693650807:0;c
+: 1693650811:0;chmod +x setup.sh
+: 1693650813:0;vim setup.sh
+: 1693650829:0;./setup.sh
+: 1693650892:0;vim ~/.config/rofi/launchers/type-X/launcher.sh
+: 1693650896:0;c
+: 1693650900:0;z /home/sinclair/.config/rofi
+: 1693650900:0;c
+: 1693650901:0;ll
+: 1693650903:0;cd ..
+: 1693650906:0;rm -rf rofi
+: 1693650908:0;z pull
+: 1693650910:0;cd rofi
+: 1693650913:0;./setup.sh
+: 1693650921:0;z con
+: 1693650923:0;cd rofi
+: 1693650923:0;c
+: 1693650924:0;ll
+: 1693650934:0;ranger
+: 1693651072:0;ll
+: 1693651076:0;cd launchers
+: 1693651077:0;c
+: 1693651078:0;ll
+: 1693651082:0;cd type-4
+: 1693651083:0;c
+: 1693651083:0;ll
+: 1693651086:0;./launcher.sh
+: 1693651250:0;ll
+: 1693651250:0;pwd
+: 1693651257:0;c
+: 1693651258:0;ll
+: 1693651260:0;c
+: 1693651260:0;ll
+: 1693651265:0;z hypr
+: 1693651266:0;ll
+: 1693651269:0;vim keybinds.conf
+: 1693651339:0;powermenu_t2
+: 1693651340:0;c
+: 1693651389:0;z zsh
+: 1693651391:0;c
+: 1693651392:0;ll
+: 1693651398:0;cd config
+: 1693651399:0;c
+: 1693651400:0;ll
+: 1693651402:0;vim env.zsh
+: 1693651409:0;source ~/.zshrc
+: 1693651416:0;echo $PATH
+: 1693651421:0;c
+: 1693651423:0;ll
+: 1693651431:0;vim omz.zsh
+: 1693651442:0;cd ..
+: 1693651443:0;llk
+: 1693651445:0;ll
+: 1693651454:0;vim omz.zsh
+: 1693651475:0;source ~/.zshrc
+: 1693651477:0;echo $PATH
+: 1693651479:0;c
+: 1693651488:0;launcher_t1
+: 1693651491:0;c
+: 1693651498:0;waybar
+: 1693651500:0;c
+: 1693651507:0;z /home/sinclair/.config/rofi
+: 1693651508:0;c
+: 1693651509:0;code .
+: 1693651567:0;kitty +list-fonts | grep JetBrains
+: 1693651589:0;c
+: 1693651591:0;code .
+: 1693651612:0;powermenu_t4
+: 1693651617:0;powermenu_t3
+: 1693651620:0;powermenu_t2
+: 1693651623:0;powermenu_t1
+: 1693651625:0;powermenu_t2
+: 1693651631:0;c
+: 1693651705:0;launcher_t4
+: 1693651708:0;launcher_t1
+: 1693651710:0;launcher_t2
+: 1693651714:0;launcher_t3
+: 1693651717:0;launcher_t5
+: 1693651720:0;launcher_t6
+: 1693651722:0;launcher_t7
+: 1693651817:0;powermenu_t2
+: 1693652033:0;c
+: 1693652034:0;cd ..
+: 1693652037:0;rm -rf rofi
+: 1693652037:0;c
+: 1693652042:0;z pull
+: 1693652044:0;rm -rf rofi
+: 1693652045:0;git clone https://github.com/dracula/rofi
+: 1693652059:0;mkdir ~/.config/rofi
+: 1693652063:0;cp rofi/theme/config1.rasi ~/.config/rofi/config.rasi\
+
+: 1693652075:0;rofi -show drun 
+: 1693652343:0;z scr
+: 1693652343:0;c
+: 1693652344:0;ll
+: 1693652355:0;rm rofi*
+: 1693652356:0;ll
+: 1693652359:0;wget https://raw.githubusercontent.com/jluttine/rofi-power-menu/master/rofi-power-menu
+: 1693652361:0;c
+: 1693652361:0;ll
+: 1693652415:0;chmod +x rofi-power-menu
+: 1693652415:0;c
+: 1693652444:0;z waybar
+: 1693652445:0;c
+: 1693652446:0;ll
+: 1693652448:0;vim config.jsonc
+: 1693652495:0;waybar
+: 1693652498:0;c
+: 1693652510:0;z conf
+: 1693652511:0;c
+: 1693652513:0;cd rofi
+: 1693652513:0;c
+: 1693652514:0;ll
+: 1693652516:0;vim config.jsonc
+: 1693652522:0;vim config.rasi
+: 1693652822:0;rofi -show power-menu -modi power-menu:~/.script/rofi-power-menu -theme-str 'window {width: 8em;} listview {lines: 6;}'
+: 1693652941:0;rofi -dump-config
+: 1693652973:0;rofi -dump-config | grep rofi -dump-config
+: 1693652981:0;rofi -dump-config | grep "rofi -dump-config"
+: 1693652984:0;c
+: 1693653005:0;rofi \\
+  -show p \\
+  -modi p:'rofi-power-menu --symbols-font "Symbols Nerd Font Mono"' \\
+  -font "JetBrains Mono NF 16" \\
+  -theme Paper \\
+  -theme-str 'window {width: 8em;} listview {lines: 6;}'\
+
+: 1693653018:0;c
+: 1693653039:0;rofi -show power-menu -modi power-menu:~/.script/rofi-power-menu -theme-str 'window {width: 8em;} listview {lines: 6;}'
+: 1693653106:0;z scr
+: 1693653106:0;c
+: 1693653107:0;ll
+: 1693653117:0;vim rofi-power-menu
+: 1693653172:0;c
+: 1693653189:0;z way
+: 1693653192:0;ll
+: 1693653196:0;vim config.jsonc
+: 1693653254:0;waybar
+: 1693653255:0;c
+: 1693653287:0;z omz
+: 1693653290:0;z zsh
+: 1693653291:0;c
+: 1693653291:0;ll
+: 1693653296:0;c
+: 1693653296:0;ll
+: 1693653298:0;code .
+: 1693653554:0;curl https://chat.openai.com/
+: 1693653559:0;c
+: 1693653561:0;ping https://chat.openai.com/
+: 1693653566:0;ping chat.openai.com
+: 1693653570:0;c
+: 1693653636:0;sudo vim /etc/gai.conf 
+: 1693653788:0;c
+: 1693653789:0;ll
+: 1693653956:0;git remote -v
+: 1693653956:0;c
+: 1693653959:0;git status
+: 1693653959:0;c
+: 1693654117:0;sudo vim /etc/gai.conf 
+: 1693654132:0;c
+: 1693654336:0;lg
+: 1693654515:0;c
+: 1693654516:0;ll
+: 1693654517:0;c
+: 1693654524:0;source ~/.zshrc
+: 1693654534:0;vim omz.zsh
+: 1693654545:0;source ~/.zshrc
+: 1693654556:0;extract
+: 1693654559:0;c
+: 1693654560:0;ll
+: 1693654566:0;z down
+: 1693654566:0;c
+: 1693654567:0;ll
+: 1693654570:0;mkdir test
+: 1693654584:0;mv embyToLocalPlayer.zip test
+: 1693654585:0;cd test
+: 1693654587:0;x embyToLocalPlayer.zip
+: 1693654589:0;ll
+: 1693654591:0;c
+: 1693654592:0;ll
+: 1693654597:0;lg
+: 1693654700:0;c
+: 1693654702:0;z zsh
+: 1693654703:0;c
+: 1693654703:0;ll
+: 1693654716:0;vim config
+: 1693654769:0;vim ~/.zshrc
+: 1693654787:0;vim .
+: 1693654803:0;source ~/.zshrc
+: 1693654804:0;c
+: 1693654806:0;ll
+: 1693654815:0;vim ~/.zshrc
+: 1693654819:0;rm ~/.zshrc
+: 1693654821:0;source ~/.zshrc
+: 1693654829:0;source ~/.config/zsh/zshrc
+: 1693654831:0;c
+: 1693654832:0;ll
+: 1693654834:0;vim zshrc
+: 1693655056:0;c
+: 1693655166:0;ll
+: 1693655168:0;vim zshrc
+: 1693655174:0;mv zshrc ~/.zshrc
+: 1693655177:0;vim ~/.zshrc
+: 1693655179:0;source ~/.config/zsh/zshrc
+: 1693655183:0;source ~/.zshrc
+: 1693655184:0;f
+: 1693655184:0;c
+: 1693655185:0;ll
+: 1693655187:0;lg
+: 1693655320:0;c
+: 1693655321:0;ll
+: 1693655331:0;c
+: 1693655458:0;ll
+: 1693655495:0;cd ..
+: 1693655495:0;ll
+: 1693655514:0;rm -rf waybar.bak1
+: 1693655516:0;rm -rf waybar.bak3
+: 1693655517:0;c
+: 1693655518:0;ll
+: 1693655638:0;c
+: 1693655639:0;cd ..
+: 1693655642:0;mkdir .dotfiles
+: 1693655646:0;cd .dotfiles
+: 1693655647:0;cll
+: 1693655648:0;c
+: 1693655649:0;..
+: 1693655650:0;ll
+: 1693655652:0;la
+: 1693655654:0;lla
+: 1693655657:0;la
+: 1693655676:0;cd .dotfiles
+: 1693655676:0;c
+: 1693655677:0;ll
+: 1693655793:0;sudo pacman -S rcm
+: 1693655801:0;paru -S rcm
+: 1693655818:0;c
+: 1693655867:0;z hypr
+: 1693655868:0;ll
+: 1693655868:0;c
+: 1693655871:0;cd ..
+: 1693655871:0;c
+: 1693656159:0;paru -S rcm-git
+: 1693656188:0;c
+: 1693656278:0;z dot
+: 1693656278:0;c
+: 1693656279:0;ll
+: 1693656281:0;pwd
+: 1693656282:0;c
+: 1693656486:0;ll
+: 1693656491:0;c
+: 1693656494:0;cd ..
+: 1693656498:0;cd .dot
+: 1693656498:0;c
+: 1693656500:0;z dot
+: 1693656500:0;c
+: 1693656501:0;ll
+: 1693656504:0;git init
+: 1693656505:0;c
+: 1693656514:0;git branch -M main
+: 1693656515:0;c
+: 1693656554:0;ll
+: 1693656557:0;z con
+: 1693656558:0;c
+: 1693656559:0;ll
+: 1693656570:0;z dot
+: 1693656570:0;c
+: 1693656571:0;ll
+: 1693656578:0;rm -rf .git
+: 1693656579:0;c
+: 1693656599:0;git clone https://github.com/SinclairLin/dotfiles.git
+: 1693656607:0;c
+: 1693656608:0;ll
+: 1693656619:0;cp -r dotfiles/.git ./
+: 1693656620:0;ll
+: 1693656624:0;cd dotfiles
+: 1693656625:0;ll
+: 1693656630:0;lg
+: 1693656641:0;rm -rf .git
+: 1693656642:0;c
+: 1693656642:0;ll
+: 1693656653:0;ranger
+: 1693656683:0;c
+: 1693656685:0;la
+: 1693656692:0;cp * ../
+: 1693656695:0;cp -r * ../
+: 1693656696:0;ll
+: 1693656702:0;mv * ../
+: 1693656706:0;ll
+: 1693656737:0;.
+: 1693656902:0;rr
+: 1693656915:0;ll
+: 1693656917:0;cd ..
+: 1693656919:0;rm -rf dotfiles
+: 1693656920:0;c
+: 1693656920:0;ll
+: 1693656925:0;z my
+: 1693656927:0;ll
+: 1693656929:0;cd dotfiles
+: 1693656929:0;ll
+: 1693656936:0;mv README.md ~/.dotfiles
+: 1693656939:0;z dot
+: 1693656939:0;c
+: 1693656940:0;ll
+: 1693656943:0;vim README.md
+: 1693656995:0;c
+: 1693656995:0;ll
+: 1693657008:0;z con
+: 1693657009:0;ll
+: 1693657031:0;cd ..
+: 1693657033:0;mkrc .zshrc
+: 1693657035:0;z dot
+: 1693657036:0;ll
+: 1693657038:0;vim zshrc
+: 1693657041:0;c
+: 1693657043:0;z con
+: 1693657044:0;ll
+: 1693657051:0;mkrc zsh
+: 1693657067:0;ll
+: 1693657072:0;z dot
+: 1693657073:0;ll
+: 1693657076:0;cd config
+: 1693657076:0;ll
+: 1693657079:0;cd zsh
+: 1693657079:0;ll
+: 1693657090:0;rm -rf .git
+: 1693657091:0;c
+: 1693657093:0;lg
+: 1693657099:0;z con
+: 1693657099:0;f
+: 1693657101:0;c
+: 1693657103:0;ll
+: 1693657109:0;c
+: 1693657119:0;ll
+: 1693657123:0;mkrc zsh
+: 1693657194:0;ll
+: 1693657210:0;source ~/.zshrc
+: 1693657219:0;la
+: 1693657224:0;c
+: 1693657353:0;ll
+: 1693657360:0;z dot
+: 1693657361:0;ll
+: 1693657364:0;cd config
+: 1693657364:0;ll
+: 1693657369:0;cd zsh
+: 1693657369:0;ll
+: 1693657371:0;ranger
+: 1693657453:0;source ~/.zshrc
+: 1693657459:0;echo $OMZ
+: 1693657463:0;ranger
+: 1693657591:0;ll
+: 1693657593:0;source ~/.zshrc
+: 1693657613:0;c
+: 1693657769:0;c
+: 1693657770:0;ll
+: 1693657772:0;z con
+: 1693657773:0;ll
+: 1693657776:0;z con
+: 1693657779:0;z config
+: 1693657783:0;cd ~/.config
+: 1693657786:0;cd ..
+: 1693657787:0;c
+: 1693657788:0;ll
+: 1693657791:0;cd .config
+: 1693657792:0;ll
+: 1693657799:0;source ~/.zshrc
+: 1693657805:0;z c
+: 1693657812:0;c
+: 1693657813:0;ll
+: 1693657817:0;cd zsh
+: 1693657818:0;ll
+: 1693657884:0;c
+: 1693657886:0;source ~/.zshrc
+: 1693657898:0;cd ..
+: 1693657900:0;rm -rf zsh
+: 1693657902:0;ll
+: 1693657924:0;mv ~/.dotfiles/config/zsh ./
+: 1693657925:0;ll
+: 1693657929:0;cd zsh
+: 1693657930:0;ll
+: 1693657932:0;source ~/.zshrc
+: 1693657938:0;c
+: 1693657939:0;ll
+: 1693657941:0;source ~/.zshrc
+: 1693657949:0;vim .
+: 1693658062:0;c
+: 1693657957:0;source ~/.zshrc
+: 1693657993:0;source ~/.zshrc
+: 1693657995:0;clear
+: 1693657996:0;source ~/.zshrc
+: 1693658047:0;source ~/.zshrc
+: 1693658081:0;cd ..
+: 1693658085:0;mkrc zsh/
+: 1693658107:0;c
+: 1693658108:0;ll
+: 1693658111:0;cd zsh
+: 1693658111:0;ll
+: 1693658115:0;z dot
+: 1693658116:0;c
+: 1693658117:0;ll
+: 1693658119:0;gs
+: 1693658123:0;git status
+: 1693658125:0;lg
