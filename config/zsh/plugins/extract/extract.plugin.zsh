@@ -1,3 +1,5 @@
+alias x=extract
+
 extract() {
     local remove_archive
     local success
