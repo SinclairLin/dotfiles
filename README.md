@@ -110,5 +110,5 @@ z -b foo    # 跳转到父目录中名称以 foo 开头的那一级
 > 将`Zsh`的默认补全选择菜单替换为[fzf](https://github.com/junegunn/fzf)。
 
 ## waybar
-![image-20230824234941666](https://images-1259814905.cos.ap-nanjing.myqcloud.com//picture/image-20230824234941666.png)
+![image-20230824234941666.png](https://img.sinclairl.com/file/images-sinclair/2023/8d4002917b8d3ccff4176b184b9d3b19.png)
 
