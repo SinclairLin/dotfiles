@@ -15,7 +15,7 @@ source $OMZ/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $OMZ/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $OMZ/themes/simple.zsh-theme
-source $HOME/uservenv/bin/activate
+# source $HOME/uservenv/bin/activate
 
 # configuration
 [ "$_OMZ_APPLY_PREEXEC_HOOK" = "true" ] && _apply_preexec_hook  # file: $OMZ/config/hook.zsh

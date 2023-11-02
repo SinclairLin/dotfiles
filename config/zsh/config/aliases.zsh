@@ -11,7 +11,7 @@ alias rr=ranger
 alias sudo='sudo -E'
 alias ssh="kitty +kitten ssh"
 
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 
 # git alias
 alias gco='git checkout'
