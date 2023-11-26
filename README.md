@@ -9,11 +9,11 @@
 
 ## Preview
 
-![hyprland](https://img.sinclairl.com/file/images-sinclair/2023/076aa7ef94dd9dbcf141ec6a2341a1f0.png)
+![hyprland](https://img.sinclairl.com/076aa7ef94dd9dbcf141ec6a2341a1f0.png)
 
-![term](https://img.sinclairl.com/file/images-sinclair/2023/e238acb207e82b1756ce71cb368fb160.png)
+![term](https://img.sinclairl.com/e238acb207e82b1756ce71cb368fb160.png)
 
-![neovim](https://img.sinclairl.com/file/images-sinclair/2023/1606f5fe72300e53c91109df665f7baf.png)
+![neovim](https://img.sinclairl.com/1606f5fe72300e53c91109df665f7baf.png)
 
 
 ## hyprland 
